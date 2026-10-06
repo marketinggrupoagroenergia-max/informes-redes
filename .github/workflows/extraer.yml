@@ -1,0 +1,43 @@
+name: Extraer métricas de Meta
+
+on:
+  schedule:
+    # Día 2 de cada mes, 9:05 hora Argentina (12:05 UTC)
+    - cron: "5 12 2 * *"
+  workflow_dispatch:
+    inputs:
+      mes:
+        description: "Mes puntual (AAAA-MM). Vacío = mes anterior"
+        required: false
+      historico:
+        description: "Cantidad de meses hacia atrás (ej. 24). Vacío = solo uno"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  extraer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Extraer métricas
+        env:
+          META_TOKEN_HAVANNA: ${{ secrets.META_TOKEN_HAVANNA }}
+          MES: ${{ github.event.inputs.mes }}
+          HISTORICO: ${{ github.event.inputs.historico }}
+        run: |
+          ARGS=""
+          if [ -n "$MES" ]; then ARGS="--mes $MES"; fi
+          if [ -n "$HISTORICO" ]; then ARGS="--historico $HISTORICO"; fi
+          python scripts/extraer_metricas.py $ARGS
+      - name: Guardar datos en el repositorio
+        run: |
+          git config user.name "informes-bot"
+          git config user.email "informes-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Métricas $(date -u +%Y-%m-%d)"
+          git push
