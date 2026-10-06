@@ -38,12 +38,10 @@ METRICAS_PAGINA = [
     "page_follows",
     "page_daily_follows_unique",
     "page_daily_unfollows_unique",
-    "page_impressions_unique",
     "page_media_view",
     "page_total_media_view_unique",
     "page_post_engagements",
     "page_views_total",
-    "page_fan_adds_unique",
 ]
 METRICAS_POST_FB = [
     "post_impressions_unique",
@@ -175,11 +173,26 @@ def extraer_instagram(ig_id, token, desde, hasta, errores):
     except ErrorMeta as e:
         errores.append(f"Instagram perfil: {e}")
 
-    since, until = int(desde.timestamp()), int(hasta.timestamp()) + 1
-    salida["estadisticas"] = metrica_por_metrica(
-        f"{ig_id}/insights", token, METRICAS_IG_TOTALES, errores, "Instagram",
-        period="day", metric_type="total_value", since=since, until=until,
-    )
+    # Meta no acepta más de 30 días por consulta: los meses de 31 días se
+    # piden en dos tramos (días 1-30 y día 31). Cada tramo queda guardado
+    # por separado; las métricas de alcance no se pueden sumar sin duplicar
+    # personas, así que el informe aclara cuando un mes tiene dos tramos.
+    tramos, inicio = [], desde
+    while inicio <= hasta:
+        fin = min(inicio + dt.timedelta(days=30) - dt.timedelta(seconds=1), hasta)
+        tramos.append((inicio, fin))
+        inicio = fin + dt.timedelta(seconds=1)
+    salida["estadisticas"] = {}
+    for i, (t_desde, t_hasta) in enumerate(tramos):
+        res = metrica_por_metrica(
+            f"{ig_id}/insights", token, METRICAS_IG_TOTALES, errores, f"Instagram tramo {i + 1}",
+            period="day", metric_type="total_value",
+            since=int(t_desde.timestamp()), until=int(t_hasta.timestamp()) + 1,
+        )
+        for metrica, valores in res.items():
+            for v in valores:
+                v["tramo"] = f"{t_desde:%Y-%m-%d} a {t_hasta:%Y-%m-%d}"
+            salida["estadisticas"].setdefault(metrica, []).extend(valores)
 
     publicaciones = []
     try:
