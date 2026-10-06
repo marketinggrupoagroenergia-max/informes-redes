@@ -249,6 +249,34 @@ def extraer_anuncios(token, desde, hasta, errores):
     return cuentas_salida
 
 
+def marcar_anuncios_de_la_marca(datos, token):
+    """Una misma cuenta publicitaria puede pautar para varias marcas.
+    Marca cada anuncio con "es_de_la_marca" según la publicación que
+    promocionó: True si es de la página o del Instagram de esta marca."""
+    paginas = {p["id"] for p in datos["facebook"]}
+    usuarios_ig = {
+        (i.get("perfil") or {}).get("username") for i in datos["instagram"]
+    } - {None}
+    medios_ig = {m["id"] for i in datos["instagram"] for m in i.get("publicaciones", [])}
+    cache = {}
+    for cuenta in datos["anuncios"]:
+        for anuncio in cuenta.get("anuncios", []):
+            historia = anuncio.get("publicacion_facebook") or ""
+            medio = anuncio.get("publicacion_instagram")
+            propio = historia.split("_")[0] in paginas if historia else False
+            if not propio and medio:
+                if medio in medios_ig:
+                    propio = True
+                else:
+                    if medio not in cache:
+                        try:
+                            cache[medio] = llamar(medio, token, fields="username").get("username")
+                        except ErrorMeta:
+                            cache[medio] = None
+                    propio = cache[medio] in usuarios_ig
+            anuncio["es_de_la_marca"] = propio
+
+
 def extraer_marca(marca, token, mes):
     desde, hasta = rango_mes(mes)
     errores = []
@@ -276,6 +304,7 @@ def extraer_marca(marca, token, mes):
                 extraer_instagram(ig, pagina.get("access_token") or token, desde, hasta, errores)
             )
     datos["anuncios"] = extraer_anuncios(token, desde, hasta, errores)
+    marcar_anuncios_de_la_marca(datos, token)
     for p in datos["facebook"]:
         p.pop("access_token", None)
     return datos
