@@ -1,0 +1,1489 @@
+{
+ "marca": "havanna",
+ "mes": "2025-08",
+ "extraido": "2026-10-06T19:32:58+00:00",
+ "version_api": "v23.0",
+ "facebook": [
+  {
+   "id": "104477896081970",
+   "nombre": "Havanna La Pampa",
+   "perfil": {
+    "name": "Havanna La Pampa",
+    "fan_count": 501,
+    "followers_count": 501,
+    "link": "https://www.facebook.com/104477896081970",
+    "id": "104477896081970"
+   },
+   "estadisticas": {
+    "page_follows": [
+     {
+      "name": "page_follows",
+      "period": "day",
+      "values": [
+       {
+        "value": 320,
+        "end_time": "2025-08-02T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-03T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-04T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-05T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-06T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-07T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-08T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-09T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-10T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-11T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-12T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-13T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-14T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-15T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-16T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-17T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-18T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-19T07:00:00+0000"
+       },
+       {
+        "value": 320,
+        "end_time": "2025-08-20T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-21T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-22T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-23T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-24T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-25T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-26T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-27T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-28T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-29T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-30T07:00:00+0000"
+       },
+       {
+        "value": 321,
+        "end_time": "2025-08-31T07:00:00+0000"
+       },
+       {
+        "value": 322,
+        "end_time": "2025-09-01T07:00:00+0000"
+       }
+      ],
+      "title": "Lifetime Total Follows",
+      "description": "Lifetime: The number of followers of your Facebook Page or profile. This is calculated as the number of follows minus the number of unfollows over the lifetime of your Facebook Page or profile. ",
+      "id": "104477896081970/insights/page_follows/day"
+     }
+    ],
+    "page_daily_follows_unique": [
+     {
+      "name": "page_daily_follows_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-08-02T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-03T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-04T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-05T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-06T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-07T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-08T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-09T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-10T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-11T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-12T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-13T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-14T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-15T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-16T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-17T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-18T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-19T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-20T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-21T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-22T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-23T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-24T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-25T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-26T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-27T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-28T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-29T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-30T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-31T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-09-01T07:00:00+0000"
+       }
+      ],
+      "title": "Daily New Follows",
+      "description": "Daily: The number of Meta Accounts that followed your Page in the selected time period. This metric is estimated (Unique Users)",
+      "id": "104477896081970/insights/page_daily_follows_unique/day"
+     }
+    ],
+    "page_daily_unfollows_unique": [
+     {
+      "name": "page_daily_unfollows_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-08-02T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-03T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-04T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-05T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-06T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-07T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-08T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-09T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-10T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-11T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-12T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-13T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-14T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-15T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-16T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-17T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-18T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-19T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-20T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-21T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-22T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-23T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-24T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-25T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-26T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-27T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-28T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-29T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-30T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-31T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-09-01T07:00:00+0000"
+       }
+      ],
+      "title": "Daily New Unfollows",
+      "description": "Daily: The number of Meta Accounts that unfollowed your Page in the selected time period. This metric is estimated. (Unique Users)",
+      "id": "104477896081970/insights/page_daily_unfollows_unique/day"
+     }
+    ],
+    "page_media_view": [
+     {
+      "name": "page_media_view",
+      "period": "day",
+      "values": [
+       {
+        "value": 1,
+        "end_time": "2025-08-02T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-03T07:00:00+0000"
+       },
+       {
+        "value": 34,
+        "end_time": "2025-08-04T07:00:00+0000"
+       },
+       {
+        "value": 25,
+        "end_time": "2025-08-05T07:00:00+0000"
+       },
+       {
+        "value": 64,
+        "end_time": "2025-08-06T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-07T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-08T07:00:00+0000"
+       },
+       {
+        "value": 11,
+        "end_time": "2025-08-09T07:00:00+0000"
+       },
+       {
+        "value": 14,
+        "end_time": "2025-08-10T07:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-08-11T07:00:00+0000"
+       },
+       {
+        "value": 53,
+        "end_time": "2025-08-12T07:00:00+0000"
+       },
+       {
+        "value": 33,
+        "end_time": "2025-08-13T07:00:00+0000"
+       },
+       {
+        "value": 9,
+        "end_time": "2025-08-14T07:00:00+0000"
+       },
+       {
+        "value": 10,
+        "end_time": "2025-08-15T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-16T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-17T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-18T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-19T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-20T07:00:00+0000"
+       },
+       {
+        "value": 10,
+        "end_time": "2025-08-21T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-22T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-23T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-24T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-25T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-26T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-27T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-28T07:00:00+0000"
+       },
+       {
+        "value": 54,
+        "end_time": "2025-08-29T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-30T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-31T07:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-09-01T07:00:00+0000"
+       }
+      ],
+      "title": "Visualizaciones de Facebook",
+      "description": "Número de veces que se mostró en la pantalla de una persona contenido de tu página, incluidas publicaciones, historias, anuncios y otros contenidos.",
+      "id": "104477896081970/insights/page_media_view/day"
+     }
+    ],
+    "page_total_media_view_unique": [
+     {
+      "name": "page_total_media_view_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 1,
+        "end_time": "2025-08-02T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-03T07:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-08-04T07:00:00+0000"
+       },
+       {
+        "value": 23,
+        "end_time": "2025-08-05T07:00:00+0000"
+       },
+       {
+        "value": 42,
+        "end_time": "2025-08-06T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-07T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-08T07:00:00+0000"
+       },
+       {
+        "value": 9,
+        "end_time": "2025-08-09T07:00:00+0000"
+       },
+       {
+        "value": 8,
+        "end_time": "2025-08-10T07:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-08-11T07:00:00+0000"
+       },
+       {
+        "value": 40,
+        "end_time": "2025-08-12T07:00:00+0000"
+       },
+       {
+        "value": 24,
+        "end_time": "2025-08-13T07:00:00+0000"
+       },
+       {
+        "value": 4,
+        "end_time": "2025-08-14T07:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-08-15T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-16T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-17T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-18T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-19T07:00:00+0000"
+       },
+       {
+        "value": 4,
+        "end_time": "2025-08-20T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-21T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-22T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-23T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-24T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-25T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-26T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-27T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-28T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-29T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-30T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-31T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-09-01T07:00:00+0000"
+       }
+      ],
+      "title": null,
+      "description": "Número total de espectadores únicos de contenido multimedia de una página de Facebook",
+      "id": "104477896081970/insights/page_total_media_view_unique/day"
+     }
+    ],
+    "page_post_engagements": [
+     {
+      "name": "page_post_engagements",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-08-02T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-03T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-04T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-05T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-06T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-07T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-08T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-09T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-10T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-11T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-12T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-13T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-14T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-15T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-16T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-17T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-18T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-19T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-20T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-21T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-22T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-23T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-24T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-25T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-26T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-27T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-28T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-29T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-30T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-31T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-09-01T07:00:00+0000"
+       }
+      ],
+      "title": "Daily Post Engagements",
+      "description": "Daily: The number of times people have engaged with your posts through like, comments and shares and more.",
+      "id": "104477896081970/insights/page_post_engagements/day"
+     }
+    ],
+    "page_views_total": [
+     {
+      "name": "page_views_total",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-08-02T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-03T07:00:00+0000"
+       },
+       {
+        "value": 15,
+        "end_time": "2025-08-04T07:00:00+0000"
+       },
+       {
+        "value": 4,
+        "end_time": "2025-08-05T07:00:00+0000"
+       },
+       {
+        "value": 9,
+        "end_time": "2025-08-06T07:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-08-07T07:00:00+0000"
+       },
+       {
+        "value": 5,
+        "end_time": "2025-08-08T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-09T07:00:00+0000"
+       },
+       {
+        "value": 16,
+        "end_time": "2025-08-10T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-11T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-12T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-13T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-14T07:00:00+0000"
+       },
+       {
+        "value": 5,
+        "end_time": "2025-08-15T07:00:00+0000"
+       },
+       {
+        "value": 7,
+        "end_time": "2025-08-16T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-17T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-18T07:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-08-19T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-20T07:00:00+0000"
+       },
+       {
+        "value": 4,
+        "end_time": "2025-08-21T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-22T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-23T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-24T07:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-08-25T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-26T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-27T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-28T07:00:00+0000"
+       },
+       {
+        "value": 9,
+        "end_time": "2025-08-29T07:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-08-30T07:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-08-31T07:00:00+0000"
+       },
+       {
+        "value": 7,
+        "end_time": "2025-09-01T07:00:00+0000"
+       }
+      ],
+      "title": "Daily Total views count per Page",
+      "description": "Daily: Total views count per Page",
+      "id": "104477896081970/insights/page_views_total/day"
+     }
+    ]
+   },
+   "publicaciones": []
+  }
+ ],
+ "instagram": [
+  {
+   "id": "17841461293753493",
+   "perfil": {
+    "id": "17841461293753493",
+    "followers_count": 10615,
+    "follows_count": 75,
+    "media_count": 304,
+    "username": "havanna_lapampa"
+   },
+   "estadisticas": {},
+   "publicaciones": [
+    {
+     "id": "18070820078176457",
+     "caption": "Café Havanna: ☕ Un shot de espresso, un toque de leche condensada y… magia en la taza.\nDulce, intenso y con carácter: la fórmula perfecta para los que creen que el café también puede ser un postre. 💛\n\n👉 ¿Ya lo probaste o todavía estás en la fase de tentación?",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2025-08-25T21:40:40+0000",
+     "permalink": "https://www.instagram.com/reel/DNyxwYC3vWr/",
+     "like_count": 17,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "18070820078176457/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 1049
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "18070820078176457/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Reproducciones",
+        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
+        "values": [
+         {
+          "value": 1579
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "18070820078176457/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu reel.",
+        "values": [
+         {
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "18070820078176457/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu reel.",
+        "values": [
+         {
+          "value": 3
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "18070820078176457/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con reels",
+        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 21
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "17998538957654182",
+     "caption": "☕✨ El arte latte es como la medicina para el alma: calma, inspira y transforma una pausa en un verdadero tratamiento de bienestar.\nUn dibujo en la taza, un suspiro en la rutina, un recordatorio de que el cuidado también se sirve caliente. 💛",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2025-08-21T01:00:22+0000",
+     "permalink": "https://www.instagram.com/reel/DNmQugmOn8q/",
+     "like_count": 18,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "17998538957654182/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 1547
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "17998538957654182/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Reproducciones",
+        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
+        "values": [
+         {
+          "value": 2736
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "17998538957654182/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu reel.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "17998538957654182/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu reel.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "17998538957654182/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con reels",
+        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 18
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "17879624322373321",
+     "caption": "✨ Mes de las Infancias ✨\nMañana celebramos a quienes llenan de magia cada momento: los chicos 💛.\n\nSus risas siempre  nos recuerdan lo importante, queremos que disfruten su día con dulzura y alegría.\n\nTe esperamos en Havanna para festejar juntxs este Día de las Infancias 🧁☕.\n\nTraé a los chicos y regalales un momento especial, de esos que se guardan en el corazón.\n\n🧡 Havanna, donde los recuerdos más dulces se comparten.",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2025-08-16T18:38:39+0000",
+     "permalink": "https://www.instagram.com/reel/DNbRvgoPXLL/",
+     "like_count": 50,
+     "comments_count": 4,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "17879624322373321/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 2450
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "17879624322373321/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Reproducciones",
+        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
+        "values": [
+         {
+          "value": 3834
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "17879624322373321/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu reel.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "17879624322373321/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu reel.",
+        "values": [
+         {
+          "value": 13
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "17879624322373321/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con reels",
+        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 69
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "18470521261079907",
+     "caption": "🚀 ¡Arranca el viaje de sabor!\nNuestro alfajor edición limitada Dubái junto al Mar del Plata vuelve a Santa Rosa 🤩\n⏰ Hoy a las 10 AM comienza la venta… ¡no te quedes sin el tuyo!\nTe esperamos para disfrutarlo antes de que se agoten\n.\n.\n📍Havanna: Av. Circunvalación y Alberdi Santa Rosa La Pampa.",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2025-08-15T10:57:17+0000",
+     "permalink": "https://www.instagram.com/p/DNX4S_tOSH6/",
+     "like_count": 186,
+     "comments_count": 4,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "18470521261079907/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 6484
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "18470521261079907/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Visualizaciones",
+        "description": "Número de veces que se vio o se mostró tu publicación.",
+        "values": [
+         {
+          "value": 17006
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "18470521261079907/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu publicación.",
+        "values": [
+         {
+          "value": 6
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "18470521261079907/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu publicación.",
+        "values": [
+         {
+          "value": 79
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "18470521261079907/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con la publicación",
+        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 275
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "17892865662293178",
+     "caption": "Lunes con humor en Havanna 🤗\n\nVos sos de los que dejan propina o no ? Jajaja los leemos 👇",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2025-08-11T23:51:55+0000",
+     "permalink": "https://www.instagram.com/reel/DNO9o8xv2EP/",
+     "like_count": 102,
+     "comments_count": 13,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "17892865662293178/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 4417
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "17892865662293178/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Reproducciones",
+        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
+        "values": [
+         {
+          "value": 7661
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "17892865662293178/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu reel.",
+        "values": [
+         {
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "17892865662293178/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu reel.",
+        "values": [
+         {
+          "value": 9
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "17892865662293178/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con reels",
+        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 125
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "18096648484621649",
+     "caption": "☕💬 Hay cafés que se toman…\ny hay cafés que se disfrutan desde el primer trazo.\n\nEn Havanna, cada latte tiene su arte, su magia, su mimo.\n🌿🌸💛 Vení a elegir el tuyo.",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2025-08-05T21:41:23+0000",
+     "permalink": "https://www.instagram.com/reel/DM_R8lJvseU/",
+     "like_count": 88,
+     "comments_count": 17,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "18096648484621649/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 3103
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "18096648484621649/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Reproducciones",
+        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
+        "values": [
+         {
+          "value": 5279
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "18096648484621649/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu reel.",
+        "values": [
+         {
+          "value": 3
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "18096648484621649/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu reel.",
+        "values": [
+         {
+          "value": 5
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "18096648484621649/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con reels",
+        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 113
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "anuncios": [],
+ "errores": [
+  "Facebook · page_impressions_unique: HTTP 400: (#100) The value must be a valid insights metric",
+  "Facebook · page_fan_adds_unique: HTTP 400: (#100) The value must be a valid insights metric",
+  "Instagram · reach: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · views: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · total_interactions: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · accounts_engaged: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · likes: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · comments: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · shares: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · saves: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · profile_links_taps: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until.",
+  "Instagram · follows_and_unfollows: HTTP 400: (#100) There cannot be more than 30 days (2592000 s) between since and until."
+ ]
+}
