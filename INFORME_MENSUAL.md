@@ -1,0 +1,28 @@
+# Cómo se arma el informe mensual (instrucciones para Claude)
+
+Destinataria: Dana, responsable de marketing. Español rioplatense (voseo), directo, concreto.
+
+## Marca: Havanna La Pampa
+- Datos: `data/havanna/AAAA-MM.json` (los genera la extracción del día 2).
+- Resumen numérico: `python scripts/resumen.py havanna salida.json`.
+- Plantilla del informe: `plantillas/informe-havanna-2026-09.html`. Mantener el mismo diseño, secciones y estilo; reemplazar datos y textos.
+- Informe publicado como artifact NUEVO con título `Havanna La Pampa · <Mes AAAA>` (ej. `Havanna La Pampa · Octubre 2026`), icono `chart`.
+- Índice: artifact https://claude.ai/artifact/8EnAV5FFPWpCdhV3nMqYmh (plantilla en `plantillas/indice-havanna.html`). Leerlo con Artifact `read`, agregar el mes nuevo ARRIBA de la lista con link, dato de alcance IG y una frase de resumen, y republicar con ese `url`.
+
+## Contenido del informe
+1. Lectura del mes: 3-4 conclusiones concretas basadas en los datos (qué pasó, por qué, qué publicaciones lo explican).
+2. Números: mes vs mes anterior y vs mismo mes del año anterior.
+3. Línea de tiempo con todos los meses disponibles, marcando meses con pauta.
+4. Publicaciones del mes en Instagram, ordenadas por alcance.
+5. Pauta: solo anuncios con `es_de_la_marca: true`. Inversión, alcance, costo cada 1.000. Montos nominales en ARS.
+6. Recomendaciones para el mes siguiente, considerando fechas comerciales (Día de la Madre, Navidad, Pascua, etc.).
+7. Notas sobre los datos: avisos de la extracción (`errores`), métricas que Meta haya cambiado, limitaciones.
+
+## Reglas
+- Nunca inventar números: todo sale de los JSON.
+- Si Meta cambió o eliminó una métrica, usar la más cercana disponible y aclararlo en las notas.
+- Si falta el archivo del mes, no publicar: avisar a Dana qué falló.
+
+## Hitos conocidos (para explicar picos)
+- 9/7/2026: video mundialista en Facebook, viral (97.000 visualizaciones, +130 seguidores, sin pauta).
+- Abril 2025 y julio 2026: picos de alcance en Instagram sin explicación en el feed (pendiente de confirmar con Dana).

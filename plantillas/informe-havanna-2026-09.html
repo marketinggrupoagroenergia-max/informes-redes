@@ -1,0 +1,286 @@
+<title>Havanna La Pampa · Septiembre 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: informe de una columna, lectura primero; datos de apoyo debajo. Cacao + dulce de leche. */
+:root {
+  --bg: #fbf8f3;
+  --surface: #ffffff;
+  --ink: #2a1d15;
+  --ink-2: #6b5a4d;
+  --ink-3: #9a8a7c;
+  --line: #e9e1d6;
+  --cocoa: #4a2f1e;
+  --gold: #c88a12;
+  --gold-soft: #f6ead0;
+  --bar: #8a6a52;
+  --bar-paid: #c88a12;
+  --up: #2f7d4f;
+  --down: #b4442f;
+  --display: "Gloock", Georgia, "Times New Roman", serif;
+  --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17110d; --surface: #211812; --ink: #f3ebe2; --ink-2: #c4b4a5; --ink-3: #8d7d70;
+    --line: #3a2d24; --cocoa: #e9d7c4; --gold: #e3a93a; --gold-soft: #3a2c14;
+    --bar: #a88a72; --bar-paid: #e3a93a; --up: #6cc08d; --down: #ec8a74; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17110d; --surface: #211812; --ink: #f3ebe2; --ink-2: #c4b4a5; --ink-3: #8d7d70;
+  --line: #3a2d24; --cocoa: #e9d7c4; --gold: #e3a93a; --gold-soft: #3a2c14;
+  --bar: #a88a72; --bar-paid: #e3a93a; --up: #6cc08d; --down: #ec8a74; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); }
+.wrap { max-width: 880px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: grid; gap: 48px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; font-weight: 400; }
+h1 { font-family: var(--display); font-size: clamp(2rem, 5vw, 2.9rem); line-height: 1.1; color: var(--cocoa); }
+h2 { font-family: var(--display); font-size: 1.6rem; line-height: 1.2; color: var(--cocoa); }
+h3 { font-size: 1rem; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font: 500 0.75rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.muted { color: var(--ink-2); }
+.small { font-size: 0.875rem; }
+.num { font-variant-numeric: tabular-nums; }
+section { display: grid; gap: 18px; }
+a { color: inherit; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+header { display: grid; gap: 14px; border-bottom: 1px solid var(--line); padding-bottom: 28px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 0.8rem/1.4 var(--mono); color: var(--ink-3); }
+
+.lectura { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: grid; gap: 16px; }
+.lectura ol { margin: 0; padding-left: 1.2rem; display: grid; gap: 12px; }
+.lectura li { padding-left: 4px; }
+.lectura li::marker { font-family: var(--mono); color: var(--gold); }
+.lectura strong { color: var(--cocoa); }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.kpi { background: var(--surface); padding: 18px; display: grid; gap: 6px; align-content: start; }
+.kpi .lab { font-size: 0.8rem; color: var(--ink-2); }
+.kpi .val { font: 400 1.9rem/1.1 var(--display); color: var(--ink); font-variant-numeric: tabular-nums; }
+.kpi .cmp { display: grid; gap: 2px; font: 0.78rem/1.4 var(--mono); color: var(--ink-3); }
+.up { color: var(--up); } .down { color: var(--down); }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tabs button { font: 500 0.85rem var(--body); color: var(--ink-2); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--cocoa); color: var(--bg); border-color: var(--cocoa); }
+.chart-box { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 14px 10px; position: relative; }
+.chart-scroll { overflow-x: auto; }
+svg text { font-family: var(--mono); font-size: 11px; fill: var(--ink-3); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.8rem; color: var(--ink-2); padding: 4px 6px 8px; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font: 0.78rem/1.45 var(--body); padding: 8px 10px; border-radius: 8px; max-width: 220px; }
+.tip b { font-weight: 600; }
+
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.875rem; }
+th { text-align: left; font: 500 0.72rem/1.2 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); padding: 12px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cap { min-width: 220px; color: var(--ink-2); }
+.fmt { font: 0.72rem var(--mono); color: var(--ink-3); white-space: nowrap; }
+.barcell { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.minibar { height: 6px; border-radius: 3px; background: var(--bar); }
+tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
+
+.reco { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.reco div { border-top: 2px solid var(--gold); padding-top: 12px; display: grid; gap: 6px; }
+.notas { font-size: 0.85rem; color: var(--ink-2); display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 22px; }
+.notas ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Informe mensual de redes · Havanna La Pampa</span>
+    <h1>Septiembre 2026</h1>
+    <div class="meta"><span>Instagram @havanna_lapampa · 10.615 seguidores</span><span>Facebook · 500 seguidores</span><span>Datos extraídos el 6 oct 2026</span></div>
+  </header>
+
+  <section class="lectura" aria-labelledby="t-lectura">
+    <h2 id="t-lectura">Lectura del mes</h2>
+    <ol>
+      <li><strong>Fue el mes de menor alcance en Instagram de los últimos dos años</strong> (sin contar octubre 2024, que está incompleto). 5.202 cuentas alcanzadas, la mitad que en agosto y 46% menos que septiembre 2025. Se publicó más (9 posteos contra 7), pero cada publicación rindió menos.</li>
+      <li><strong>Faltaron los reels con el equipo y humor, que son los que mejor funcionan.</strong> En julio y agosto, los reels del partido, de Lu y el POV del cafecito alcanzaron entre 3.800 y 7.000 cuentas cada uno. En septiembre ningún reel pasó las 1.400.</li>
+      <li><strong>Lo mejor del mes fue una foto simple de desayuno</strong> (28/9): 2.079 cuentas, el doble que cualquier reel. El producto bien fotografiado sigue funcionando.</li>
+      <li><strong>Sin pauta desde diciembre 2025.</strong> Los meses con inversión (junio, julio y diciembre 2025) triplicaron el alcance habitual. Octubre trae el Día de la Madre (domingo 18) y ya se anticipó una sorpresa el 30/9: es el momento para volver a invertir.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="t-kpis">
+    <h2 id="t-kpis">Los números</h2>
+    <div class="kpis" id="kpis"></div>
+    <p class="small muted">Comparado con el mes anterior y con el mismo mes del año pasado.</p>
+  </section>
+
+  <section aria-labelledby="t-linea">
+    <h2 id="t-linea">Línea de tiempo · 24 meses</h2>
+    <div class="tabs" role="group" aria-label="Métrica del gráfico" id="tabs"></div>
+    <div class="chart-box">
+      <div class="legend"><span><span class="sw" style="background:var(--bar)"></span>Mes sin pauta</span><span><span class="sw" style="background:var(--bar-paid)"></span>Mes con pauta de Havanna</span></div>
+      <div class="chart-scroll"><svg id="chart" role="img" aria-label="Evolución mensual"></svg></div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <p class="small muted" id="nota-chart"></p>
+  </section>
+
+  <section aria-labelledby="t-posts">
+    <h2 id="t-posts">Publicaciones de septiembre en Instagram</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Fecha</th><th>Publicación</th><th class="r">Alcance</th><th class="r">Vistas</th><th class="r">Interacc.</th></tr></thead>
+      <tbody id="posts"></tbody>
+    </table></div>
+    <p class="small muted">Ordenadas por alcance. En Facebook las mismas publicaciones sumaron entre 21 y 249 visualizaciones cada una.</p>
+  </section>
+
+  <section aria-labelledby="t-pauta">
+    <h2 id="t-pauta">Historial de pauta</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th>Campaña</th><th>Objetivo</th><th class="r">Inversión</th><th class="r">Alcance</th><th class="r">Costo cada 1.000</th></tr></thead>
+      <tbody id="pauta"></tbody>
+    </table></div>
+    <p class="small muted">Montos en pesos de cada momento, sin ajustar por inflación: el costo sube en parte por eso. La campaña de interacción de diciembre busca reacciones y mensajes, no alcance, por eso su costo cada 1.000 personas no es comparable.</p>
+  </section>
+
+  <section aria-labelledby="t-reco">
+    <h2 id="t-reco">Para octubre</h2>
+    <div class="reco">
+      <div><h3>Volver a los reels con el equipo</h3><p class="muted small">Dos reels de humor o situaciones del local en el mes. Son el formato con mejor alcance orgánico en los últimos tres meses.</p></div>
+      <div><h3>Pautar el Día de la Madre</h3><p class="muted small">Una campaña de reconocimiento corta, del 10 al 18/10, sobre el reel o la foto del producto. Los meses con pauta multiplicaron por tres el alcance.</p></div>
+      <div><h3>Más fotos de producto</h3><p class="muted small">La foto del desayuno fue lo mejor del mes. Sumar una foto de producto por semana, con luz natural y sin texto encima.</p></div>
+      <div><h3>Subir los reels nativos a Facebook</h3><p class="muted small">El video mundialista del 9/7 llegó a 97.000 visualizaciones y sumó 130 seguidores sin pauta. Facebook rinde poco salvo cuando un video pega.</p></div>
+    </div>
+  </section>
+
+  <section class="notas" aria-labelledby="t-notas">
+    <h3 id="t-notas">Notas sobre los datos</h3>
+    <ul>
+      <li>Visualizaciones e interacciones de Instagram existen desde agosto 2025; antes Meta medía con otras métricas. Para comparar con años anteriores, usar el alcance.</li>
+      <li>Octubre 2024 está incompleto porque Meta ya no conserva toda esa historia.</li>
+      <li>En los meses de 31 días el alcance de Instagram suma dos tramos, así que puede estar levemente sobreestimado.</li>
+      <li>Abril 2025 (147.000) y julio 2026 (67.000) tienen picos de alcance que no explican las publicaciones del feed. Puede haber sido una historia, una colaboración o contenido de otra cuenta. ¿Recordás qué pasó?</li>
+      <li>Meta no da la historia de seguidores de Instagram; a partir de ahora queda registrada mes a mes.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+const M = [["2024-10",1948,null,null,32684,242,3997],["2024-11",10404,null,null,121,242,0],["2024-12",37248,null,null,31294,263,3999],["2025-01",11191,null,null,1602,276,0],["2025-02",20723,null,null,17575,288,2376],["2025-03",47314,null,null,480,290,0],["2025-04",147432,null,null,861,291,0],["2025-05",8507,null,null,347,296,0],["2025-06",38073,null,null,77213,307,14997],["2025-07",27537,null,null,76554,320,14999],["2025-08",11868,31072,214,348,322,0],["2025-09",9615,86098,745,862,325,0],["2025-10",7228,75730,566,313,329,0],["2025-11",7166,59997,841,518,334,0],["2025-12",32790,133147,1182,69727,356,47935],["2026-01",6081,53016,346,412,359,0],["2026-02",7588,82032,942,1098,363,0],["2026-03",8282,57278,879,1885,366,0],["2026-04",28999,90120,1538,2788,367,0],["2026-05",5658,38166,509,1194,368,0],["2026-06",6140,36001,583,1597,368,0],["2026-07",67215,133999,1673,100878,498,0],["2026-08",10729,41884,452,1621,500,0],["2026-09",5202,31576,387,1177,500,0]];
+const MES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const nf = new Intl.NumberFormat("es-AR");
+const lab = k => { const [y,m] = k.split("-"); return MES[+m-1] + " " + y.slice(2); };
+const METRICAS = [
+  {i:1, n:"Alcance Instagram", corto:"cuentas alcanzadas"},
+  {i:2, n:"Vistas Instagram", corto:"visualizaciones", desde:"2025-08"},
+  {i:3, n:"Interacciones Instagram", corto:"interacciones", desde:"2025-08"},
+  {i:4, n:"Vistas Facebook", corto:"visualizaciones en Facebook"},
+  {i:5, n:"Seguidores Facebook", corto:"seguidores de Facebook"}
+];
+const idx = k => M.findIndex(r => r[0] === k);
+const cur = idx("2026-09"), prev = idx("2026-08"), yoy = idx("2025-09");
+
+function delta(a, b) {
+  if (a == null || b == null || !b) return '<span>sin dato</span>';
+  const p = Math.round((a - b) / b * 100);
+  const cls = p > 0 ? "up" : p < 0 ? "down" : "";
+  return `<span class="${cls}">${p > 0 ? "+" : ""}${p}%</span>`;
+}
+const K = [
+  ["Alcance Instagram",1],["Vistas Instagram",2],["Interacciones Instagram",3],["Vistas Facebook",4],["Seguidores Facebook",5]
+];
+document.getElementById("kpis").innerHTML = K.map(([n,i]) =>
+  `<div class="kpi"><span class="lab">${n}</span><span class="val">${nf.format(M[cur][i])}</span>
+   <span class="cmp"><span>vs agosto ${delta(M[cur][i], M[prev][i])}</span><span>vs sep 2025 ${delta(M[cur][i], M[yoy][i])}</span></span></div>`
+).join("") + `<div class="kpi"><span class="lab">Publicaciones Instagram</span><span class="val">9</span><span class="cmp"><span>agosto: 7</span><span>sep 2025: 8</span></span></div>`;
+
+const tabs = document.getElementById("tabs");
+let sel = 0;
+METRICAS.forEach((m, k) => {
+  const b = document.createElement("button");
+  b.textContent = m.n; b.id = "tab-" + k;
+  b.setAttribute("aria-pressed", k === 0);
+  b.onclick = () => { sel = k; [...tabs.children].forEach((x, j) => x.setAttribute("aria-pressed", j === k)); draw(); };
+  tabs.appendChild(b);
+});
+
+const svg = document.getElementById("chart"), tip = document.getElementById("tip");
+function nice(v) { const p = Math.pow(10, Math.floor(Math.log10(v))); const f = v / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * p; }
+function draw() {
+  const m = METRICAS[sel];
+  const rows = M.filter(r => !m.desde || r[0] >= m.desde);
+  const W = Math.max(640, rows.length * 34 + 70), H = 280, L = 56, R = 10, T = 14, B = 34;
+  const max = nice(Math.max(...rows.map(r => r[m.i] || 0)) * 1.02);
+  const y = v => T + (H - T - B) * (1 - v / max);
+  const bw = (W - L - R) / rows.length;
+  let s = "";
+  for (let t = 0; t <= 4; t++) {
+    const v = max / 4 * t, yy = y(v);
+    s += `<line x1="${L}" x2="${W-R}" y1="${yy}" y2="${yy}" stroke="var(--line)" stroke-width="1"/>`;
+    s += `<text x="${L-8}" y="${yy+4}" text-anchor="end">${v >= 1000 ? nf.format(Math.round(v/1000)) + " mil" : nf.format(v)}</text>`;
+  }
+  rows.forEach((r, k) => {
+    const x = L + k * bw + 2, w = Math.max(4, bw - 4), v = r[m.i] || 0, yy = y(v);
+    const h = Math.max(0, H - B - yy), paid = r[6] > 0;
+    const rr = Math.min(4, w / 2, h);
+    const d = h > 0 ? `M${x},${H-B} V${yy+rr} Q${x},${yy} ${x+rr},${yy} H${x+w-rr} Q${x+w},${yy} ${x+w},${yy+rr} V${H-B} Z` : "";
+    s += `<path d="${d}" fill="${paid ? "var(--bar-paid)" : "var(--bar)"}" ${r[0]==="2026-09" ? 'stroke="var(--ink)" stroke-width="1.5"' : ""}/>`;
+    if (k % 2 === rows.length % 2 || rows.length < 16) s += `<text x="${x + w/2}" y="${H-B+16}" text-anchor="middle">${lab(r[0])}</text>`;
+    s += `<rect x="${L + k*bw}" y="${T}" width="${bw}" height="${H-T-B}" fill="transparent" data-k="${k}" class="hit"/>`;
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
+  svg.innerHTML = s;
+  svg.querySelectorAll(".hit").forEach(h => {
+    h.addEventListener("pointerenter", e => {
+      const r = rows[+h.dataset.k];
+      tip.innerHTML = `<b>${lab(r[0])}</b><br>${nf.format(r[m.i] || 0)} ${m.corto}` + (r[6] > 0 ? `<br>Pauta Havanna: $${nf.format(r[6])}` : "");
+      tip.hidden = false;
+    });
+    h.addEventListener("pointermove", e => {
+      const box = svg.parentElement.parentElement.getBoundingClientRect();
+      let left = e.clientX - box.left + 12; if (left > box.width - 200) left -= 220;
+      tip.style.left = left + "px"; tip.style.top = (e.clientY - box.top - 10) + "px";
+    });
+    h.addEventListener("pointerleave", () => tip.hidden = true);
+  });
+  document.getElementById("nota-chart").textContent = m.desde
+    ? "Esta métrica existe desde agosto 2025. Septiembre 2026 aparece con borde."
+    : "Septiembre 2026 aparece con borde. Pasá el cursor sobre cada barra para ver el valor.";
+}
+draw();
+
+const POSTS = [
+  ["28/9","Foto","Desayuno: huevos revueltos, avocado toast + café","https://www.instagram.com/p/Dd2MGQ5v09U/",2079,4427,48],
+  ["16/9","Reel","Día de la primavera y del estudiante","https://www.instagram.com/reel/DdXA9FqvGv6/",1343,2645,23],
+  ["3/9","Reel","Día del maestro (11/9)","https://www.instagram.com/reel/Dc1903EuuDe/",1096,1868,30],
+  ["10/9","Reel","Opciones sin TACC","https://www.instagram.com/reel/DdHe71jhES4/",876,1396,25],
+  ["25/9","Reel","Aniversario: 3 años del local","https://www.instagram.com/reel/Ddte5GBB7RC/",819,1333,35],
+  ["13/9","Carrusel","Día del chocolate","https://www.instagram.com/p/DdO3WmRDtZw/",741,2152,18],
+  ["6/9","Carrusel","Razones para venir a Havanna","https://www.instagram.com/p/Dc9xAZ7jirD/",692,1861,21],
+  ["30/9","Foto","Adelanto Día de la Madre","https://www.instagram.com/p/Dd6Veg-yEnH/",488,960,8],
+  ["20/9","Reel","Una pausa con café","https://www.instagram.com/reel/DdhSX68hgLe/",393,678,4]
+];
+const pmax = 2079;
+document.getElementById("posts").innerHTML = POSTS.map((p, k) =>
+  `<tr class="${k===0?"top":""}"><td class="num">${p[0]}</td><td class="cap"><a href="${p[3]}" target="_blank" rel="noopener">${p[2]}</a><br><span class="fmt">${p[1]}</span></td>
+   <td class="r"><span class="barcell">${nf.format(p[4])}<span class="minibar" style="width:${Math.round(p[4]/pmax*60)}px"></span></span></td>
+   <td class="r">${nf.format(p[5])}</td><td class="r">${p[6]}</td></tr>`).join("");
+
+const PAUTA = [
+  ["oct 24","Havanna 1","Reconocimiento",3997,33523],
+  ["dic 24","Caja navideña","Reconocimiento",3999,31135],
+  ["feb 25","San Valentín","Reconocimiento",2376,14659],
+  ["jun 25","Día del padre","Reconocimiento",14997,61899],
+  ["jul 25","Vacaciones de invierno","Reconocimiento",14999,55555],
+  ["dic 25","Maletines Havanna","Reconocimiento",18980,47150],
+  ["dic 25","Maletines (interacción)","Interacción",28954,4385]
+];
+document.getElementById("pauta").innerHTML = PAUTA.map(p =>
+  `<tr><td class="num">${p[0]}</td><td>${p[1]}</td><td class="muted">${p[2]}</td><td class="r">$${nf.format(p[3])}</td><td class="r">${nf.format(p[4])}</td>
+   <td class="r">${p[2]==="Interacción" ? '<span class="muted">no comparable</span>' : "$" + nf.format(Math.round(p[3]/p[4]*1000))}</td></tr>`).join("");
+</script>

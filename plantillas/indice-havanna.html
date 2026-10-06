@@ -1,0 +1,37 @@
+<title>Informes Havanna</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: archivo de informes, lista cronológica descendente. Mismo sistema que los informes. */
+:root {
+  --bg: #fbf8f3; --surface: #ffffff; --ink: #2a1d15; --ink-2: #6b5a4d; --ink-3: #9a8a7c;
+  --line: #e9e1d6; --cocoa: #4a2f1e; --gold: #c88a12;
+  --display: "Gloock", Georgia, serif; --body: "Figtree", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #17110d; --surface: #211812; --ink: #f3ebe2; --ink-2: #c4b4a5; --ink-3: #8d7d70; --line: #3a2d24; --cocoa: #e9d7c4; --gold: #e3a93a; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #17110d; --surface: #211812; --ink: #f3ebe2; --ink-2: #c4b4a5; --ink-3: #8d7d70; --line: #3a2d24; --cocoa: #e9d7c4; --gold: #e3a93a; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); }
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: grid; gap: 28px; }
+.eyebrow { font: 500 0.75rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+h1 { margin: 0; font: 400 clamp(2rem, 5vw, 2.6rem)/1.1 var(--display); color: var(--cocoa); }
+p { margin: 0; color: var(--ink-2); }
+ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+li a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 18px 4px; border-bottom: 1px solid var(--line); color: inherit; text-decoration: none; }
+li a:hover .mes, li a:focus-visible .mes { color: var(--gold); }
+li a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.mes { font: 400 1.35rem/1.2 var(--display); color: var(--cocoa); }
+.dato { font: 0.8rem/1.4 var(--mono); color: var(--ink-3); text-align: right; font-variant-numeric: tabular-nums; }
+.resumen { grid-column: 1 / -1; font-size: 0.9rem; color: var(--ink-2); }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:12px">
+    <span class="eyebrow">Havanna La Pampa · Instagram y Facebook</span>
+    <h1>Informes mensuales</h1>
+    <p>Un informe por mes, armado automáticamente el día 2 con los datos de Meta.</p>
+  </header>
+  <ul id="lista">
+    <!-- INFORMES: el más reciente primero -->
+    <li><a href="https://claude.ai/artifact/HVzehxrTbBPsa6Ak168kix" target="_blank" rel="noopener"><span class="mes">Septiembre 2026</span><span class="dato">5.202 alcance IG</span><span class="resumen">Mes de menor alcance en dos años. Faltaron los reels con el equipo; lo mejor fue una foto de desayuno.</span></a></li>
+  </ul>
+</div>
