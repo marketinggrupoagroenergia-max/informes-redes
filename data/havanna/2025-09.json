@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2025-09",
- "extraido": "2026-10-06T19:45:58+00:00",
+ "extraido": "2026-10-06T21:12:36+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -933,7 +933,142 @@
      }
     ]
    },
-   "publicaciones": []
+   "publicaciones": [
+    {
+     "id": "104477896081970_767413809792905",
+     "created_time": "2025-09-17T01:36:35+0000",
+     "message": "🎒✨ ¡Estudiantes, este combo es para ustedes!\n\nEste #DíaDelEstudiante celebrá con promos que no fallan:\n\n🥤 Frappe + Alfajor Havanna → $6660\n☕ Latte + Alfajor Havanna → $6570\n\nDeslizá, elegí tu favorito y date un break dulce.\n\n➡️ llevate la Promo Take Away y armá planazo con tu mejor amigx este finde. 💛",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/767413809792905",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 96
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_767413809792905/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 5
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_767413809792905/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_767413809792905/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_759703890563897",
+     "created_time": "2025-09-09T23:36:36+0000",
+     "message": "Se cumplió tu deseo! ✨🔥\n\nEl alfajor Dubai ahora lo podés disfrutar por unidad 😍\nUn clásico irresistible con todo el sabor que pedías, ahora más cerca de tu antojo.\n\n👉 Pasá por Havanna y hacelo realidad 🫶",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/759703890563897",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 2,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 111
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_759703890563897/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_759703890563897/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 2
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_759703890563897/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    }
+   ]
   }
  ],
  "instagram": [
@@ -1735,8 +1870,294 @@
    ]
   }
  ],
- "anuncios": [],
- "errores": [
-  "Facebook publicaciones: HTTP 400: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details."
- ]
+ "anuncios": [
+  {
+   "id": "act_1669087713214682",
+   "name": "1669087713214682",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  },
+  {
+   "id": "act_521683199011492",
+   "name": "Grupo Agroenergia",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": [
+    {
+     "campaign_id": "120235841879200260",
+     "campaign_name": "Nueva campaña de Reconocimiento",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120235841879190260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "3000.36",
+     "reach": "12643",
+     "impressions": "15870",
+     "frequency": "1.25524",
+     "clicks": "67",
+     "cpm": "189.058601",
+     "ctr": "0.42218",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "9"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "8"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "1428"
+      },
+      {
+       "action_type": "like",
+       "value": "1"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "15"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "1429"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "15"
+      },
+      {
+       "action_type": "post",
+       "value": "5"
+      },
+      {
+       "action_type": "onsite_conversion.post_save",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_save",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "8"
+      },
+      {
+       "action_type": "video_view",
+       "value": "1404"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "2.137009"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "2.101092"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "200.024"
+      },
+      {
+       "action_type": "link_click",
+       "value": "333.373333"
+      },
+      {
+       "action_type": "like",
+       "value": "3000.36"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "2.099622"
+      }
+     ],
+     "date_start": "2025-09-01",
+     "date_stop": "2025-09-30",
+     "publicacion_facebook": "360487924048263_24340014615686623",
+     "publicacion_instagram": "18020735171744244",
+     "es_de_la_marca": false
+    },
+    {
+     "campaign_id": "120236724944710260",
+     "campaign_name": "Nueva campaña de Reconocimiento",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120236724944700260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "9987.14",
+     "reach": "23528",
+     "impressions": "44801",
+     "frequency": "1.904157",
+     "clicks": "27",
+     "cpm": "222.922256",
+     "ctr": "0.060267",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "1"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "1"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "983"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "2"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "983"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "2"
+      },
+      {
+       "action_type": "photo_view",
+       "value": "11"
+      },
+      {
+       "action_type": "onsite_conversion.post_save",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_save",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "1"
+      },
+      {
+       "action_type": "video_view",
+       "value": "969"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "10.306646"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "10.159858"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "4993.57"
+      },
+      {
+       "action_type": "link_click",
+       "value": "9987.14"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "10.159858"
+      }
+     ],
+     "date_start": "2025-09-01",
+     "date_stop": "2025-09-30",
+     "publicacion_facebook": "360487924048263_1616084386338904",
+     "publicacion_instagram": "18017278769759840",
+     "es_de_la_marca": false
+    },
+    {
+     "campaign_id": "120236725261220260",
+     "campaign_name": "Nueva campaña de Reconocimiento",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120236725261230260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "9996.34",
+     "reach": "23813",
+     "impressions": "44349",
+     "frequency": "1.862386",
+     "clicks": "115",
+     "cpm": "225.4017",
+     "ctr": "0.259307",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "26"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "6"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "2603"
+      },
+      {
+       "action_type": "like",
+       "value": "1"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "7"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "2604"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "7"
+      },
+      {
+       "action_type": "post",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "6"
+      },
+      {
+       "action_type": "video_view",
+       "value": "2570"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "3.889626"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "3.840315"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "1428.048571"
+      },
+      {
+       "action_type": "link_click",
+       "value": "384.474615"
+      },
+      {
+       "action_type": "like",
+       "value": "9996.34"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "3.83884"
+      }
+     ],
+     "date_start": "2025-09-01",
+     "date_stop": "2025-09-30",
+     "publicacion_facebook": "360487924048263_1527005845246759",
+     "publicacion_instagram": "18053850986547357",
+     "es_de_la_marca": false
+    }
+   ]
+  }
+ ],
+ "errores": []
 }

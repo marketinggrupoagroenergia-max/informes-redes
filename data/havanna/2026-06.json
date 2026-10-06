@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-06",
- "extraido": "2026-10-06T19:49:47+00:00",
+ "extraido": "2026-10-06T21:19:06+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -933,7 +933,611 @@
      }
     ]
    },
-   "publicaciones": []
+   "publicaciones": [
+    {
+     "id": "104477896081970_1157939094073706",
+     "created_time": "2026-06-30T21:43:06+0000",
+     "message": "🐐🍫 Llegó Messi a Havanna.\n\nSí, leíste bien. Ya tenemos la nueva edición especial inspirada en el capitán campeón del mundo. \n\nUna propuesta que une dos íconos argentinos y que viene con mini alfajores de chocolate y dulce de leche en un packaging coleccionable.\n\nAlgunas duplas simplemente están hechas para ganar. 🇦🇷✨",
+     "permalink_url": "https://www.facebook.com/reel/873659772007248/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 1,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 325
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1157939094073706/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1157939094073706/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 1
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1157939094073706/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_1151214601412822",
+     "created_time": "2026-06-26T18:57:17+0000",
+     "message": "⚽ Una pelota rueda.\n\nPasa por potreros, estadios y recuerdos.\n\nRecorre el camino de millones de chicos que alguna vez soñaron con llegar lejos.\n\nTambién el de un nene rosarino que conquistó el mundo sin perder sus raíces.\n\nHoy, esa misma pelota nos trae una historia que combina dos clásicos argentinos.\n\n🏆 Lionel Messi x Havanna.\n\nLos nuevos alfajores inspirados en el campeón ya están acá.",
+     "permalink_url": "https://www.facebook.com/reel/2623775701413484/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 2,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 488
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1151214601412822/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1151214601412822/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 1,
+           "love": 1
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1151214601412822/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_1146212045246411",
+     "created_time": "2026-06-23T18:26:03+0000",
+     "message": "Estado antes del café: 😠\nEstado después del café: 😌☕\n\nNo hay más pasos.\n\n📍 Te esperamos en Havanna",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1146212045246411",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 47
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1146212045246411/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1146212045246411/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1146212045246411/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_1136730359527913",
+     "created_time": "2026-06-17T18:26:43+0000",
+     "message": "Hay papás fan de lo dulce.\nPapás fan de lo salado.\n\nY también están esos papás que disfrutan de los pequeños rituales: una charla, una merienda, un café compartido.\n\nEste Día del Padre celebralos con sus favoritos de Havanna. ☕🍫",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1136730359527913",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 43
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1136730359527913/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1136730359527913/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1136730359527913/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_1136534779547471",
+     "created_time": "2026-06-17T15:58:59+0000",
+     "message": "Hay papás fan de lo dulce.\n\nPapás fan de lo salado.\n\nPapás fan de Messi.\n\nY también están esos papás que disfrutan de los pequeños rituales: una charla, una merienda, un café compartido.\n\nEste Día del Padre celebralos con sus favoritos de Havanna. ☕🍫",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1136534779547471",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 41
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1136534779547471/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 4
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1136534779547471/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1136534779547471/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_1129256853608597",
+     "created_time": "2026-06-12T21:42:39+0000",
+     "message": "☀️ Hay mañanas que empiezan mejor.\n\nEl aroma del café recién hecho, algo rico para acompañar y ese momento de pausa que te prepara para todo lo que viene. ☕🥐✨\n\nEn Havanna te esperamos con opciones dulces y saladas, cafetería de especialidad y el ambiente ideal para arrancar el día de la mejor manera.\n\nPorque las mejores mañanas tienen sabor a café, encuentros y pequeños momentos para disfrutar. 🤎\n\n📍 Te esperamos en Havanna. \n\n¿Ya elegiste tu desayuno favorito? 👇☕🥐",
+     "permalink_url": "https://www.facebook.com/reel/1487640243050929/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 1,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 290
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1129256853608597/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1129256853608597/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 1
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1129256853608597/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_1122762100924739",
+     "created_time": "2026-06-08T18:20:36+0000",
+     "message": "Dos íconos argentinos se unen para hacer historia.\nJunto a @leomessi  sellamos una alianza global para desarrollar productos que combinen lo mejor de los dos: calidad, tradición y pasión por hacer cosas únicas. \nCon emoción y mucho orgullo, celebramos este camino que recién empieza. \nPresentamos nuestra edición especial de alfajores de chocolate que celebra el amor de Leo por su país. 🇦🇷\n\nMuy pronto, en todos los Havanna de Argentina.",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1122762100924739",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 30
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1122762100924739/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1122762100924739/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1122762100924739/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_1116941334840149",
+     "created_time": "2026-06-04T20:21:08+0000",
+     "message": "Le dijeron a Santi: “¿Me podés terminar el café?”\n\nY sí… lo terminó.\n\nEl único detalle es que no terminó de prepararlo. Se lo tomó. 😅\n\nPero con nuestros lattes tan irresistibles, tampoco podemos juzgarlo. 🤎\n\nLe ponemos un poco de humor a este día gris y seguimos sirviendo café del bueno. 🌧️☕",
+     "permalink_url": "https://www.facebook.com/reel/3461656750677186/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 2,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 359
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1116941334840149/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1116941334840149/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 2
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1116941334840149/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_1113322198535396",
+     "created_time": "2026-06-02T14:05:11+0000",
+     "message": "Cada día tiene su sabor… ¿ya elegiste el tuyo?\n\nDe lunes a domingo, un Latte distinto te espera en Havanna con precio especial. 🤎\n\n🌼 Lunes: Vainilla\n🥄 Martes: Dulce de leche\n💚 Miércoles: Pistacho\n🍯 Jueves: Caramelo\n🍌 Viernes: Banoffee\n🍫 Sábado: Chocolate y avellanas\n🤍 Domingo: Chocolate blanco\n\nAntes $7200 | Ahora $5200 🙌\n\nPasá por tu favorito o descubrí uno nuevo cada día. ¿Con cuál arrancás? 👇☕",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1113322198535396",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 28
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_1113322198535396/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_1113322198535396/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_1113322198535396/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    }
+   ]
   }
  ],
  "instagram": [
@@ -1735,8 +2339,21 @@
    ]
   }
  ],
- "anuncios": [],
- "errores": [
-  "Facebook publicaciones: HTTP 400: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details."
- ]
+ "anuncios": [
+  {
+   "id": "act_1669087713214682",
+   "name": "1669087713214682",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  },
+  {
+   "id": "act_521683199011492",
+   "name": "Grupo Agroenergia",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  }
+ ],
+ "errores": []
 }

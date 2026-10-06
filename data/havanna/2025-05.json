@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2025-05",
- "extraido": "2026-10-06T19:43:48+00:00",
+ "extraido": "2026-10-06T21:10:01+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -961,7 +961,144 @@
      }
     ]
    },
-   "publicaciones": []
+   "publicaciones": [
+    {
+     "id": "104477896081970_640152149185739",
+     "created_time": "2025-05-27T13:45:53+0000",
+     "message": "🥐☕ Un latte, una tortita y esa charla que no se termina nunca 💛\n\nHay momentos que se disfrutan el doble cuando son compartidos… y en Havanna, los hacemos inolvidables.\n\n📸 Deslizá y elegí tu combo favorito para la próxima juntada con amig@s.\n\nEnvíaselo a ese amig@ con el que vendrías 🙌\n\n#MomentoHavanna #Amigos #Lattes #Tortitas #HavannaTime #DulceEncuentro",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/640152149185739",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 1,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 124
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_640152149185739/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 11
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_640152149185739/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 1
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_640152149185739/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "104477896081970_629128830288071",
+     "created_time": "2025-05-15T14:32:25+0000",
+     "message": "El cafecito que te acompaña en ESE momento del día que más lo necesitas, lo encontras en Havanna 🙌.\n\n¿Vos en qué momento disfrutas más de tu café? ¿En el desayuno, después de almorzar o en la merienda? 👇",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/629128830288071",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 1,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 112
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_629128830288071/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_629128830288071/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "love": 1
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_629128830288071/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    }
+   ]
   }
  ],
  "instagram": [
@@ -1870,8 +2007,98 @@
    ]
   }
  ],
- "anuncios": [],
- "errores": [
-  "Facebook publicaciones: HTTP 400: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details."
- ]
+ "anuncios": [
+  {
+   "id": "act_1669087713214682",
+   "name": "1669087713214682",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  },
+  {
+   "id": "act_521683199011492",
+   "name": "Grupo Agroenergia",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": [
+    {
+     "campaign_id": "120229538091830260",
+     "campaign_name": "sorteo",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120229538091810260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "11325.28",
+     "reach": "27489",
+     "impressions": "57611",
+     "frequency": "2.095784",
+     "clicks": "91",
+     "cpm": "196.581903",
+     "ctr": "0.157956",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "30"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "7"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "2385"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "7"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "2385"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "7"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "7"
+      },
+      {
+       "action_type": "video_view",
+       "value": "2348"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "4.823373"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "4.748545"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "1617.897143"
+      },
+      {
+       "action_type": "link_click",
+       "value": "377.509333"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "4.748545"
+      }
+     ],
+     "date_start": "2025-05-01",
+     "date_stop": "2025-05-31",
+     "publicacion_facebook": "360487924048263_4065436090370707",
+     "publicacion_instagram": "17848002204474527",
+     "es_de_la_marca": false
+    }
+   ]
+  }
+ ],
+ "errores": []
 }

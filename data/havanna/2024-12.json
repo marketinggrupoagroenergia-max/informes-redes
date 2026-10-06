@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2024-12",
- "extraido": "2026-10-06T19:41:05+00:00",
+ "extraido": "2026-10-06T21:06:50+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -961,7 +961,74 @@
      }
     ]
    },
-   "publicaciones": []
+   "publicaciones": [
+    {
+     "id": "104477896081970_488569864343969",
+     "created_time": "2024-12-12T18:07:39+0000",
+     "message": "Cuantas opciones para acompañarlos en estas fiestas 🎄🤶\n\nNos pone muy felices, saber que los acompañamos en todos los momentos más importantes. \n\nDesliza las fotos y conoce la selección de productos que hicimos para estas fiestas ✨.\n\n¿Cuál no va a faltar en tu mesa?",
+     "permalink_url": "https://www.facebook.com/1329778983556382/posts/488569864343969",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 188
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "104477896081970_488569864343969/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "104477896081970_488569864343969/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "104477896081970_488569864343969/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    }
+   ]
   }
  ],
  "instagram": [
@@ -1788,8 +1855,278 @@
    ]
   }
  ],
- "anuncios": [],
- "errores": [
-  "Facebook publicaciones: HTTP 400: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details."
- ]
+ "anuncios": [
+  {
+   "id": "act_1669087713214682",
+   "name": "1669087713214682",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  },
+  {
+   "id": "act_521683199011492",
+   "name": "Grupo Agroenergia",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": [
+    {
+     "campaign_id": "120217693472280260",
+     "campaign_name": "caja navideña",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120217693472340260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "3999.09",
+     "reach": "31135",
+     "impressions": "31345",
+     "frequency": "1.006745",
+     "clicks": "170",
+     "cpm": "127.583028",
+     "ctr": "0.542351",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "17"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "6"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "1"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "2342"
+      },
+      {
+       "action_type": "like",
+       "value": "4"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "9"
+      },
+      {
+       "action_type": "comment",
+       "value": "1"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "2346"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "9"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "1"
+      },
+      {
+       "action_type": "post",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_comment",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "6"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "2"
+      },
+      {
+       "action_type": "video_view",
+       "value": "2316"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "1.726723"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "1999.545"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+       "value": "3999.09"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "1.707553"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "3999.09"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+       "value": "3999.09"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "444.343333"
+      },
+      {
+       "action_type": "link_click",
+       "value": "235.240588"
+      },
+      {
+       "action_type": "like",
+       "value": "999.7725"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "1.704642"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "3999.09"
+      }
+     ],
+     "date_start": "2024-12-01",
+     "date_stop": "2024-12-31",
+     "publicacion_facebook": "104477896081970_1375969296713262",
+     "publicacion_instagram": "18322455604087103",
+     "es_de_la_marca": true
+    },
+    {
+     "campaign_id": "120217693136310260",
+     "campaign_name": "Nueva campaña de Tráfico",
+     "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+     "ad_id": "120217726779060260",
+     "ad_name": "Nuevo anuncio de Tráfico",
+     "objective": "LINK_CLICKS",
+     "spend": "6498.44",
+     "reach": "10298",
+     "impressions": "17291",
+     "frequency": "1.679064",
+     "clicks": "217",
+     "cpm": "375.827887",
+     "ctr": "1.254988",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "170"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "3"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_replied_7d",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_block",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "5"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "173"
+      },
+      {
+       "action_type": "like",
+       "value": "1"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "3"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "174"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_welcome_message_view",
+       "value": "71"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "3"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "5"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "3"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "5"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "1299.688"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_replied_7d",
+       "value": "6498.44"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "37.563237"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "1299.688"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "2166.146667"
+      },
+      {
+       "action_type": "link_click",
+       "value": "38.226118"
+      },
+      {
+       "action_type": "like",
+       "value": "6498.44"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "37.347356"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_welcome_message_view",
+       "value": "91.527324"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "1299.688"
+      }
+     ],
+     "date_start": "2024-12-01",
+     "date_stop": "2024-12-31",
+     "publicacion_facebook": "360487924048263_1383616772919001",
+     "publicacion_instagram": "18188001484325420",
+     "es_de_la_marca": false
+    }
+   ]
+  }
+ ],
+ "errores": []
 }

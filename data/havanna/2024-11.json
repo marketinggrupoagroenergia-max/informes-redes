@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2024-11",
- "extraido": "2026-10-06T19:40:39+00:00",
+ "extraido": "2026-10-06T21:06:16+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1653,6 +1653,214 @@
    ]
   }
  ],
- "anuncios": [],
+ "anuncios": [
+  {
+   "id": "act_1669087713214682",
+   "name": "1669087713214682",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  },
+  {
+   "id": "act_521683199011492",
+   "name": "Grupo Agroenergia",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": [
+    {
+     "campaign_id": "120216630650260260",
+     "campaign_name": "Nueva campaña de Reconocimiento",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120216630650300260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "2265.66",
+     "reach": "23831",
+     "impressions": "24089",
+     "frequency": "1.010826",
+     "clicks": "63",
+     "cpm": "94.053717",
+     "ctr": "0.26153",
+     "actions": [
+      {
+       "action_type": "post_reaction",
+       "value": "4"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "30"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "4"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "30"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "4"
+      },
+      {
+       "action_type": "photo_view",
+       "value": "25"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "4"
+      },
+      {
+       "action_type": "video_view",
+       "value": "1"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "2265.66"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "75.522"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "566.415"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "75.522"
+      }
+     ],
+     "date_start": "2024-11-01",
+     "date_stop": "2024-11-30",
+     "publicacion_facebook": "360487924048263_1350167846263894",
+     "publicacion_instagram": null,
+     "es_de_la_marca": false
+    },
+    {
+     "campaign_id": "120217327024150260",
+     "campaign_name": "campaña mensajes lubricantes por mayor",
+     "adset_name": "Nuevo conjunto de anuncios de Engagement",
+     "ad_id": "120217327024230260",
+     "ad_name": "Nuevo anuncio de Engagement",
+     "objective": "OUTCOME_ENGAGEMENT",
+     "spend": "9998.06",
+     "reach": "4693",
+     "impressions": "11296",
+     "frequency": "2.406989",
+     "clicks": "108",
+     "cpm": "885.09738",
+     "ctr": "0.956091",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "62"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "11"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "12"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "76"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "12"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "76"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "12"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+       "value": "8"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "12"
+      },
+      {
+       "action_type": "post",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+       "value": "6"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "11"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "13"
+      },
+      {
+       "action_type": "video_view",
+       "value": "2"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "4999.03"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "769.081538"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+       "value": "1249.7575"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "131.553421"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "833.171667"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+       "value": "1666.343333"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "833.171667"
+      },
+      {
+       "action_type": "link_click",
+       "value": "161.259032"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "131.553421"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "833.171667"
+      }
+     ],
+     "date_start": "2024-11-01",
+     "date_stop": "2024-11-30",
+     "publicacion_facebook": "360487924048263_1382648083015870",
+     "publicacion_instagram": "18060672827595613",
+     "es_de_la_marca": false
+    }
+   ]
+  }
+ ],
  "errores": []
 }

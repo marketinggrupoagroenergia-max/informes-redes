@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2025-07",
- "extraido": "2026-10-06T19:44:51+00:00",
+ "extraido": "2026-10-06T21:11:16+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1870,6 +1870,106 @@
    ]
   }
  ],
- "anuncios": [],
+ "anuncios": [
+  {
+   "id": "act_1669087713214682",
+   "name": "1669087713214682",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  },
+  {
+   "id": "act_521683199011492",
+   "name": "Grupo Agroenergia",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": [
+    {
+     "campaign_id": "120232999160350260",
+     "campaign_name": "vacaciones de invierno",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120232999160360260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "14999.24",
+     "reach": "55555",
+     "impressions": "74096",
+     "frequency": "1.333741",
+     "clicks": "92",
+     "cpm": "202.429821",
+     "ctr": "0.124163",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "3"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "32"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "7675"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "33"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "7675"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "33"
+      },
+      {
+       "action_type": "onsite_conversion.post_save",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_save",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "32"
+      },
+      {
+       "action_type": "video_view",
+       "value": "7639"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "1.963508"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "1.954298"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "454.522424"
+      },
+      {
+       "action_type": "link_click",
+       "value": "4999.746667"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "1.954298"
+      }
+     ],
+     "date_start": "2025-07-01",
+     "date_stop": "2025-07-31",
+     "publicacion_facebook": "104477896081970_727085966812210",
+     "publicacion_instagram": "18170828968354249",
+     "es_de_la_marca": true
+    }
+   ]
+  }
+ ],
  "errores": []
 }

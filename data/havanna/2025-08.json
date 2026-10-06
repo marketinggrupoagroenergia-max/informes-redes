@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2025-08",
- "extraido": "2026-10-06T19:45:29+00:00",
+ "extraido": "2026-10-06T21:11:54+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1706,6 +1706,386 @@
    ]
   }
  ],
- "anuncios": [],
+ "anuncios": [
+  {
+   "id": "act_1669087713214682",
+   "name": "1669087713214682",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  },
+  {
+   "id": "act_521683199011492",
+   "name": "Grupo Agroenergia",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": [
+    {
+     "campaign_id": "120235404798970260",
+     "campaign_name": "Campaña sorteo en Axion",
+     "adset_name": "reconocimiento sorteo axion",
+     "ad_id": "120235404798980260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "8088.27",
+     "reach": "21655",
+     "impressions": "34931",
+     "frequency": "1.613069",
+     "clicks": "134",
+     "cpm": "231.549913",
+     "ctr": "0.383613",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "23"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "15"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "3768"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "26"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "3768"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "26"
+      },
+      {
+       "action_type": "post",
+       "value": "9"
+      },
+      {
+       "action_type": "onsite_conversion.post_save",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_save",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "15"
+      },
+      {
+       "action_type": "video_view",
+       "value": "3719"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "2.174851"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "2.146568"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "311.087308"
+      },
+      {
+       "action_type": "link_click",
+       "value": "351.663913"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "2.146568"
+      }
+     ],
+     "date_start": "2025-08-01",
+     "date_stop": "2025-08-31",
+     "publicacion_facebook": "360487924048263_1554054399208570",
+     "publicacion_instagram": "18056267852436611",
+     "es_de_la_marca": false
+    },
+    {
+     "campaign_id": "120235405023600260",
+     "campaign_name": "Reconocimiento sorteo Puma",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120235405023590260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "8093.65",
+     "reach": "20849",
+     "impressions": "34663",
+     "frequency": "1.662574",
+     "clicks": "77",
+     "cpm": "233.49537",
+     "ctr": "0.222139",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "21"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "5"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "1733"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "7"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "1733"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "7"
+      },
+      {
+       "action_type": "post",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "5"
+      },
+      {
+       "action_type": "video_view",
+       "value": "1705"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "4.747009"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "4.670312"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "1156.235714"
+      },
+      {
+       "action_type": "link_click",
+       "value": "385.411905"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "4.670312"
+      }
+     ],
+     "date_start": "2025-08-01",
+     "date_stop": "2025-08-31",
+     "publicacion_facebook": "360487924048263_1527005845246759",
+     "publicacion_instagram": "18088136806697079",
+     "es_de_la_marca": false
+    },
+    {
+     "campaign_id": "120235405629860260",
+     "campaign_name": "Reconocimiento sorteo shell catrilo.",
+     "adset_name": "conjunto de anuncios de Reconocimiento shell catrilo sorteo",
+     "ad_id": "120235405629850260",
+     "ad_name": "Nuevo anuncio de Reconocimiento sorteo shell catrilo",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "8097.1",
+     "reach": "16209",
+     "impressions": "33048",
+     "frequency": "2.038867",
+     "clicks": "301",
+     "cpm": "245.010288",
+     "ctr": "0.910796",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "38"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "62"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_block",
+       "value": "1"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "4525"
+      },
+      {
+       "action_type": "like",
+       "value": "1"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "77"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "4526"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "77"
+      },
+      {
+       "action_type": "post",
+       "value": "13"
+      },
+      {
+       "action_type": "onsite_conversion.post_save",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_save",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "62"
+      },
+      {
+       "action_type": "video_view",
+       "value": "4410"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "1.836077"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "1.789414"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "105.157143"
+      },
+      {
+       "action_type": "link_click",
+       "value": "213.081579"
+      },
+      {
+       "action_type": "like",
+       "value": "8097.1"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "1.789019"
+      }
+     ],
+     "date_start": "2025-08-01",
+     "date_stop": "2025-08-31",
+     "publicacion_facebook": "360487924048263_1360466655583750",
+     "publicacion_instagram": "18070749296115333",
+     "es_de_la_marca": false
+    },
+    {
+     "campaign_id": "120235841879200260",
+     "campaign_name": "Nueva campaña de Reconocimiento",
+     "adset_name": "Nuevo conjunto de anuncios de Reconocimiento",
+     "ad_id": "120235841879190260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "4999.64",
+     "reach": "13690",
+     "impressions": "19514",
+     "frequency": "1.42542",
+     "clicks": "94",
+     "cpm": "256.207851",
+     "ctr": "0.481705",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "19"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "8"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "2048"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "19"
+      },
+      {
+       "action_type": "comment",
+       "value": "1"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "2048"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "19"
+      },
+      {
+       "action_type": "post",
+       "value": "9"
+      },
+      {
+       "action_type": "onsite_conversion.post_save",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_comment",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_save",
+       "value": "1"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "8"
+      },
+      {
+       "action_type": "video_view",
+       "value": "2010"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "2.487383"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "2.44123"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "263.138947"
+      },
+      {
+       "action_type": "link_click",
+       "value": "263.138947"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "2.44123"
+      }
+     ],
+     "date_start": "2025-08-01",
+     "date_stop": "2025-08-31",
+     "publicacion_facebook": "360487924048263_24340014615686623",
+     "publicacion_instagram": "18020735171744244",
+     "es_de_la_marca": false
+    }
+   ]
+  }
+ ],
  "errores": []
 }
