@@ -1,0 +1,37 @@
+<title>Informes Dynamis</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: archivo de informes, lista cronológica descendente. Asfalto + amarillo de señalización. */
+:root {
+  --bg: #f6f6f3; --surface: #ffffff; --ink: #16181b; --ink-2: #545a61; --ink-3: #8a9097;
+  --line: #e2e3e0; --cocoa: #16181b; --gold: #b88a00;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif; --body: "Barlow", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121315; --surface: #1b1d20; --ink: #eef0f1; --ink-2: #b4bac0; --ink-3: #7f868d; --line: #2d3034; --cocoa: #f2f3f4; --gold: #f2c200; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121315; --surface: #1b1d20; --ink: #eef0f1; --ink-2: #b4bac0; --ink-3: #7f868d; --line: #2d3034; --cocoa: #f2f3f4; --gold: #f2c200; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); }
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: grid; gap: 28px; }
+.eyebrow { font: 500 0.75rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+h1 { margin: 0; font: 600 clamp(2.2rem, 6vw, 3rem)/1 var(--display); text-transform: uppercase; color: var(--cocoa); }
+p { margin: 0; color: var(--ink-2); }
+ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+li a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 18px 4px; border-bottom: 1px solid var(--line); color: inherit; text-decoration: none; }
+li a:hover .mes, li a:focus-visible .mes { color: var(--gold); }
+li a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.mes { font: 600 1.5rem/1.1 var(--display); color: var(--cocoa); }
+.dato { font: 0.8rem/1.4 var(--mono); color: var(--ink-3); text-align: right; font-variant-numeric: tabular-nums; }
+.resumen { grid-column: 1 / -1; font-size: 0.9rem; color: var(--ink-2); }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:12px">
+    <span class="eyebrow">Dynamis Neumáticos · Instagram y Facebook</span>
+    <h1>Informes mensuales</h1>
+    <p>Un informe por mes, armado automáticamente el día 2 con los datos de Meta.</p>
+  </header>
+  <ul id="lista">
+    <!-- INFORMES: el más reciente primero -->
+    <li><a href="https://claude.ai/artifact/XJDFnBwbHhwP9AJcuHSAE7" target="_blank" rel="noopener"><span class="mes">Septiembre 2026</span><span class="dato">1.234 alcance IG · +17 seguidores</span><span class="resumen">Bajó el alcance pero la cuenta llegó a 114 seguidores. La campaña de mensajes costó $2.100 por conversación, cuatro veces menos que las de julio.</span></a></li>
+  </ul>
+</div>

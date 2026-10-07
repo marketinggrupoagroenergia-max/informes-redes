@@ -1,0 +1,326 @@
+<title>Dynamis Neumáticos · Septiembre 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: informe de una columna, lectura primero; datos de apoyo debajo. Asfalto + amarillo de señalización. */
+:root {
+  --bg: #f6f6f3;
+  --surface: #ffffff;
+  --ink: #16181b;
+  --ink-2: #545a61;
+  --ink-3: #8a9097;
+  --line: #e2e3e0;
+  --cocoa: #16181b;
+  --gold: #b88a00;
+  --gold-soft: #fbf1c7;
+  --bar: #6b737c;
+  --bar-paid: #e0a800;
+  --up: #2f7d4f;
+  --down: #b4442f;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121315; --surface: #1b1d20; --ink: #eef0f1; --ink-2: #b4bac0; --ink-3: #7f868d;
+    --line: #2d3034; --cocoa: #f2f3f4; --gold: #f2c200; --gold-soft: #3a3110;
+    --bar: #8e969e; --bar-paid: #f2c200; --up: #6cc08d; --down: #ec8a74; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121315; --surface: #1b1d20; --ink: #eef0f1; --ink-2: #b4bac0; --ink-3: #7f868d;
+  --line: #2d3034; --cocoa: #f2f3f4; --gold: #f2c200; --gold-soft: #3a3110;
+  --bar: #8e969e; --bar-paid: #f2c200; --up: #6cc08d; --down: #ec8a74; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); }
+.wrap { max-width: 880px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: grid; gap: 48px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; font-weight: 400; }
+h1 { font-family: var(--display); font-weight: 600; text-transform: uppercase; letter-spacing: 0.01em; font-size: clamp(2.2rem, 6vw, 3.2rem); line-height: 1; color: var(--cocoa); }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.75rem; line-height: 1.1; color: var(--cocoa); }
+h3 { font-size: 1rem; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font: 500 0.75rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.muted { color: var(--ink-2); }
+.small { font-size: 0.875rem; }
+.num { font-variant-numeric: tabular-nums; }
+section { display: grid; gap: 18px; }
+a { color: inherit; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+header { display: grid; gap: 14px; border-bottom: 4px solid var(--gold); padding-bottom: 28px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 0.8rem/1.4 var(--mono); color: var(--ink-3); }
+
+.lectura { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: grid; gap: 16px; }
+.lectura ol { margin: 0; padding-left: 1.2rem; display: grid; gap: 12px; }
+.lectura li { padding-left: 4px; }
+.lectura li::marker { font-family: var(--mono); color: var(--gold); }
+.lectura strong { color: var(--cocoa); }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.kpi { background: var(--surface); padding: 18px; display: grid; gap: 6px; align-content: start; }
+.kpi .lab { font-size: 0.8rem; color: var(--ink-2); }
+.kpi .val { font: 600 2.1rem/1 var(--display); color: var(--ink); font-variant-numeric: tabular-nums; }
+.kpi .cmp { display: grid; gap: 2px; font: 0.78rem/1.4 var(--mono); color: var(--ink-3); }
+.up { color: var(--up); } .down { color: var(--down); }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tabs button { font: 500 0.85rem var(--body); color: var(--ink-2); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--cocoa); color: var(--bg); border-color: var(--cocoa); }
+.chart-box { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 14px 10px; position: relative; }
+.chart-scroll { overflow-x: auto; }
+svg text { font-family: var(--mono); font-size: 11px; fill: var(--ink-3); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.8rem; color: var(--ink-2); padding: 4px 6px 8px; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font: 0.78rem/1.45 var(--body); padding: 8px 10px; border-radius: 8px; max-width: 220px; }
+.tip b { font-weight: 600; }
+
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.875rem; }
+th { text-align: left; font: 500 0.72rem/1.2 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); padding: 12px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cap { min-width: 220px; color: var(--ink-2); }
+.fmt { font: 0.72rem var(--mono); color: var(--ink-3); white-space: nowrap; }
+.barcell { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.minibar { height: 6px; border-radius: 3px; background: var(--bar); }
+tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
+
+.reco { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.reco div { border-top: 2px solid var(--gold); padding-top: 12px; display: grid; gap: 6px; }
+.notas { font-size: 0.85rem; color: var(--ink-2); display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 22px; }
+.notas ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Informe mensual de redes · Dynamis Neumáticos</span>
+    <h1>Septiembre 2026</h1>
+    <div class="meta"><span>Instagram @dynamisneumaticos · 114 seguidores</span><span>Facebook · 7 seguidores</span><span>Cuenta activa desde mayo 2026</span><span>Datos extraídos el 7 oct 2026</span></div>
+  </header>
+
+  <section class="lectura" aria-labelledby="t-lectura">
+    <h2 id="t-lectura">Lectura del mes</h2>
+    <ol>
+      <li><strong>Bajó el alcance de Instagram, pero la cuenta siguió creciendo.</strong> 1.234 cuentas alcanzadas, 44% menos que agosto. Aun así sumó 17 seguidores y se fueron solo 1. La cuenta pasó de unos 15 seguidores en junio a 114.</li>
+      <li><strong>La campaña de mensajes del 11/9 fue la pauta más eficiente hasta ahora.</strong> Con $27.434 logró 13 conversaciones: unos $2.100 por conversación. Las campañas de interacción de julio lograron la misma cantidad de conversaciones con $108.879, unos $8.400 cada una.</li>
+      <li><strong>Los reels funcionan y las fotos no.</strong> En cuatro meses ninguna foto o carrusel superó las 75 cuentas alcanzadas (promedio: 42). Los reels promedian 658 y llegan hasta 2.100. Los dos reels con Jere (el del camión en agosto y el de la presión en septiembre) están entre los mejores.</li>
+      <li><strong>Nadie tocó el botón de contacto del perfil.</strong> Instagram registra 0 toques en los enlaces del perfil desde que la cuenta empezó. Conviene revisar que el perfil tenga el botón de WhatsApp que lleva al chatbot.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="t-kpis">
+    <h2 id="t-kpis">Los números</h2>
+    <div class="kpis" id="kpis"></div>
+    <p class="small muted">Comparado con agosto. La cuenta no tiene todavía un año de historia, así que no hay comparación con septiembre 2025.</p>
+  </section>
+
+  <section aria-labelledby="t-seg">
+    <h2 id="t-seg">Seguidores de Instagram</h2>
+    <div class="chart-box">
+      <div class="legend"><span><span class="sw" style="background:var(--up)"></span>Empezaron a seguir</span><span><span class="sw" style="background:var(--down)"></span>Dejaron de seguir</span><span><span class="sw" style="background:var(--ink)"></span>Saldo del mes</span></div>
+      <div class="chart-scroll"><svg id="chart-seg" role="img" aria-label="Seguidores ganados y perdidos por mes"></svg></div>
+      <div class="tip" id="tip-seg" hidden></div>
+    </div>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th class="r">Nuevos</th><th class="r">Se fueron</th><th class="r">Saldo</th><th class="r">Total aprox. a fin de mes</th></tr></thead>
+      <tbody id="seg"></tbody>
+    </table></div>
+    <p class="small muted">El total a fin de cada mes se reconstruye hacia atrás desde los 114 actuales, por eso es aproximado. Julio, el mes con más pauta, fue el de mayor crecimiento.</p>
+  </section>
+
+  <section aria-labelledby="t-linea">
+    <h2 id="t-linea">Línea de tiempo</h2>
+    <div class="tabs" role="group" aria-label="Métrica del gráfico" id="tabs"></div>
+    <div class="chart-box">
+      <div class="legend"><span><span class="sw" style="background:var(--bar)"></span>Mes sin pauta</span><span><span class="sw" style="background:var(--bar-paid)"></span>Mes con pauta</span></div>
+      <div class="chart-scroll"><svg id="chart" role="img" aria-label="Evolución mensual"></svg></div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <p class="small muted" id="nota-chart"></p>
+  </section>
+
+  <section aria-labelledby="t-posts">
+    <h2 id="t-posts">Publicaciones de septiembre en Instagram</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Fecha</th><th>Publicación</th><th class="r">Alcance</th><th class="r">Vistas</th><th class="r">Interacc.</th></tr></thead>
+      <tbody id="posts"></tbody>
+    </table></div>
+    <p class="small muted">Ordenadas por alcance. En Facebook los reels sumaron entre 210 y 236 visualizaciones cada uno.</p>
+  </section>
+
+  <section aria-labelledby="t-pauta">
+    <h2 id="t-pauta">Historial de pauta</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th>Campaña</th><th>Objetivo</th><th class="r">Inversión</th><th class="r">Alcance</th><th class="r">Resultado</th><th class="r">Costo por resultado</th></tr></thead>
+      <tbody id="pauta"></tbody>
+    </table></div>
+    <p class="small muted">Las campañas de interacción de julio agrupan 5 anuncios (Toyota, Autos y tres sin segmentar); su alcance suma los de cada anuncio y puede repetir personas. Montos en pesos de cada momento.</p>
+  </section>
+
+  <section aria-labelledby="t-reco">
+    <h2 id="t-reco">Para octubre</h2>
+    <div class="reco">
+      <div><h3>Repetir la campaña de mensajes</h3><p class="muted small">Mismo formato que la del 11/9, que costó cuatro veces menos por conversación que las de julio. Atarla a una promo concreta, por ejemplo cubiertas para la temporada de verano.</p></div>
+      <div><h3>Pasar todo a reels</h3><p class="muted small">Reemplazar las fotos y carruseles por reels cortos. Las fotos no pasan de 75 cuentas alcanzadas; un reel promedio llega a más de diez veces eso.</p></div>
+      <div><h3>Una serie fija con Jere</h3><p class="muted small">Un reel cada 15 días con consejos técnicos (presión, desgaste, cuándo cambiar). Son los que mejor rinden y suman credibilidad de representante oficial.</p></div>
+      <div><h3>Revisar el botón de contacto</h3><p class="muted small">Con 0 toques en el perfil, verificar que el botón de WhatsApp esté activo y que la bio diga cómo pedir presupuesto.</p></div>
+    </div>
+  </section>
+
+  <section class="notas" aria-labelledby="t-notas">
+    <h3 id="t-notas">Notas sobre los datos</h3>
+    <ul>
+      <li>La página de Facebook empezó a publicar en mayo 2026 y la cuenta de Instagram en junio 2026; antes no hay datos.</li>
+      <li>En junio, las estadísticas generales de Instagram son muy bajas (12 cuentas alcanzadas) aunque las publicaciones sumaron más: Meta recién empezaba a medir la cuenta.</li>
+      <li>El alcance general de julio y septiembre incluye a quienes vieron los anuncios, por eso sube en los meses con pauta.</li>
+      <li>En los meses de 31 días el alcance de Instagram suma dos tramos, así que puede estar levemente sobreestimado.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+const M = [["2026-05",null,null,null,66,0],["2026-06",12,133,11,77,0],["2026-07",15415,29345,283,45470,119441],["2026-08",2221,4822,126,702,0],["2026-09",1234,2915,106,9401,27434]];
+const MES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const nf = new Intl.NumberFormat("es-AR");
+const lab = k => { const [y,m] = k.split("-"); return MES[+m-1] + " " + y.slice(2); };
+const METRICAS = [
+  {i:1, n:"Alcance Instagram", corto:"cuentas alcanzadas", desde:"2026-06"},
+  {i:2, n:"Vistas Instagram", corto:"visualizaciones", desde:"2026-06"},
+  {i:3, n:"Interacciones Instagram", corto:"interacciones", desde:"2026-06"},
+  {i:4, n:"Vistas Facebook", corto:"visualizaciones en Facebook"},
+  {i:5, n:"Inversión en pauta", corto:"pesos invertidos", pesos:true}
+];
+const idx = k => M.findIndex(r => r[0] === k);
+const cur = idx("2026-09"), prev = idx("2026-08");
+function delta(a, b) {
+  if (a == null || b == null || !b) return '<span>sin dato</span>';
+  const p = Math.round((a - b) / b * 100);
+  const cls = p > 0 ? "up" : p < 0 ? "down" : "";
+  return `<span class="${cls}">${p > 0 ? "+" : ""}${nf.format(p)}%</span>`;
+}
+const K = [["Alcance Instagram",1],["Vistas Instagram",2],["Interacciones Instagram",3],["Vistas Facebook",4]];
+document.getElementById("kpis").innerHTML = K.map(([n,i]) =>
+  `<div class="kpi"><span class="lab">${n}</span><span class="val">${nf.format(M[cur][i])}</span>
+   <span class="cmp"><span>vs agosto ${delta(M[cur][i], M[prev][i])}</span>${i===4?'<span>subió por la pauta</span>':''}</span></div>`
+).join("") +
+`<div class="kpi"><span class="lab">Seguidores Instagram</span><span class="val">114</span><span class="cmp"><span>saldo sep <span class="up">+17</span></span><span>saldo ago <span class="up">+26</span></span></span></div>` +
+`<div class="kpi"><span class="lab">Pauta del mes</span><span class="val">$27.434</span><span class="cmp"><span>13 conversaciones</span><span>$2.110 cada una</span></span></div>`;
+
+const tabs = document.getElementById("tabs");
+let sel = 0;
+METRICAS.forEach((m, k) => {
+  const b = document.createElement("button");
+  b.textContent = m.n; b.id = "tab-" + k;
+  b.setAttribute("aria-pressed", k === 0);
+  b.onclick = () => { sel = k; [...tabs.children].forEach((x, j) => x.setAttribute("aria-pressed", j === k)); draw(); };
+  tabs.appendChild(b);
+});
+const svg = document.getElementById("chart"), tip = document.getElementById("tip");
+function nice(v) { const p = Math.pow(10, Math.floor(Math.log10(v))); const f = v / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * p; }
+function fmt(v, m) { return (m.pesos ? "$" : "") + (v >= 1000 ? nf.format(Math.round(v/1000)) + " mil" : nf.format(v)); }
+function draw() {
+  const m = METRICAS[sel];
+  const rows = M.filter(r => !m.desde || r[0] >= m.desde);
+  const W = 560, H = 260, L = 64, R = 10, T = 14, B = 34;
+  const max = nice(Math.max(...rows.map(r => r[m.i] || 0)) * 1.02);
+  const y = v => T + (H - T - B) * (1 - v / max);
+  const bw = (W - L - R) / rows.length;
+  let s = "";
+  for (let t = 0; t <= 4; t++) {
+    const v = max / 4 * t, yy = y(v);
+    s += `<line x1="${L}" x2="${W-R}" y1="${yy}" y2="${yy}" stroke="var(--line)" stroke-width="1"/>`;
+    s += `<text x="${L-8}" y="${yy+4}" text-anchor="end">${fmt(v, m)}</text>`;
+  }
+  rows.forEach((r, k) => {
+    const w = Math.min(56, bw - 16), x = L + k * bw + (bw - w) / 2, v = r[m.i] || 0, yy = y(v);
+    const h = Math.max(0, H - B - yy), paid = r[5] > 0, rr = Math.min(4, w / 2, h);
+    const d = h > 0 ? `M${x},${H-B} V${yy+rr} Q${x},${yy} ${x+rr},${yy} H${x+w-rr} Q${x+w},${yy} ${x+w},${yy+rr} V${H-B} Z` : "";
+    s += `<path d="${d}" fill="${paid ? "var(--bar-paid)" : "var(--bar)"}" ${r[0]==="2026-09" ? 'stroke="var(--ink)" stroke-width="1.5"' : ""}/>`;
+    s += `<text x="${x + w/2}" y="${Math.max(T+10, yy - 6)}" text-anchor="middle" style="fill:var(--ink-2)">${(m.pesos?"$":"") + nf.format(v)}</text>`;
+    s += `<text x="${x + w/2}" y="${H-B+16}" text-anchor="middle">${lab(r[0])}</text>`;
+    s += `<rect x="${L + k*bw}" y="${T}" width="${bw}" height="${H-T-B}" fill="transparent" data-k="${k}" class="hit"/>`;
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
+  svg.innerHTML = s;
+  svg.querySelectorAll(".hit").forEach(h => {
+    h.addEventListener("pointerenter", () => {
+      const r = rows[+h.dataset.k];
+      tip.innerHTML = `<b>${lab(r[0])}</b><br>${(m.pesos?"$":"") + nf.format(r[m.i] || 0)} ${m.corto}` + (r[5] > 0 && !m.pesos ? `<br>Pauta: $${nf.format(r[5])}` : "");
+      tip.hidden = false;
+    });
+    h.addEventListener("pointermove", e => {
+      const box = svg.parentElement.parentElement.getBoundingClientRect();
+      let left = e.clientX - box.left + 12; if (left > box.width - 200) left -= 220;
+      tip.style.left = left + "px"; tip.style.top = (e.clientY - box.top - 10) + "px";
+    });
+    h.addEventListener("pointerleave", () => tip.hidden = true);
+  });
+  document.getElementById("nota-chart").textContent = m.desde
+    ? "Instagram tiene datos desde junio 2026. Septiembre aparece con borde."
+    : "Septiembre aparece con borde. Pasá el cursor sobre cada barra para ver el detalle.";
+}
+draw();
+
+const SEG = [["2026-05",3,0],["2026-06",8,0],["2026-07",58,2],["2026-08",27,1],["2026-09",18,1]];
+(function () {
+  let tot = 114; const fin = {};
+  for (let k = SEG.length - 1; k >= 0; k--) { fin[SEG[k][0]] = tot; tot -= SEG[k][1] - SEG[k][2]; }
+  const sg = n => (n > 0 ? "+" : n < 0 ? "−" : "") + nf.format(Math.abs(n));
+  document.getElementById("seg").innerHTML = SEG.slice().reverse().map(r => {
+    const n = r[1] - r[2];
+    return `<tr><td>${lab(r[0])}</td><td class="r">${r[1]}</td><td class="r">${r[2]}</td><td class="r"><span class="${n>0?"up":n<0?"down":""}">${sg(n)}</span></td><td class="r">${nf.format(fin[r[0]])}</td></tr>`;
+  }).join("");
+  const svg = document.getElementById("chart-seg"), tip = document.getElementById("tip-seg");
+  const W = 520, H = 220, L = 40, R = 10, T = 12, B = 30, max = 60;
+  const mid = T + (H - T - B) * 0.75, up = (H - T - B) * 0.75, dn = (H - T - B) * 0.25;
+  const yv = v => v >= 0 ? mid - up * v / max : mid - dn * v / (max / 3);
+  const bw = (W - L - R) / SEG.length;
+  let s = "";
+  [-20, 0, 20, 40, 60].forEach(v => { const yy = yv(v);
+    s += `<line x1="${L}" x2="${W-R}" y1="${yy}" y2="${yy}" stroke="var(--line)" stroke-width="${v===0?1.5:1}"/><text x="${L-8}" y="${yy+4}" text-anchor="end">${v>0?"+":""}${v}</text>`; });
+  SEG.forEach((r, k) => {
+    const cx = L + k * bw + bw / 2, w = Math.min(30, bw - 16), n = r[1] - r[2];
+    s += `<rect x="${cx-w/2}" y="${yv(r[1])}" width="${w}" height="${mid - yv(r[1])}" rx="3" fill="var(--up)" opacity="0.85"/>`;
+    if (r[2] > 0) s += `<rect x="${cx-w/2}" y="${mid}" width="${w}" height="${yv(-r[2]) - mid}" rx="2" fill="var(--down)" opacity="0.85"/>`;
+    s += `<circle cx="${cx}" cy="${yv(n)}" r="4" fill="var(--ink)" stroke="var(--surface)" stroke-width="2"/>`;
+    s += `<text x="${cx}" y="${H-B+18}" text-anchor="middle">${lab(r[0])}</text>`;
+    s += `<rect x="${L+k*bw}" y="${T}" width="${bw}" height="${H-T-B}" fill="transparent" class="hit" data-k="${k}"/>`;
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H); svg.innerHTML = s;
+  svg.querySelectorAll(".hit").forEach(h => {
+    h.addEventListener("pointerenter", () => { const r = SEG[+h.dataset.k];
+      tip.innerHTML = `<b>${lab(r[0])}</b><br>${r[1]} nuevos · ${r[2]} se fueron<br>Saldo ${sg(r[1]-r[2])}`; tip.hidden = false; });
+    h.addEventListener("pointermove", e => { const box = svg.parentElement.parentElement.getBoundingClientRect();
+      let left = e.clientX - box.left + 12; if (left > box.width - 200) left -= 220;
+      tip.style.left = left + "px"; tip.style.top = (e.clientY - box.top - 10) + "px"; });
+    h.addEventListener("pointerleave", () => tip.hidden = true);
+  });
+})();
+
+const POSTS = [
+  ["28/9","Reel","Lo que preparamos para la Expo Rural de Santa Rosa","https://www.instagram.com/reel/Dd2L0ShOFPA/",535,813,31],
+  ["3/9","Reel","No siempre la cubierta más cara es la mejor","https://www.instagram.com/reel/Dc1cHWRuOVm/",252,396,23],
+  ["16/9","Reel","Continental para camión, ya disponibles","https://www.instagram.com/reel/DdXCElqOrHY/",207,251,4],
+  ["18/9","Reel","Con Jere: cómo medir la presión","https://www.instagram.com/reel/DdcQZX6On0h/",183,330,24],
+  ["9/9","Reel","Lo que te cuenta un neumático","https://www.instagram.com/reel/DdE11M1uXTG/",69,96,5],
+  ["25/9","Foto","¿Hace cuánto no revisás la presión?","https://www.instagram.com/p/DduDVlFlv8n/",25,94,5],
+  ["11/9","Foto","Promos especiales para tu flota","https://www.instagram.com/p/DdKAoH7GgJm/",25,67,3]
+];
+const pmax = 535;
+document.getElementById("posts").innerHTML = POSTS.map((p, k) =>
+  `<tr class="${k===0?"top":""}"><td class="num">${p[0]}</td><td class="cap"><a href="${p[3]}" target="_blank" rel="noopener">${p[2]}</a><br><span class="fmt">${p[1]}</span></td>
+   <td class="r"><span class="barcell">${nf.format(p[4])}<span class="minibar" style="width:${Math.max(2,Math.round(p[4]/pmax*60))}px"></span></span></td>
+   <td class="r">${nf.format(p[5])}</td><td class="r">${p[6]}</td></tr>`).join("");
+
+const PAUTA = [
+  ["sep 26","Mensajes 11/9","Mensajes",27434,"3.242","13 conversaciones","$2.110 por conversación"],
+  ["jul 26","Interacción (5 anuncios)","Interacción",108879,"14.512","13 conversaciones","$8.375 por conversación"],
+  ["jul 26","Reconocimiento reel","Reconocimiento",5886,"24.794","24.794 personas","$237 cada 1.000"],
+  ["jul 26","Nuevos seguidores","Tráfico",4676,"3.037","67 clics al enlace","$70 por clic"]
+];
+document.getElementById("pauta").innerHTML = PAUTA.map((p, k) =>
+  `<tr class="${k===0?"top":""}"><td class="num">${p[0]}</td><td>${p[1]}</td><td class="muted">${p[2]}</td><td class="r">$${nf.format(p[3])}</td><td class="r">${p[4]}</td><td class="r">${p[5]}</td><td class="r">${p[6]}</td></tr>`).join("");
+</script>

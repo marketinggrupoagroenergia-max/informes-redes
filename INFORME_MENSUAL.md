@@ -9,6 +9,15 @@ Destinataria: Dana, responsable de marketing. Español rioplatense (voseo), dire
 - Informe publicado como artifact NUEVO con título `Havanna La Pampa · <Mes AAAA>` (ej. `Havanna La Pampa · Octubre 2026`), icono `chart`.
 - Índice: artifact https://claude.ai/artifact/8EnAV5FFPWpCdhV3nMqYmh (plantilla en `plantillas/indice-havanna.html`). Leerlo con Artifact `read`, agregar el mes nuevo ARRIBA de la lista con link, dato de alcance IG y una frase de resumen, y republicar con ese `url`.
 
+## Marca: Dynamis Neumáticos
+- Datos: `data/dynamis/AAAA-MM.json`. Resumen: `python scripts/resumen.py dynamis salida.json`.
+- Plantilla: `plantillas/informe-dynamis-2026-09.html` (estética propia: asfalto + amarillo, tipografía Barlow). Mantener diseño y secciones.
+- Informe publicado como artifact NUEVO con título `Dynamis Neumáticos · <Mes AAAA>`, icono `chart`.
+- Índice: artifact https://claude.ai/artifact/LYHdSkrnR1f7bjdRCErTWi (plantilla `plantillas/indice-dynamis.html`).
+- Cuenta activa desde mayo 2026 (Facebook) y junio 2026 (Instagram): no hay comparación interanual hasta junio 2027.
+- Pauta: reportar costo por resultado según objetivo (mensajes: costo por conversación iniciada, `onsite_conversion.messaging_conversation_started_7d`; reconocimiento: costo cada 1.000 personas; tráfico: costo por clic al enlace). Referencia: mensajes 11/9/2026 = $2.110 por conversación; interacción julio 2026 = $8.375.
+- Marcas que vende: Dunlop (estrella, vía Grupo Corven), Corven y Continental. No mencionar la gomería.
+
 ## Contenido del informe
 1. Lectura del mes: 3-4 conclusiones concretas basadas en los datos (qué pasó, por qué, qué publicaciones lo explican).
 2. Números: mes vs mes anterior y vs mismo mes del año anterior, incluido el total de seguidores de Instagram (`perfil.followers_count`).
