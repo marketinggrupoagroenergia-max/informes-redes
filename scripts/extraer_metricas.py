@@ -59,7 +59,6 @@ METRICAS_IG_TOTALES = [
     "shares",
     "saves",
     "profile_links_taps",
-    "follows_and_unfollows",
 ]
 METRICAS_MEDIA_IG = ["reach", "views", "saved", "shares", "total_interactions"]
 CAMPOS_ANUNCIOS = (
@@ -189,6 +188,12 @@ def extraer_instagram(ig_id, token, desde, hasta, errores):
             period="day", metric_type="total_value",
             since=int(t_desde.timestamp()), until=int(t_hasta.timestamp()) + 1,
         )
+        # Seguidores ganados y perdidos: Meta solo los entrega con el desglose follow_type.
+        res.update(metrica_por_metrica(
+            f"{ig_id}/insights", token, ["follows_and_unfollows"], errores, f"Instagram tramo {i + 1}",
+            period="day", metric_type="total_value", breakdown="follow_type",
+            since=int(t_desde.timestamp()), until=int(t_hasta.timestamp()) + 1,
+        ))
         for metrica, valores in res.items():
             for v in valores:
                 v["tramo"] = f"{t_desde:%Y-%m-%d} a {t_hasta:%Y-%m-%d}"
