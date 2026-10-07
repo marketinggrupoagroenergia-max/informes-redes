@@ -28,6 +28,7 @@ jobs:
         env:
           META_TOKEN_HAVANNA: ${{ secrets.META_TOKEN_HAVANNA }}
           META_TOKEN_DYNAMIS: ${{ secrets.META_TOKEN_DYNAMIS }}
+          META_TOKEN_AGROENERGIA: ${{ secrets.META_TOKEN_AGROENERGIA }}
           MES: ${{ github.event.inputs.mes }}
           HISTORICO: ${{ github.event.inputs.historico }}
         run: |

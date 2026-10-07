@@ -1,4 +1,5 @@
 {
   "havanna": "META_TOKEN_HAVANNA",
-  "dynamis": "META_TOKEN_DYNAMIS"
+  "dynamis": "META_TOKEN_DYNAMIS",
+  "agroenergia": {"token": "META_TOKEN_AGROENERGIA", "anuncios": "META_TOKEN_HAVANNA"}
 }

@@ -282,7 +282,19 @@ def marcar_anuncios_de_la_marca(datos, token):
             anuncio["es_de_la_marca"] = propio
 
 
-def extraer_marca(marca, token, mes):
+def listar_paginas(token):
+    """Con un token de usuario o de usuario del sistema devuelve sus páginas.
+    Con un token de página (caso Agroenergía) devuelve esa única página."""
+    campos = "id,name,access_token,instagram_business_account"
+    try:
+        return paginar("me/accounts", token, fields=campos)
+    except ErrorMeta:
+        pagina = llamar("me", token, fields="id,name,instagram_business_account")
+        pagina["access_token"] = token
+        return [pagina]
+
+
+def extraer_marca(marca, token, mes, token_anuncios=None):
     desde, hasta = rango_mes(mes)
     errores = []
     datos = {
@@ -296,7 +308,7 @@ def extraer_marca(marca, token, mes):
         "errores": errores,
     }
     try:
-        paginas = paginar("me/accounts", token, fields="id,name,access_token,instagram_business_account")
+        paginas = listar_paginas(token)
     except ErrorMeta as e:
         errores.append(f"No se pudieron listar las páginas: {e}")
         paginas = []
@@ -308,8 +320,8 @@ def extraer_marca(marca, token, mes):
             datos["instagram"].append(
                 extraer_instagram(ig, pagina.get("access_token") or token, desde, hasta, errores)
             )
-    datos["anuncios"] = extraer_anuncios(token, desde, hasta, errores)
-    marcar_anuncios_de_la_marca(datos, token)
+    datos["anuncios"] = extraer_anuncios(token_anuncios or token, desde, hasta, errores)
+    marcar_anuncios_de_la_marca(datos, token_anuncios or token)
     for p in datos["facebook"]:
         p.pop("access_token", None)
     return datos
@@ -336,13 +348,18 @@ def main():
 
     marcas = json.loads((RAIZ / "marcas.json").read_text(encoding="utf-8"))
     hubo_datos = False
-    for marca, variable in marcas.items():
-        token = os.environ.get(variable)
+    for marca, conf in marcas.items():
+        # conf puede ser el nombre del secret, o {"token": ..., "anuncios": ...}
+        # cuando la pauta se lee con otro token (Agroenergía usa el del portfolio Agroenergia).
+        if isinstance(conf, str):
+            conf = {"token": conf}
+        token = os.environ.get(conf["token"])
+        token_anuncios = os.environ.get(conf.get("anuncios", "")) if conf.get("anuncios") else None
         if not token:
-            print(f"[{marca}] sin token ({variable}); se omite.")
+            print(f"[{marca}] sin token ({conf['token']}); se omite.")
             continue
         for mes in meses_a_extraer(args):
-            datos = extraer_marca(marca, token, mes)
+            datos = extraer_marca(marca, token, mes, token_anuncios)
             destino = RAIZ / "data" / marca / f"{mes}.json"
             destino.parent.mkdir(parents=True, exist_ok=True)
             destino.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
