@@ -11,7 +11,8 @@ Destinataria: Dana, responsable de marketing. Español rioplatense (voseo), dire
 
 ## Contenido del informe
 1. Lectura del mes: 3-4 conclusiones concretas basadas en los datos (qué pasó, por qué, qué publicaciones lo explican).
-2. Números: mes vs mes anterior y vs mismo mes del año anterior.
+2. Números: mes vs mes anterior y vs mismo mes del año anterior, incluido el total de seguidores de Instagram (`perfil.followers_count`).
+2b. Seguidores de Instagram: nuevos, los que se fueron y saldo de cada mes (`follows_and_unfollows`, desglose `follow_type`: FOLLOWER = nuevos, NON_FOLLOWER = se fueron; sumar los tramos del mes). Gráfico de los últimos 12 meses y tabla con el total aproximado a fin de mes, reconstruido hacia atrás desde el total actual. Datos disponibles desde octubre 2025.
 3. Línea de tiempo con todos los meses disponibles, marcando meses con pauta.
 4. Publicaciones del mes en Instagram, ordenadas por alcance.
 5. Pauta: solo anuncios con `es_de_la_marca: true`. Inversión, alcance, costo cada 1.000. Montos nominales en ARS.

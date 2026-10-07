@@ -106,7 +106,7 @@ tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
   <section class="lectura" aria-labelledby="t-lectura">
     <h2 id="t-lectura">Lectura del mes</h2>
     <ol>
-      <li><strong>Fue el mes de menor alcance en Instagram de los últimos dos años</strong> (sin contar octubre 2024, que está incompleto). 5.202 cuentas alcanzadas, la mitad que en agosto y 46% menos que septiembre 2025. Se publicó más (9 posteos contra 7), pero cada publicación rindió menos.</li>
+      <li><strong>Fue el mes de menor alcance en Instagram de los últimos dos años</strong> (sin contar octubre 2024, que está incompleto). 5.202 cuentas alcanzadas, la mitad que en agosto y 46% menos que septiembre 2025. Se publicó más (9 posteos contra 7), pero cada publicación rindió menos. Además, la cuenta perdió 12 seguidores netos: 45 nuevos contra 57 que se fueron, el primer saldo negativo desde mayo.</li>
       <li><strong>Faltaron los reels con el equipo y humor, que son los que mejor funcionan.</strong> En julio y agosto, los reels del partido, de Lu y el POV del cafecito alcanzaron entre 3.800 y 7.000 cuentas cada uno. En septiembre ningún reel pasó las 1.400.</li>
       <li><strong>Lo mejor del mes fue una foto simple de desayuno</strong> (28/9): 2.079 cuentas, el doble que cualquier reel. El producto bien fotografiado sigue funcionando.</li>
       <li><strong>Sin pauta desde diciembre 2025.</strong> Los meses con inversión (junio, julio y diciembre 2025) triplicaron el alcance habitual. Octubre trae el Día de la Madre (domingo 18) y ya se anticipó una sorpresa el 30/9: es el momento para volver a invertir.</li>
@@ -117,6 +117,20 @@ tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
     <h2 id="t-kpis">Los números</h2>
     <div class="kpis" id="kpis"></div>
     <p class="small muted">Comparado con el mes anterior y con el mismo mes del año pasado.</p>
+  </section>
+
+  <section aria-labelledby="t-seg">
+    <h2 id="t-seg">Seguidores de Instagram · 12 meses</h2>
+    <div class="chart-box">
+      <div class="legend"><span><span class="sw" style="background:var(--up)"></span>Empezaron a seguir</span><span><span class="sw" style="background:var(--down)"></span>Dejaron de seguir</span><span><span class="sw" style="background:var(--ink)"></span>Saldo del mes</span></div>
+      <div class="chart-scroll"><svg id="chart-seg" role="img" aria-label="Seguidores ganados y perdidos por mes"></svg></div>
+      <div class="tip" id="tip-seg" hidden></div>
+    </div>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th class="r">Nuevos</th><th class="r">Se fueron</th><th class="r">Saldo</th><th class="r">Total aprox. a fin de mes</th></tr></thead>
+      <tbody id="seg"></tbody>
+    </table></div>
+    <p class="small muted">Meta informa seguidores ganados y perdidos desde octubre 2025. El total a fin de cada mes se reconstruye hacia atrás desde los 10.615 actuales, por eso es aproximado.</p>
   </section>
 
   <section aria-labelledby="t-linea">
@@ -165,7 +179,7 @@ tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
       <li>Octubre 2024 está incompleto porque Meta ya no conserva toda esa historia.</li>
       <li>En los meses de 31 días el alcance de Instagram suma dos tramos, así que puede estar levemente sobreestimado.</li>
       <li>Abril 2025 (147.000) y julio 2026 (67.000) tienen picos de alcance que no explican las publicaciones del feed. Puede haber sido una historia, una colaboración o contenido de otra cuenta. ¿Recordás qué pasó?</li>
-      <li>Meta no da la historia de seguidores de Instagram; a partir de ahora queda registrada mes a mes.</li>
+      <li>Meta no da el total histórico de seguidores de Instagram, solo cuántos se sumaron y cuántos se fueron cada mes, desde octubre 2025.</li>
     </ul>
   </section>
 </div>
@@ -197,7 +211,7 @@ const K = [
 document.getElementById("kpis").innerHTML = K.map(([n,i]) =>
   `<div class="kpi"><span class="lab">${n}</span><span class="val">${nf.format(M[cur][i])}</span>
    <span class="cmp"><span>vs agosto ${delta(M[cur][i], M[prev][i])}</span><span>vs sep 2025 ${delta(M[cur][i], M[yoy][i])}</span></span></div>`
-).join("") + `<div class="kpi"><span class="lab">Publicaciones Instagram</span><span class="val">9</span><span class="cmp"><span>agosto: 7</span><span>sep 2025: 8</span></span></div>`;
+).join("") + `<div class="kpi"><span class="lab">Seguidores Instagram</span><span class="val">10.615</span><span class="cmp"><span>saldo sep <span class="down">−12</span></span><span>saldo ago <span class="up">+4</span></span></span></div><div class="kpi"><span class="lab">Publicaciones Instagram</span><span class="val">9</span><span class="cmp"><span>agosto: 7</span><span>sep 2025: 8</span></span></div>`;
 
 const tabs = document.getElementById("tabs");
 let sel = 0;
@@ -253,6 +267,40 @@ function draw() {
     : "Septiembre 2026 aparece con borde. Pasá el cursor sobre cada barra para ver el valor.";
 }
 draw();
+
+const SEG = [["2025-10",77,74],["2025-11",35,67],["2025-12",120,75],["2026-01",70,80],["2026-02",80,65],["2026-03",77,66],["2026-04",93,66],["2026-05",61,79],["2026-06",61,54],["2026-07",182,65],["2026-08",65,61],["2026-09",45,57]];
+(function () {
+  let tot = 10615; const fin = {};
+  for (let k = SEG.length - 1; k >= 0; k--) { fin[SEG[k][0]] = tot; tot -= SEG[k][1] - SEG[k][2]; }
+  const sg = n => (n > 0 ? "+" : n < 0 ? "−" : "") + nf.format(Math.abs(n));
+  document.getElementById("seg").innerHTML = SEG.slice().reverse().map(r => {
+    const n = r[1] - r[2];
+    return `<tr><td>${lab(r[0])}</td><td class="r">${r[1]}</td><td class="r">${r[2]}</td><td class="r"><span class="${n>0?"up":n<0?"down":""}">${sg(n)}</span></td><td class="r">${nf.format(fin[r[0]])}</td></tr>`;
+  }).join("");
+  const svg = document.getElementById("chart-seg"), tip = document.getElementById("tip-seg");
+  const W = Math.max(560, SEG.length * 48 + 60), H = 240, L = 44, R = 10, T = 12, B = 30, max = 200;
+  const mid = T + (H - T - B) / 2, sc = v => (H - T - B) / 2 * v / max, bw = (W - L - R) / SEG.length;
+  let s = "";
+  [-200, -100, 0, 100, 200].forEach(v => { const yy = mid - sc(v);
+    s += `<line x1="${L}" x2="${W-R}" y1="${yy}" y2="${yy}" stroke="var(--line)" stroke-width="${v===0?1.5:1}"/><text x="${L-8}" y="${yy+4}" text-anchor="end">${v>0?"+":""}${v}</text>`; });
+  SEG.forEach((r, k) => {
+    const cx = L + k * bw + bw / 2, w = Math.min(22, bw - 10), n = r[1] - r[2];
+    s += `<rect x="${cx-w/2}" y="${mid-sc(r[1])}" width="${w}" height="${sc(r[1])}" rx="3" fill="var(--up)" opacity="0.85"/>`;
+    s += `<rect x="${cx-w/2}" y="${mid}" width="${w}" height="${sc(r[2])}" rx="3" fill="var(--down)" opacity="0.85"/>`;
+    s += `<circle cx="${cx}" cy="${mid - sc(n)}" r="4" fill="var(--ink)" stroke="var(--surface)" stroke-width="2"/>`;
+    s += `<text x="${cx}" y="${H-B+18}" text-anchor="middle">${lab(r[0])}</text>`;
+    s += `<rect x="${L+k*bw}" y="${T}" width="${bw}" height="${H-T-B}" fill="transparent" class="hit" data-k="${k}"/>`;
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H); svg.innerHTML = s;
+  svg.querySelectorAll(".hit").forEach(h => {
+    h.addEventListener("pointerenter", () => { const r = SEG[+h.dataset.k];
+      tip.innerHTML = `<b>${lab(r[0])}</b><br>${r[1]} nuevos · ${r[2]} se fueron<br>Saldo ${sg(r[1]-r[2])}`; tip.hidden = false; });
+    h.addEventListener("pointermove", e => { const box = svg.parentElement.parentElement.getBoundingClientRect();
+      let left = e.clientX - box.left + 12; if (left > box.width - 200) left -= 220;
+      tip.style.left = left + "px"; tip.style.top = (e.clientY - box.top - 10) + "px"; });
+    h.addEventListener("pointerleave", () => tip.hidden = true);
+  });
+})();
 
 const POSTS = [
   ["28/9","Foto","Desayuno: huevos revueltos, avocado toast + café","https://www.instagram.com/p/Dd2MGQ5v09U/",2079,4427,48],
