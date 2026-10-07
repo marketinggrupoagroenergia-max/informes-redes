@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-08",
- "extraido": "2026-10-06T21:20:56+00:00",
+ "extraido": "2026-10-07T13:40:43+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1441,7 +1441,7 @@
    "id": "17841461293753493",
    "perfil": {
     "id": "17841461293753493",
-    "followers_count": 10615,
+    "followers_count": 10616,
     "follows_count": 75,
     "media_count": 304,
     "username": "havanna_lapampa"
@@ -1670,6 +1670,29 @@
       "period": "day",
       "title": "Seguidores y personas que dejaron de seguirte",
       "description": "Número de cuentas que empezaron a seguirte y el número de cuentas que dejaron de seguirte o que abandonaron Instagram en el período que seleccionaste.",
+      "total_value": {
+       "breakdowns": [
+        {
+         "dimension_keys": [
+          "follow_type"
+         ],
+         "results": [
+          {
+           "dimension_values": [
+            "FOLLOWER"
+           ],
+           "value": 64
+          },
+          {
+           "dimension_values": [
+            "NON_FOLLOWER"
+           ],
+           "value": 61
+          }
+         ]
+        }
+       ]
+      },
       "tramo": "2026-08-01 a 2026-08-30"
      },
      {
@@ -1678,6 +1701,29 @@
       "period": "day",
       "title": "Seguidores y personas que dejaron de seguirte",
       "description": "Número de cuentas que empezaron a seguirte y el número de cuentas que dejaron de seguirte o que abandonaron Instagram en el período que seleccionaste.",
+      "total_value": {
+       "breakdowns": [
+        {
+         "dimension_keys": [
+          "follow_type"
+         ],
+         "results": [
+          {
+           "dimension_values": [
+            "FOLLOWER"
+           ],
+           "value": 1
+          },
+          {
+           "dimension_values": [
+            "NON_FOLLOWER"
+           ],
+           "value": 0
+          }
+         ]
+        }
+       ]
+      },
       "tramo": "2026-08-31 a 2026-08-31"
      }
     ]

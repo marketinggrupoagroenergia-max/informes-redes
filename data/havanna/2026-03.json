@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-03",
- "extraido": "2026-10-06T21:16:58+00:00",
+ "extraido": "2026-10-07T13:36:46+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1573,7 +1573,7 @@
    "id": "17841461293753493",
    "perfil": {
     "id": "17841461293753493",
-    "followers_count": 10615,
+    "followers_count": 10616,
     "follows_count": 75,
     "media_count": 304,
     "username": "havanna_lapampa"
@@ -1659,7 +1659,7 @@
       "title": "Cuentas que interactuaron",
       "description": "Número de cuentas que interactuaron con tu contenido, incluido el de los anuncios. El contenido incluye publicaciones, historias, reels, videos y videos en vivo. Las interacciones pueden incluir acciones como Me gusta, comentarios, respuestas o veces que se guardó o compartió el contenido. Estas métricas son una estimación y están en desarrollo.",
       "total_value": {
-       "value": 96
+       "value": 90
       },
       "tramo": "2026-03-01 a 2026-03-30"
      },
@@ -1802,6 +1802,29 @@
       "period": "day",
       "title": "Seguidores y personas que dejaron de seguirte",
       "description": "Número de cuentas que empezaron a seguirte y el número de cuentas que dejaron de seguirte o que abandonaron Instagram en el período que seleccionaste.",
+      "total_value": {
+       "breakdowns": [
+        {
+         "dimension_keys": [
+          "follow_type"
+         ],
+         "results": [
+          {
+           "dimension_values": [
+            "FOLLOWER"
+           ],
+           "value": 71
+          },
+          {
+           "dimension_values": [
+            "NON_FOLLOWER"
+           ],
+           "value": 65
+          }
+         ]
+        }
+       ]
+      },
       "tramo": "2026-03-01 a 2026-03-30"
      },
      {
@@ -1810,6 +1833,29 @@
       "period": "day",
       "title": "Seguidores y personas que dejaron de seguirte",
       "description": "Número de cuentas que empezaron a seguirte y el número de cuentas que dejaron de seguirte o que abandonaron Instagram en el período que seleccionaste.",
+      "total_value": {
+       "breakdowns": [
+        {
+         "dimension_keys": [
+          "follow_type"
+         ],
+         "results": [
+          {
+           "dimension_values": [
+            "FOLLOWER"
+           ],
+           "value": 6
+          },
+          {
+           "dimension_values": [
+            "NON_FOLLOWER"
+           ],
+           "value": 1
+          }
+         ]
+        }
+       ]
+      },
       "tramo": "2026-03-31 a 2026-03-31"
      }
     ]

@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-09",
- "extraido": "2026-10-06T21:21:45+00:00",
+ "extraido": "2026-10-07T13:41:31+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1477,7 +1477,7 @@
    "id": "17841461293753493",
    "perfil": {
     "id": "17841461293753493",
-    "followers_count": 10615,
+    "followers_count": 10616,
     "follows_count": 75,
     "media_count": 304,
     "username": "havanna_lapampa"
@@ -1607,6 +1607,29 @@
       "period": "day",
       "title": "Seguidores y personas que dejaron de seguirte",
       "description": "Número de cuentas que empezaron a seguirte y el número de cuentas que dejaron de seguirte o que abandonaron Instagram en el período que seleccionaste.",
+      "total_value": {
+       "breakdowns": [
+        {
+         "dimension_keys": [
+          "follow_type"
+         ],
+         "results": [
+          {
+           "dimension_values": [
+            "FOLLOWER"
+           ],
+           "value": 45
+          },
+          {
+           "dimension_values": [
+            "NON_FOLLOWER"
+           ],
+           "value": 57
+          }
+         ]
+        }
+       ]
+      },
       "tramo": "2026-09-01 a 2026-09-30"
      }
     ]
@@ -1619,7 +1642,7 @@
      "media_product_type": "FEED",
      "timestamp": "2026-09-30T12:29:45+0000",
      "permalink": "https://www.instagram.com/p/Dd6Veg-yEnH/",
-     "like_count": 8,
+     "like_count": 9,
      "comments_count": 0,
      "estadisticas": {
       "reach": [
@@ -1631,7 +1654,7 @@
         "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 488
+          "value": 494
          }
         ]
        }
@@ -1645,7 +1668,7 @@
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 960
+          "value": 968
          }
         ]
        }
@@ -1687,7 +1710,7 @@
         "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
         "values": [
          {
-          "value": 8
+          "value": 9
          }
         ]
        }
@@ -1713,7 +1736,7 @@
         "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 2079
+          "value": 2096
          }
         ]
        }
@@ -1727,7 +1750,7 @@
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 4427
+          "value": 4452
          }
         ]
        }
@@ -1795,7 +1818,7 @@
         "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 819
+          "value": 820
          }
         ]
        }
@@ -1809,7 +1832,7 @@
         "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
         "values": [
          {
-          "value": 1333
+          "value": 1335
          }
         ]
        }

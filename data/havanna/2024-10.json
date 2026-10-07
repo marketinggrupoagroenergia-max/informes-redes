@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2024-10",
- "extraido": "2026-10-06T21:05:43+00:00",
+ "extraido": "2026-10-07T13:26:06+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -450,7 +450,7 @@
         "end_time": "2024-10-07T07:00:00+0000"
        },
        {
-        "value": 23,
+        "value": 2,
         "end_time": "2024-10-08T07:00:00+0000"
        },
        {
@@ -847,7 +847,7 @@
         "end_time": "2024-10-05T07:00:00+0000"
        },
        {
-        "value": 3,
+        "value": 0,
         "end_time": "2024-10-06T07:00:00+0000"
        },
        {
@@ -969,7 +969,7 @@
    "id": "17841461293753493",
    "perfil": {
     "id": "17841461293753493",
-    "followers_count": 10615,
+    "followers_count": 10616,
     "follows_count": 75,
     "media_count": 304,
     "username": "havanna_lapampa"
@@ -1099,6 +1099,15 @@
       "period": "day",
       "title": "Seguidores y personas que dejaron de seguirte",
       "description": "Número de cuentas que empezaron a seguirte y el número de cuentas que dejaron de seguirte o que abandonaron Instagram en el período que seleccionaste.",
+      "total_value": {
+       "breakdowns": [
+        {
+         "dimension_keys": [
+          "follow_type"
+         ]
+        }
+       ]
+      },
       "tramo": "2024-10-31 a 2024-10-31"
      }
     ]
