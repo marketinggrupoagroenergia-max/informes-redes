@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-08",
- "extraido": "2026-10-07T16:09:08+00:00",
+ "extraido": "2026-10-07T19:25:00+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -2008,7 +2008,7 @@
         "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
         "values": [
          {
-          "value": 8441
+          "value": 8443
          }
         ]
        }

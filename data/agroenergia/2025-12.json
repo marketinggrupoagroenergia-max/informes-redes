@@ -1,0 +1,2046 @@
+{
+ "marca": "agroenergia",
+ "mes": "2025-12",
+ "extraido": "2026-10-07T19:37:11+00:00",
+ "version_api": "v23.0",
+ "facebook": [
+  {
+   "id": "360487924048263",
+   "nombre": "Grupo Agroenergía",
+   "perfil": {
+    "name": "Grupo Agroenergía",
+    "fan_count": 10051,
+    "followers_count": 10051,
+    "link": "https://www.facebook.com/360487924048263",
+    "id": "360487924048263"
+   },
+   "estadisticas": {
+    "page_follows": [
+     {
+      "name": "page_follows",
+      "period": "day",
+      "values": [
+       {
+        "value": 9988,
+        "end_time": "2025-12-02T08:00:00+0000"
+       },
+       {
+        "value": 9988,
+        "end_time": "2025-12-03T08:00:00+0000"
+       },
+       {
+        "value": 9988,
+        "end_time": "2025-12-04T08:00:00+0000"
+       },
+       {
+        "value": 9988,
+        "end_time": "2025-12-05T08:00:00+0000"
+       },
+       {
+        "value": 9988,
+        "end_time": "2025-12-06T08:00:00+0000"
+       },
+       {
+        "value": 9988,
+        "end_time": "2025-12-07T08:00:00+0000"
+       },
+       {
+        "value": 9988,
+        "end_time": "2025-12-08T08:00:00+0000"
+       },
+       {
+        "value": 9988,
+        "end_time": "2025-12-09T08:00:00+0000"
+       },
+       {
+        "value": 9988,
+        "end_time": "2025-12-10T08:00:00+0000"
+       },
+       {
+        "value": 9989,
+        "end_time": "2025-12-11T08:00:00+0000"
+       },
+       {
+        "value": 9989,
+        "end_time": "2025-12-12T08:00:00+0000"
+       },
+       {
+        "value": 9989,
+        "end_time": "2025-12-13T08:00:00+0000"
+       },
+       {
+        "value": 9990,
+        "end_time": "2025-12-14T08:00:00+0000"
+       },
+       {
+        "value": 9990,
+        "end_time": "2025-12-15T08:00:00+0000"
+       },
+       {
+        "value": 9991,
+        "end_time": "2025-12-16T08:00:00+0000"
+       },
+       {
+        "value": 9991,
+        "end_time": "2025-12-17T08:00:00+0000"
+       },
+       {
+        "value": 9992,
+        "end_time": "2025-12-18T08:00:00+0000"
+       },
+       {
+        "value": 9992,
+        "end_time": "2025-12-19T08:00:00+0000"
+       },
+       {
+        "value": 9991,
+        "end_time": "2025-12-20T08:00:00+0000"
+       },
+       {
+        "value": 9992,
+        "end_time": "2025-12-21T08:00:00+0000"
+       },
+       {
+        "value": 9992,
+        "end_time": "2025-12-22T08:00:00+0000"
+       },
+       {
+        "value": 9993,
+        "end_time": "2025-12-23T08:00:00+0000"
+       },
+       {
+        "value": 9992,
+        "end_time": "2025-12-24T08:00:00+0000"
+       },
+       {
+        "value": 9992,
+        "end_time": "2025-12-25T08:00:00+0000"
+       },
+       {
+        "value": 9993,
+        "end_time": "2025-12-26T08:00:00+0000"
+       },
+       {
+        "value": 9993,
+        "end_time": "2025-12-27T08:00:00+0000"
+       },
+       {
+        "value": 9994,
+        "end_time": "2025-12-28T08:00:00+0000"
+       },
+       {
+        "value": 9994,
+        "end_time": "2025-12-29T08:00:00+0000"
+       },
+       {
+        "value": 9994,
+        "end_time": "2025-12-30T08:00:00+0000"
+       },
+       {
+        "value": 9994,
+        "end_time": "2025-12-31T08:00:00+0000"
+       },
+       {
+        "value": 9995,
+        "end_time": "2026-01-01T08:00:00+0000"
+       }
+      ],
+      "title": "Lifetime Total Follows",
+      "description": "Lifetime: The number of followers of your Facebook Page or profile. This is calculated as the number of follows minus the number of unfollows over the lifetime of your Facebook Page or profile. ",
+      "id": "360487924048263/insights/page_follows/day"
+     }
+    ],
+    "page_daily_follows_unique": [
+     {
+      "name": "page_daily_follows_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-12-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-10T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-13T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-15T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-17T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-19T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-20T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-22T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-24T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-25T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-27T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-28T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-29T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-30T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-31T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2026-01-01T08:00:00+0000"
+       }
+      ],
+      "title": "Daily New Follows",
+      "description": "Daily: The number of Meta Accounts that followed your Page in the selected time period. This metric is estimated (Unique Users)",
+      "id": "360487924048263/insights/page_daily_follows_unique/day"
+     }
+    ],
+    "page_daily_unfollows_unique": [
+     {
+      "name": "page_daily_unfollows_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 1,
+        "end_time": "2025-12-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-10T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-15T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-17T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-19T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-23T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-24T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-28T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-29T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-30T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-31T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2026-01-01T08:00:00+0000"
+       }
+      ],
+      "title": "Daily New Unfollows",
+      "description": "Daily: The number of Meta Accounts that unfollowed your Page in the selected time period. This metric is estimated. (Unique Users)",
+      "id": "360487924048263/insights/page_daily_unfollows_unique/day"
+     }
+    ],
+    "page_media_view": [
+     {
+      "name": "page_media_view",
+      "period": "day",
+      "values": [
+       {
+        "value": 636,
+        "end_time": "2025-12-02T08:00:00+0000"
+       },
+       {
+        "value": 1012,
+        "end_time": "2025-12-03T08:00:00+0000"
+       },
+       {
+        "value": 497,
+        "end_time": "2025-12-04T08:00:00+0000"
+       },
+       {
+        "value": 272,
+        "end_time": "2025-12-05T08:00:00+0000"
+       },
+       {
+        "value": 235,
+        "end_time": "2025-12-06T08:00:00+0000"
+       },
+       {
+        "value": 218,
+        "end_time": "2025-12-07T08:00:00+0000"
+       },
+       {
+        "value": 207,
+        "end_time": "2025-12-08T08:00:00+0000"
+       },
+       {
+        "value": 2631,
+        "end_time": "2025-12-09T08:00:00+0000"
+       },
+       {
+        "value": 543,
+        "end_time": "2025-12-10T08:00:00+0000"
+       },
+       {
+        "value": 210,
+        "end_time": "2025-12-11T08:00:00+0000"
+       },
+       {
+        "value": 118,
+        "end_time": "2025-12-12T08:00:00+0000"
+       },
+       {
+        "value": 660,
+        "end_time": "2025-12-13T08:00:00+0000"
+       },
+       {
+        "value": 687,
+        "end_time": "2025-12-14T08:00:00+0000"
+       },
+       {
+        "value": 289,
+        "end_time": "2025-12-15T08:00:00+0000"
+       },
+       {
+        "value": 684,
+        "end_time": "2025-12-16T08:00:00+0000"
+       },
+       {
+        "value": 778,
+        "end_time": "2025-12-17T08:00:00+0000"
+       },
+       {
+        "value": 271,
+        "end_time": "2025-12-18T08:00:00+0000"
+       },
+       {
+        "value": 107,
+        "end_time": "2025-12-19T08:00:00+0000"
+       },
+       {
+        "value": 1006,
+        "end_time": "2025-12-20T08:00:00+0000"
+       },
+       {
+        "value": 257,
+        "end_time": "2025-12-21T08:00:00+0000"
+       },
+       {
+        "value": 532,
+        "end_time": "2025-12-22T08:00:00+0000"
+       },
+       {
+        "value": 520,
+        "end_time": "2025-12-23T08:00:00+0000"
+       },
+       {
+        "value": 393,
+        "end_time": "2025-12-24T08:00:00+0000"
+       },
+       {
+        "value": 229,
+        "end_time": "2025-12-25T08:00:00+0000"
+       },
+       {
+        "value": 96,
+        "end_time": "2025-12-26T08:00:00+0000"
+       },
+       {
+        "value": 14,
+        "end_time": "2025-12-27T08:00:00+0000"
+       },
+       {
+        "value": 207,
+        "end_time": "2025-12-28T08:00:00+0000"
+       },
+       {
+        "value": 239,
+        "end_time": "2025-12-29T08:00:00+0000"
+       },
+       {
+        "value": 374,
+        "end_time": "2025-12-30T08:00:00+0000"
+       },
+       {
+        "value": 410,
+        "end_time": "2025-12-31T08:00:00+0000"
+       },
+       {
+        "value": 442,
+        "end_time": "2026-01-01T08:00:00+0000"
+       }
+      ],
+      "title": "Visualizaciones de Facebook",
+      "description": "Número de veces que se mostró en la pantalla de una persona contenido de tu página, incluidas publicaciones, historias, anuncios y otros contenidos.",
+      "id": "360487924048263/insights/page_media_view/day"
+     }
+    ],
+    "page_total_media_view_unique": [
+     {
+      "name": "page_total_media_view_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 355,
+        "end_time": "2025-12-02T08:00:00+0000"
+       },
+       {
+        "value": 605,
+        "end_time": "2025-12-03T08:00:00+0000"
+       },
+       {
+        "value": 193,
+        "end_time": "2025-12-04T08:00:00+0000"
+       },
+       {
+        "value": 204,
+        "end_time": "2025-12-05T08:00:00+0000"
+       },
+       {
+        "value": 208,
+        "end_time": "2025-12-06T08:00:00+0000"
+       },
+       {
+        "value": 165,
+        "end_time": "2025-12-07T08:00:00+0000"
+       },
+       {
+        "value": 159,
+        "end_time": "2025-12-08T08:00:00+0000"
+       },
+       {
+        "value": 407,
+        "end_time": "2025-12-09T08:00:00+0000"
+       },
+       {
+        "value": 324,
+        "end_time": "2025-12-10T08:00:00+0000"
+       },
+       {
+        "value": 82,
+        "end_time": "2025-12-11T08:00:00+0000"
+       },
+       {
+        "value": 61,
+        "end_time": "2025-12-12T08:00:00+0000"
+       },
+       {
+        "value": 435,
+        "end_time": "2025-12-13T08:00:00+0000"
+       },
+       {
+        "value": 456,
+        "end_time": "2025-12-14T08:00:00+0000"
+       },
+       {
+        "value": 239,
+        "end_time": "2025-12-15T08:00:00+0000"
+       },
+       {
+        "value": 302,
+        "end_time": "2025-12-16T08:00:00+0000"
+       },
+       {
+        "value": 404,
+        "end_time": "2025-12-17T08:00:00+0000"
+       },
+       {
+        "value": 165,
+        "end_time": "2025-12-18T08:00:00+0000"
+       },
+       {
+        "value": 80,
+        "end_time": "2025-12-19T08:00:00+0000"
+       },
+       {
+        "value": 733,
+        "end_time": "2025-12-20T08:00:00+0000"
+       },
+       {
+        "value": 199,
+        "end_time": "2025-12-21T08:00:00+0000"
+       },
+       {
+        "value": 279,
+        "end_time": "2025-12-22T08:00:00+0000"
+       },
+       {
+        "value": 145,
+        "end_time": "2025-12-23T08:00:00+0000"
+       },
+       {
+        "value": 181,
+        "end_time": "2025-12-24T08:00:00+0000"
+       },
+       {
+        "value": 153,
+        "end_time": "2025-12-25T08:00:00+0000"
+       },
+       {
+        "value": 77,
+        "end_time": "2025-12-26T08:00:00+0000"
+       },
+       {
+        "value": 10,
+        "end_time": "2025-12-27T08:00:00+0000"
+       },
+       {
+        "value": 146,
+        "end_time": "2025-12-28T08:00:00+0000"
+       },
+       {
+        "value": 204,
+        "end_time": "2025-12-29T08:00:00+0000"
+       },
+       {
+        "value": 158,
+        "end_time": "2025-12-30T08:00:00+0000"
+       },
+       {
+        "value": 277,
+        "end_time": "2025-12-31T08:00:00+0000"
+       },
+       {
+        "value": 301,
+        "end_time": "2026-01-01T08:00:00+0000"
+       }
+      ],
+      "title": null,
+      "description": "Número total de espectadores únicos de contenido multimedia de una página de Facebook",
+      "id": "360487924048263/insights/page_total_media_view_unique/day"
+     }
+    ],
+    "page_post_engagements": [
+     {
+      "name": "page_post_engagements",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-12-02T08:00:00+0000"
+       },
+       {
+        "value": 16,
+        "end_time": "2025-12-03T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-04T08:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-12-05T08:00:00+0000"
+       },
+       {
+        "value": 2,
+        "end_time": "2025-12-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-09T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-10T08:00:00+0000"
+       },
+       {
+        "value": 5,
+        "end_time": "2025-12-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-12T08:00:00+0000"
+       },
+       {
+        "value": 4,
+        "end_time": "2025-12-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-14T08:00:00+0000"
+       },
+       {
+        "value": 5,
+        "end_time": "2025-12-15T08:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-12-16T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-17T08:00:00+0000"
+       },
+       {
+        "value": 10,
+        "end_time": "2025-12-18T08:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-12-19T08:00:00+0000"
+       },
+       {
+        "value": 6,
+        "end_time": "2025-12-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-24T08:00:00+0000"
+       },
+       {
+        "value": 4,
+        "end_time": "2025-12-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-28T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-12-29T08:00:00+0000"
+       },
+       {
+        "value": 3,
+        "end_time": "2025-12-30T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2025-12-31T08:00:00+0000"
+       },
+       {
+        "value": 1,
+        "end_time": "2026-01-01T08:00:00+0000"
+       }
+      ],
+      "title": "Daily Post Engagements",
+      "description": "Daily: The number of times people have engaged with your posts through like, comments and shares and more.",
+      "id": "360487924048263/insights/page_post_engagements/day"
+     }
+    ],
+    "page_views_total": [
+     {
+      "name": "page_views_total",
+      "period": "day",
+      "values": [
+       {
+        "value": 37,
+        "end_time": "2025-12-02T08:00:00+0000"
+       },
+       {
+        "value": 47,
+        "end_time": "2025-12-03T08:00:00+0000"
+       },
+       {
+        "value": 52,
+        "end_time": "2025-12-04T08:00:00+0000"
+       },
+       {
+        "value": 19,
+        "end_time": "2025-12-05T08:00:00+0000"
+       },
+       {
+        "value": 22,
+        "end_time": "2025-12-06T08:00:00+0000"
+       },
+       {
+        "value": 50,
+        "end_time": "2025-12-07T08:00:00+0000"
+       },
+       {
+        "value": 10,
+        "end_time": "2025-12-08T08:00:00+0000"
+       },
+       {
+        "value": 32,
+        "end_time": "2025-12-09T08:00:00+0000"
+       },
+       {
+        "value": 41,
+        "end_time": "2025-12-10T08:00:00+0000"
+       },
+       {
+        "value": 37,
+        "end_time": "2025-12-11T08:00:00+0000"
+       },
+       {
+        "value": 19,
+        "end_time": "2025-12-12T08:00:00+0000"
+       },
+       {
+        "value": 26,
+        "end_time": "2025-12-13T08:00:00+0000"
+       },
+       {
+        "value": 31,
+        "end_time": "2025-12-14T08:00:00+0000"
+       },
+       {
+        "value": 15,
+        "end_time": "2025-12-15T08:00:00+0000"
+       },
+       {
+        "value": 48,
+        "end_time": "2025-12-16T08:00:00+0000"
+       },
+       {
+        "value": 21,
+        "end_time": "2025-12-17T08:00:00+0000"
+       },
+       {
+        "value": 21,
+        "end_time": "2025-12-18T08:00:00+0000"
+       },
+       {
+        "value": 14,
+        "end_time": "2025-12-19T08:00:00+0000"
+       },
+       {
+        "value": 20,
+        "end_time": "2025-12-20T08:00:00+0000"
+       },
+       {
+        "value": 32,
+        "end_time": "2025-12-21T08:00:00+0000"
+       },
+       {
+        "value": 8,
+        "end_time": "2025-12-22T08:00:00+0000"
+       },
+       {
+        "value": 22,
+        "end_time": "2025-12-23T08:00:00+0000"
+       },
+       {
+        "value": 4,
+        "end_time": "2025-12-24T08:00:00+0000"
+       },
+       {
+        "value": 28,
+        "end_time": "2025-12-25T08:00:00+0000"
+       },
+       {
+        "value": 17,
+        "end_time": "2025-12-26T08:00:00+0000"
+       },
+       {
+        "value": 7,
+        "end_time": "2025-12-27T08:00:00+0000"
+       },
+       {
+        "value": 12,
+        "end_time": "2025-12-28T08:00:00+0000"
+       },
+       {
+        "value": 19,
+        "end_time": "2025-12-29T08:00:00+0000"
+       },
+       {
+        "value": 32,
+        "end_time": "2025-12-30T08:00:00+0000"
+       },
+       {
+        "value": 23,
+        "end_time": "2025-12-31T08:00:00+0000"
+       },
+       {
+        "value": 25,
+        "end_time": "2026-01-01T08:00:00+0000"
+       }
+      ],
+      "title": "Daily Total views count per Page",
+      "description": "Daily: Total views count per Page",
+      "id": "360487924048263/insights/page_views_total/day"
+     }
+    ]
+   },
+   "publicaciones": [
+    {
+     "id": "360487924048263_1716683876278954",
+     "created_time": "2025-12-31T15:20:01+0000",
+     "message": "En estos 20 años aprendimos algo clave: no se trata solo de cargar combustible ⛽ Se trata de cuidar.\n\nDe la mirada que pregunta cómo estás. De la mano que acompaña. Del café que te despierta la mañana ☕ Del aceite, el agua, el vidrio limpio. De la sonrisa justa cuando el viaje pesa.\n\nPorque detrás de cada vehículo hay una historia. Y detrás de cada historia, un equipo que responde con compromiso, respeto y confianza 🤝\n\nEste año celebramos dos décadas siendo punto de encuentro, refugio breve, abrazo invisible entre desconocidos.\n\nEl verdadero combustible siempre fue humano 💛 Y sigue siendo el mismo: trabajo en equipo, raíces fuertes y ganas de seguir este camino juntos.\n\nA pocas horas de cerrar este año, queremos darte las gracias por elegirnos en cada parada. Brindamos por el camino compartido y por un nuevo año que nos encuentre recorriendo nuevos horizontes, siempre con la misma energía.\n\n¡Feliz Año Nuevo para todos! ✨🥂\n\nAgroenergía. 20 años acompañándote.",
+     "permalink_url": "https://www.facebook.com/reel/1641404617237005/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 368
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1716683876278954/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1716683876278954/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1716683876278954/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1716020539678621",
+     "created_time": "2025-12-30T18:41:20+0000",
+     "message": "Cerramos el 2025 con la energía puesta en seguir creciendo ✨⚡\n\nVenimos de un año de trabajo sostenido, decisiones estratégicas y logros compartidos que marcan el camino que elegimos recorrer.\n\n🔹 Renovamos el local Havanna, poniendole color a tus días. \n🔹 Apostamos a la capacitación continua de nuestros equipos, fortaleciendo el desarrollo profesional y la mejora constante.\n🔹 Seguimos avanzando en la construcción de la nueva sucursal Shell, un proyecto clave para nuestro crecimiento.\n🔹 Participamos activamente en Expo Pymes, acompañando al entramado productivo y comercial de la región.\n🔹 Celebramos 20 años de trayectoria, reafirmando nuestro compromiso con la calidad y el servicio.\n🔹 Lanzamos el sorteo de dos 0km, acercando más beneficios a nuestra comunidad.\n🔹 Incorporamos una nueva unidad de negocios: comercialización de neumáticos, ampliando nuestra propuesta comercial.\n🔹 Dijimos presente en la Expo Rural de Santa Rosa, fortaleciendo vínculos con el sector productivo.\n🔹 Recibimos la visita de Agustín Canapino, un encuentro que nos llenó de orgullo y nos conecta con el alto rendimiento 🏁\n🔹 Fuimos reconocidos en el programa Compromiso Puma Energy, obteniendo el tercer puesto y asegurando nuestra participación en el mundial 🌍\n🔹 Instalamos más de 250 paneles solares en nuestras sucursales Axion Energy y Puma Energy, convirtiéndonos en la primera empresa de Santa Rosa en inyectar energía a la cooperativa local, apostando a la sustentabilidad 🌱\n🔹 Cerramos el año reuniéndonos como equipo en nuestra fiesta anual, celebrando el camino recorrido y lo que viene.\n\nGracias a quienes nos acompañan todos los días: equipo, clientes y aliados.\nEl 2026 nos encuentra en marcha, con más energía que nunca. 🚀⚡",
+     "permalink_url": "https://www.facebook.com/reel/4405516316349151/",
+     "status_type": "added_video",
+     "shares": {
+      "count": 1
+     },
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 549
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1716020539678621/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1716020539678621/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1716020539678621/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1714710306476311",
+     "created_time": "2025-12-29T02:07:02+0000",
+     "message": "Dimos un paso firme hacia el futuro 🌱⚡\n\nEn Grupo Agroenergía concretamos la colocación de 250 paneles solares en nuestras estaciones de servicio AXION y PUMA Servisur, convirtiéndonos en la primera empresa en inyectar energía a la cooperativa local.\n\nInnovación que impacta, energía que se comparte y un compromiso real con el desarrollo sostenible de nuestra comunidad 🚀🌍",
+     "permalink_url": "https://www.facebook.com/reel/1175376634784334/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 1,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 364
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1714710306476311/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1714710306476311/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 1
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1714710306476311/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1713953773218631",
+     "created_time": "2025-12-28T01:15:42+0000",
+     "message": "🚀 Aprendizaje que impulsa nuestra mejora continua\n\nEn Agroenergía completamos una capacitación en Inteligencia Artificial junto a Hulk Negocios, donde nuestro equipo administrativo y gerencial incorporó herramientas de IA generativa para optimizar procesos, ordenar tareas y mejorar tiempos.\n\nSeguimos apostando a la innovación, al desarrollo del equipo y a un servicio cada vez más eficiente.",
+     "permalink_url": "https://www.facebook.com/reel/1230836848913468/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 458
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1713953773218631/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1713953773218631/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1713953773218631/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1707315790549096",
+     "created_time": "2025-12-19T18:29:10+0000",
+     "message": "🎉 Tercer año consecutivo en el podio — Puma Energy Servisur — Santa Rosa, La Pampa\n\nNos llena de orgullo compartir que nuestra sucursal Puma Energy Servisur alcanzó el 3.º puesto de la zona sur en el programa Compromiso de Puma Energy. Este es el tercer año consecutivo en que nuestra sucursal se ubica entre las 3 mejores estaciones de la zona sur, un reconocimiento que refleja la constancia y el profesionalismo de todo el equipo.\n\nNo es casualidad: es el resultado de un trabajo sostenido año tras año. Este éxito nace del esfuerzo cotidiano —la energía, el compromiso y el foco en la experiencia del cliente— que demuestra cada integrante del equipo de playa, y del liderazgo de Maximiliano Menincucci. Gracias por dar siempre lo mejor y por representar los valores que queremos ver en cada estación.\n\nCelebramos este logro, pero mantenemos la mirada puesta en mejorar y superarnos día a día. ¡Vamos por más! 🚀",
+     "permalink_url": "https://www.facebook.com/reel/838536495745122/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 3,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 825
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1707315790549096/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 4
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1707315790549096/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 3
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1707315790549096/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1703322944281714",
+     "created_time": "2025-12-15T00:45:41+0000",
+     "message": "Ya comenzó nuestro sorteo por los dos autos 0 km y vos podés ser uno de los ganadores!\n\n¿Cómo participás? 👇\n👉 Con tus cargas de combustibles, GNC, compras de lubricantes y consumos en nuestras tiendas —¡inclusive Havanna!— participás del sorteo.\n👉 Es fácil: ingresás a sorteo.grupoagroenergia.com, te registrás, cargás el cupón que te dio el operario ¡y listo! Ya estás participando.\n\nCuanto más cargás, más consumís, ¡más chances tenés de ganar!\nTe esperamos en nuestras sucursales 🙂\n\nSucursales adheridas:\n*Santa Rosa*\n- Puma Energy: Av. Circunvalación esquina Alberdi y Havanna\n- Puma Energy: Calle Pico esquina 9 de Julio y Minimercado\n- Axion Energy: Av. Circunvalación esquina Schmidt y Spot \n\n*Catriló*\n- Shell: Ruta Nacional N.º 5, km 526 y Shell Shop\n\n*Colonia Barón*\n- Roca esquina Sarmiento\n\n*Trenel*\n- Ruta Provincial N.º 4 y Acceso Perón\n\n*Caleufú*\n- España 172",
+     "permalink_url": "https://www.facebook.com/reel/1430269328434047/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "ranked",
+       "total_count": 5,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 4,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 728
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1703322944281714/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 13
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1703322944281714/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 4
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1703322944281714/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1701657661114909",
+     "created_time": "2025-12-12T20:00:44+0000",
+     "message": "¡Llegaron la pelotas oficiales de Axion Copa Argentina!\n\nY lo mejor: siendo usuario ON tenés un descuento exclusivo\n\nY lo mejor: siendo usuario ON tenés un descuento exclusivo\nEs el momento ideal para llevarte la tuya: \n\nPerfecta para el verano\nUn regalo de Navidad que no falla\nEdición limitada\n\n¡Pasá a buscarla y aprovechá el beneficio! Te esta esperando!",
+     "permalink_url": "https://www.facebook.com/reel/1342276473868423/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 6,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 872
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1701657661114909/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1701657661114909/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 6
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1701657661114909/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1699174644696544",
+     "created_time": "2025-12-09T23:32:02+0000",
+     "message": "Con Hugo no hay distancia larga ni camino difícil.\n\nCada entrega cuenta una historia distinta… y todas tienen algo en común: la energía que mueve a quienes producen. ⚡🚛\n\nEn esta segunda parte te mostramos más de cerca su rutina, que es lo que más le gusta de su trabajo.\n\nEn cada viaje, Hugo no solo entrega combustible… entrega confianza. 💚",
+     "permalink_url": "https://www.facebook.com/reel/866382902541557/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 2,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 278
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1699174644696544/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1699174644696544/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 2
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1699174644696544/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1695012105112798",
+     "created_time": "2025-12-04T21:16:02+0000",
+     "message": "En el marco de la Semana de la Seguridad en Shell, desde Grupo Agroenergía llevamos a cabo una capacitación a cargo de Martín Cayre, técnico en Seguridad e Higiene, enfocada en buenas prácticas en estaciones de servicio y conducción responsable 🚗✨\n\nDurante la jornada repasamos conceptos clave de seguridad, trabajamos en la detección temprana de riesgos en la operación diaria y reforzamos la importancia de aplicar medidas preventivas para cuidar tanto a nuestro equipo como a cada cliente que se acerca a nuestras estaciones.\n\nTambién abordamos temas de seguridad vial: atención permanente al entorno, respeto de las señales, mantenimiento de las distancias de seguridad y manejo responsable para prevenir incidentes tanto en la ruta como en la ciudad.\n\nCada acción cuenta. La seguridad se construye entre todos, con compromiso, conciencia y coherencia en lo que hacemos cada día.\n\nY vos, qué hábito de seguridad ponés en práctica siempre que te movés en la calle o en la ruta? 💭",
+     "permalink_url": "https://www.facebook.com/reel/4256454034614132/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 454
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1695012105112798/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1695012105112798/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1695012105112798/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1693357641944911",
+     "created_time": "2025-12-02T21:27:29+0000",
+     "message": "De la ciudad al campo: un día con Hugo.\nEn cada viaje lleva algo más que combustibles y lubricantes: lleva compromiso, profesionalismo y tranquilidad en cada parada. \nAcompañanos en este recorrido y conocé el trabajo que hace posible que la rueda productiva nunca se detenga. 🚛✨\n\nLo conocés a Hugo? Contanos en los comentarios alguna anécdota con él. 👇🚛✨",
+     "permalink_url": "https://www.facebook.com/reel/2285213771962017/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 2,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 359
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1693357641944911/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1693357641944911/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 2
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1693357641944911/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "360487924048263_1693254271955248",
+     "created_time": "2025-12-02T18:33:17+0000",
+     "message": "De la ciudad al campo: un día con Hugo.\nEn cada viaje lleva algo más que combustibles y lubricantes: lleva compromiso, profesionalismo y tranquilidad en cada parada. \nAcompañanos en este recorrido y conocé el trabajo que hace posible que la rueda productiva nunca se detenga. 🚛✨\n \n¿Lo conocés a Hugo? Contanos en los comentarios alguna anécdota o cruce de ruta con él. 👇🚛✨",
+     "permalink_url": "https://www.facebook.com/reel/25547116251580442/",
+     "status_type": "added_video",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "ranked",
+       "total_count": 1,
+       "can_comment": true
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 3,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 587
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "360487924048263_1693254271955248/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 12
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "360487924048263_1693254271955248/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {
+           "like": 5
+          }
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "360487924048263_1693254271955248/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "instagram": [],
+ "anuncios": [
+  {
+   "id": "act_1669087713214682",
+   "name": "1669087713214682",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  },
+  {
+   "id": "act_521683199011492",
+   "name": "Grupo Agroenergia",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": [
+    {
+     "campaign_id": "120242182725540260",
+     "campaign_name": "Maletines Havanna",
+     "adset_name": "Maletines Havanna 2025",
+     "ad_id": "120242182725560260",
+     "ad_name": "Nuevo anuncio de Reconocimiento",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": "18980.19",
+     "reach": "47150",
+     "impressions": "87270",
+     "frequency": "1.850901",
+     "clicks": "620",
+     "cpm": "217.48814",
+     "ctr": "0.710439",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "45"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "48"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "10"
+      },
+      {
+       "action_type": "onsite_conversion.post_unlike",
+       "value": "5"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "8529"
+      },
+      {
+       "action_type": "like",
+       "value": "7"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "56"
+      },
+      {
+       "action_type": "comment",
+       "value": "4"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "8536"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_welcome_message_view",
+       "value": "1"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "61"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+       "value": "8"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "9"
+      },
+      {
+       "action_type": "post",
+       "value": "4"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_comment",
+       "value": "4"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "43"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "10"
+      },
+      {
+       "action_type": "video_view",
+       "value": "8428"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "2.25204"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "1898.019"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+       "value": "2372.52375"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "2.225371"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "1898.019"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+       "value": "9490.095"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "338.931964"
+      },
+      {
+       "action_type": "link_click",
+       "value": "421.782"
+      },
+      {
+       "action_type": "like",
+       "value": "2711.455714"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "2.223546"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_welcome_message_view",
+       "value": "18980.19"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "2108.91"
+      }
+     ],
+     "date_start": "2025-12-01",
+     "date_stop": "2025-12-31",
+     "publicacion_facebook": "104477896081970_724149224075767",
+     "publicacion_instagram": "17906964399147374",
+     "es_de_la_marca": false
+    },
+    {
+     "campaign_id": "120242304244930260",
+     "campaign_name": "Maletines interacción",
+     "adset_name": "Nuevo conjunto de anuncios de Interacción",
+     "ad_id": "120242304244940260",
+     "ad_name": "Nuevo anuncio de Interacción",
+     "objective": "OUTCOME_ENGAGEMENT",
+     "spend": "28954.4",
+     "reach": "4385",
+     "impressions": "12564",
+     "frequency": "2.865222",
+     "clicks": "884",
+     "cpm": "2304.55269",
+     "ctr": "7.035976",
+     "actions": [
+      {
+       "action_type": "link_click",
+       "value": "317"
+      },
+      {
+       "action_type": "post_reaction",
+       "value": "90"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_replied_7d",
+       "value": "83"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_block",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "172"
+      },
+      {
+       "action_type": "onsite_conversion.post_unlike",
+       "value": "2"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "3506"
+      },
+      {
+       "action_type": "like",
+       "value": "11"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "134"
+      },
+      {
+       "action_type": "comment",
+       "value": "30"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "3517"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_welcome_message_view",
+       "value": "185"
+      },
+      {
+       "action_type": "post_interaction_net",
+       "value": "136"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+       "value": "65"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "147"
+      },
+      {
+       "action_type": "post",
+       "value": "12"
+      },
+      {
+       "action_type": "onsite_conversion.post_save",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_comment",
+       "value": "30"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+       "value": "14"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_save",
+       "value": "2"
+      },
+      {
+       "action_type": "onsite_conversion.post_net_like",
+       "value": "88"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "157"
+      },
+      {
+       "action_type": "video_view",
+       "value": "3055"
+      }
+     ],
+     "cost_per_action_type": [
+      {
+       "action_type": "video_view",
+       "value": "9.477709"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_started_7d",
+       "value": "184.42293"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_conversation_replied_7d",
+       "value": "348.848193"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+       "value": "445.452308"
+      },
+      {
+       "action_type": "post_engagement",
+       "value": "8.258528"
+      },
+      {
+       "action_type": "onsite_conversion.total_messaging_connection",
+       "value": "168.339535"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+       "value": "2068.171429"
+      },
+      {
+       "action_type": "post_interaction_gross",
+       "value": "216.077612"
+      },
+      {
+       "action_type": "link_click",
+       "value": "91.338801"
+      },
+      {
+       "action_type": "like",
+       "value": "2632.218182"
+      },
+      {
+       "action_type": "page_engagement",
+       "value": "8.232698"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_welcome_message_view",
+       "value": "156.51027"
+      },
+      {
+       "action_type": "onsite_conversion.messaging_first_reply",
+       "value": "196.968707"
+      }
+     ],
+     "date_start": "2025-12-01",
+     "date_stop": "2025-12-31",
+     "publicacion_facebook": "104477896081970_1593958531594794",
+     "publicacion_instagram": "17906964399147374",
+     "es_de_la_marca": false
+    }
+   ]
+  }
+ ],
+ "errores": []
+}
