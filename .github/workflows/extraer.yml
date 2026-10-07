@@ -27,6 +27,7 @@ jobs:
       - name: Extraer métricas
         env:
           META_TOKEN_HAVANNA: ${{ secrets.META_TOKEN_HAVANNA }}
+          META_TOKEN_DYNAMIS: ${{ secrets.META_TOKEN_DYNAMIS }}
           MES: ${{ github.event.inputs.mes }}
           HISTORICO: ${{ github.event.inputs.historico }}
         run: |
