@@ -1,0 +1,37 @@
+<title>Informes Agroenergía</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: archivo de informes, lista cronológica descendente. Campo pampeano: verde agro + tierra. */
+:root {
+  --bg: #f5f6f1; --surface: #ffffff; --ink: #1b2118; --ink-2: #56604f; --ink-3: #8c9486;
+  --line: #e1e4da; --cocoa: #1f4d2b; --gold: #3f8a3a;
+  --display: "Archivo", Arial, sans-serif; --body: "Public Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121510; --surface: #1a1f17; --ink: #eef1ea; --ink-2: #b6beae; --ink-3: #7f8878; --line: #2c3428; --cocoa: #cfe6c4; --gold: #7cc46f; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121510; --surface: #1a1f17; --ink: #eef1ea; --ink-2: #b6beae; --ink-3: #7f8878; --line: #2c3428; --cocoa: #cfe6c4; --gold: #7cc46f; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); }
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: grid; gap: 28px; }
+.eyebrow { font: 500 0.75rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+h1 { margin: 0; font: 700 clamp(2rem, 5vw, 2.6rem)/1.1 var(--display); color: var(--cocoa); }
+p { margin: 0; color: var(--ink-2); }
+ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+li a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 18px 4px; border-bottom: 1px solid var(--line); color: inherit; text-decoration: none; }
+li a:hover .mes, li a:focus-visible .mes { color: var(--gold); }
+li a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.mes { font: 700 1.3rem/1.2 var(--display); color: var(--cocoa); }
+.dato { font: 0.8rem/1.4 var(--mono); color: var(--ink-3); text-align: right; font-variant-numeric: tabular-nums; }
+.resumen { grid-column: 1 / -1; font-size: 0.9rem; color: var(--ink-2); }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:12px">
+    <span class="eyebrow">Grupo Agroenergía · Facebook</span>
+    <h1>Informes mensuales</h1>
+    <p>Un informe por mes, armado automáticamente el día 2 con los datos de Meta.</p>
+  </header>
+  <ul id="lista">
+    <!-- INFORMES: el más reciente primero -->
+    <li><a href="https://claude.ai/artifact/DUH8DqyFyKmbm4xDfkhEca" target="_blank" rel="noopener"><span class="mes">Septiembre 2026</span><span class="dato">3.988 alcance FB · −3 seguidores</span><span class="resumen">Nivel bajo de todo 2026: seis meses sin pauta. Primer mes en dos años sin seguidores nuevos. El humor sigue siendo lo que mejor funciona.</span></a></li>
+  </ul>
+</div>

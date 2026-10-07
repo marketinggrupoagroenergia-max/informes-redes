@@ -1,0 +1,283 @@
+<title>Grupo Agroenergía · Septiembre 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: informe de una columna, lectura primero; datos de apoyo debajo. Campo pampeano: verde agro + tierra. */
+:root {
+  --bg: #f5f6f1;
+  --surface: #ffffff;
+  --ink: #1b2118;
+  --ink-2: #56604f;
+  --ink-3: #8c9486;
+  --line: #e1e4da;
+  --cocoa: #1f4d2b;
+  --gold: #3f8a3a;
+  --gold-soft: #e3f0dc;
+  --bar: #8b7d62;
+  --bar-paid: #3f8a3a;
+  --up: #2f7d4f;
+  --down: #b4442f;
+  --display: "Archivo", "Arial", sans-serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121510; --surface: #1a1f17; --ink: #eef1ea; --ink-2: #b6beae; --ink-3: #7f8878;
+    --line: #2c3428; --cocoa: #cfe6c4; --gold: #7cc46f; --gold-soft: #22361d;
+    --bar: #a99b7f; --bar-paid: #7cc46f; --up: #6cc08d; --down: #ec8a74; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121510; --surface: #1a1f17; --ink: #eef1ea; --ink-2: #b6beae; --ink-3: #7f8878;
+  --line: #2c3428; --cocoa: #cfe6c4; --gold: #7cc46f; --gold-soft: #22361d;
+  --bar: #a99b7f; --bar-paid: #7cc46f; --up: #6cc08d; --down: #ec8a74; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); }
+.wrap { max-width: 880px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: grid; gap: 48px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; font-weight: 400; }
+h1 { font-family: var(--display); font-weight: 600; letter-spacing: -0.01em; font-size: clamp(2.1rem, 5.5vw, 3rem); line-height: 1.05; color: var(--cocoa); }
+h2 { font-family: var(--display); font-weight: 700; font-size: 1.55rem; line-height: 1.15; color: var(--cocoa); }
+h3 { font-size: 1rem; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font: 500 0.75rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.muted { color: var(--ink-2); }
+.small { font-size: 0.875rem; }
+.num { font-variant-numeric: tabular-nums; }
+section { display: grid; gap: 18px; }
+a { color: inherit; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+header { display: grid; gap: 14px; border-bottom: 4px solid var(--gold); padding-bottom: 28px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 0.8rem/1.4 var(--mono); color: var(--ink-3); }
+
+.lectura { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: grid; gap: 16px; }
+.lectura ol { margin: 0; padding-left: 1.2rem; display: grid; gap: 12px; }
+.lectura li { padding-left: 4px; }
+.lectura li::marker { font-family: var(--mono); color: var(--gold); }
+.lectura strong { color: var(--cocoa); }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.kpi { background: var(--surface); padding: 18px; display: grid; gap: 6px; align-content: start; }
+.kpi .lab { font-size: 0.8rem; color: var(--ink-2); }
+.kpi .val { font: 700 1.9rem/1.05 var(--display); color: var(--ink); font-variant-numeric: tabular-nums; }
+.kpi .cmp { display: grid; gap: 2px; font: 0.78rem/1.4 var(--mono); color: var(--ink-3); }
+.up { color: var(--up); } .down { color: var(--down); }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tabs button { font: 500 0.85rem var(--body); color: var(--ink-2); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--cocoa); color: var(--bg); border-color: var(--cocoa); }
+.chart-box { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 14px 10px; position: relative; }
+.chart-scroll { overflow-x: auto; }
+svg text { font-family: var(--mono); font-size: 11px; fill: var(--ink-3); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.8rem; color: var(--ink-2); padding: 4px 6px 8px; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font: 0.78rem/1.45 var(--body); padding: 8px 10px; border-radius: 8px; max-width: 220px; }
+.tip b { font-weight: 600; }
+
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.875rem; }
+th { text-align: left; font: 500 0.72rem/1.2 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); padding: 12px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cap { min-width: 220px; color: var(--ink-2); }
+.fmt { font: 0.72rem var(--mono); color: var(--ink-3); white-space: nowrap; }
+.barcell { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.minibar { height: 6px; border-radius: 3px; background: var(--bar); }
+tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
+
+.reco { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.reco div { border-top: 2px solid var(--gold); padding-top: 12px; display: grid; gap: 6px; }
+.notas { font-size: 0.85rem; color: var(--ink-2); display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 22px; }
+.notas ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Informe mensual de redes · Grupo Agroenergía</span>
+    <h1>Septiembre 2026</h1>
+    <div class="meta"><span>Facebook · 10.050 seguidores</span><span>Instagram: pendiente de conexión</span><span>Datos extraídos el 7 oct 2026</span></div>
+  </header>
+
+  <section class="lectura" aria-labelledby="t-lectura">
+    <h2 id="t-lectura">Lectura del mes</h2>
+    <ol>
+      <li><strong>Septiembre volvió al nivel bajo de todo 2026.</strong> 3.988 personas alcanzadas en Facebook, 67% menos que agosto. Agosto fue la excepción por un solo reel; sin ese reel, desde abril la página se mueve entre 1.400 y 4.000 personas por mes.</li>
+      <li><strong>La página depende de la pauta y hace seis meses que no se pauta.</strong> La última campaña fue en marzo. Entre agosto y octubre de 2025, con sorteos pautados, la página llegaba a entre 93.000 y 180.000 personas por mes, entre 20 y 45 veces más que ahora.</li>
+      <li><strong>El humor funciona también acá.</strong> El reel del 20/8 ("hay preguntas que merecen una respuesta") sumó 5.123 visualizaciones, casi ocho veces lo que sumaron todos los posteos de septiembre juntos. Las promos de Axion y los posteos de fechas rondan entre 100 y 430.</li>
+      <li><strong>Los seguidores están quietos.</strong> Septiembre fue el primer mes en dos años sin ningún seguidor nuevo, y se fueron 3. En los últimos 12 meses la página sumó apenas 91 seguidores netos.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="t-kpis">
+    <h2 id="t-kpis">Los números de Facebook</h2>
+    <div class="kpis" id="kpis"></div>
+    <p class="small muted">Comparado con agosto y con septiembre 2025. En septiembre 2025 hubo pauta y en septiembre 2026 no, por eso la diferencia interanual es tan grande.</p>
+  </section>
+
+  <section aria-labelledby="t-linea">
+    <h2 id="t-linea">Línea de tiempo · 24 meses</h2>
+    <div class="tabs" role="group" aria-label="Métrica del gráfico" id="tabs"></div>
+    <div class="chart-box">
+      <div class="legend"><span><span class="sw" style="background:var(--bar)"></span>Mes sin pauta</span><span><span class="sw" style="background:var(--bar-paid)"></span>Mes con pauta de Agroenergía</span></div>
+      <div class="chart-scroll"><svg id="chart" role="img" aria-label="Evolución mensual"></svg></div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <p class="small muted" id="nota-chart"></p>
+  </section>
+
+  <section aria-labelledby="t-seg">
+    <h2 id="t-seg">Seguidores de Facebook · 12 meses</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th class="r">Nuevos</th><th class="r">Se fueron</th><th class="r">Saldo</th><th class="r">Total a fin de mes</th></tr></thead>
+      <tbody id="seg"></tbody>
+    </table></div>
+  </section>
+
+  <section aria-labelledby="t-posts">
+    <h2 id="t-posts">Publicaciones de septiembre en Facebook</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Fecha</th><th>Publicación</th><th class="r">Visualizaciones</th><th class="r">Clics</th><th class="r">Reacciones</th></tr></thead>
+      <tbody id="posts"></tbody>
+    </table></div>
+    <p class="small muted">Como referencia, el mejor posteo de agosto fue el reel de humor del 20/8, con 5.123 visualizaciones.</p>
+  </section>
+
+  <section aria-labelledby="t-pauta">
+    <h2 id="t-pauta">Historial de pauta</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th>Campaña</th><th>Objetivo</th><th class="r">Inversión</th><th class="r">Alcance</th><th class="r">Resultado</th><th class="r">Costo por resultado</th></tr></thead>
+      <tbody id="pauta"></tbody>
+    </table></div>
+    <p class="small muted">Solo campañas que promocionaron publicaciones de la página de Grupo Agroenergía, sacadas de la cuenta publicitaria del portfolio Agroenergia. La campaña "Neumáticos" de octubre 2025 era de Dynamis pero se publicó desde esta página. Montos en pesos de cada momento.</p>
+  </section>
+
+  <section aria-labelledby="t-reco">
+    <h2 id="t-reco">Para octubre</h2>
+    <div class="reco">
+      <div><h3>Volver a pautar, aunque sea poco</h3><p class="muted small">El formato más barato fue el sorteo con objetivo de mensajes de enero y febrero: unos $2.800 por conversación. Con $25.000 en el mes alcanza para salir del piso actual.</p></div>
+      <div><h3>Un reel de humor por mes</h3><p class="muted small">El del 20/8 rindió casi ocho veces más que todos los posteos de septiembre. Repetir el formato con el personal de las estaciones, igual que en Havanna y Dynamis.</p></div>
+      <div><h3>Promos en reel, no en placa</h3><p class="muted small">Los beneficios de Axion de lunes y viernes se publicaron dos veces en agosto y no pasaron las 420 visualizaciones. Probarlos con una persona hablando a cámara.</p></div>
+      <div><h3>Aprovechar la Expo Rural</h3><p class="muted small">El material del stand del 2 al 4 de octubre sirve para reels del agro y de los repartos, que hoy casi no aparecen en la página.</p></div>
+    </div>
+  </section>
+
+  <section class="notas" aria-labelledby="t-notas">
+    <h3 id="t-notas">Notas sobre los datos</h3>
+    <ul>
+      <li>Instagram todavía no está incluido. La cuenta quedó atada al portfolio comercial bloqueado y no se puede conectar a la página; falta configurar el acceso directo con el usuario de Instagram.</li>
+      <li>Los datos de Facebook se leen con el acceso de Dana a la página. Meta pide reconfirmar ese permiso cada 90 días; el próximo vence cerca del 5 de enero de 2027.</li>
+      <li>El alcance de la página (personas únicas) está disponible desde mayo 2025; para los meses anteriores el gráfico usa visualizaciones.</li>
+      <li>El alcance general incluye a quienes vieron los anuncios, por eso sube en los meses con pauta.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+const M = [["2024-10",null,40107,308,9831,3734],["2024-11",null,38336,168,9843,12264],["2024-12",null,32731,435,9866,6498],["2025-01",null,140984,321,9873,14184],["2025-02",null,56915,124,9880,5799],["2025-03",null,39938,28,9883,7634],["2025-04",null,11411,25,9886,0],["2025-05",37979,99038,161,9896,11325],["2025-06",19047,42512,141,9927,3670],["2025-07",4432,8848,18,9944,0],["2025-08",111104,187313,804,9953,29279],["2025-09",93080,103198,175,9959,22984],["2025-10",180474,229700,459,9974,44997],["2025-11",4911,11810,28,9989,0],["2025-12",7707,14774,69,9995,0],["2026-01",25474,38509,891,10012,25266],["2026-02",13831,20978,210,10023,24734],["2026-03",20313,30801,347,10028,63805],["2026-04",1400,2810,22,10035,0],["2026-05",1439,2978,30,10045,0],["2026-06",3771,5597,155,10046,0],["2026-07",2320,3403,41,10045,0],["2026-08",12185,17536,136,10053,0],["2026-09",3988,5639,42,10050,0]];
+const MES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const nf = new Intl.NumberFormat("es-AR");
+const lab = k => { const [y,m] = k.split("-"); return MES[+m-1] + " " + y.slice(2); };
+const METRICAS = [
+  {i:1, n:"Alcance Facebook", corto:"personas alcanzadas", desde:"2025-05"},
+  {i:2, n:"Visualizaciones", corto:"visualizaciones"},
+  {i:3, n:"Interacciones", corto:"interacciones"},
+  {i:5, n:"Inversión en pauta", corto:"pesos invertidos", pesos:true}
+];
+const idx = k => M.findIndex(r => r[0] === k);
+const cur = idx("2026-09"), prev = idx("2026-08"), yoy = idx("2025-09");
+function delta(a, b) {
+  if (a == null || b == null || !b) return '<span>sin dato</span>';
+  const p = Math.round((a - b) / b * 100);
+  return `<span class="${p > 0 ? "up" : p < 0 ? "down" : ""}">${p > 0 ? "+" : ""}${nf.format(p)}%</span>`;
+}
+const K = [["Alcance",1],["Visualizaciones",2],["Interacciones",3]];
+document.getElementById("kpis").innerHTML = K.map(([n,i]) =>
+  `<div class="kpi"><span class="lab">${n}</span><span class="val">${nf.format(M[cur][i])}</span>
+   <span class="cmp"><span>vs agosto ${delta(M[cur][i], M[prev][i])}</span><span>vs sep 2025 ${delta(M[cur][i], M[yoy][i])}</span></span></div>`).join("") +
+`<div class="kpi"><span class="lab">Seguidores</span><span class="val">10.050</span><span class="cmp"><span>saldo sep <span class="down">−3</span></span><span>saldo ago <span class="up">+8</span></span></span></div>` +
+`<div class="kpi"><span class="lab">Pauta del mes</span><span class="val">$0</span><span class="cmp"><span>última: marzo 2026</span><span>sep 2025: $22.984</span></span></div>`;
+
+const tabs = document.getElementById("tabs");
+let sel = 0;
+METRICAS.forEach((m, k) => {
+  const b = document.createElement("button");
+  b.textContent = m.n; b.id = "tab-" + k;
+  b.setAttribute("aria-pressed", k === 0);
+  b.onclick = () => { sel = k; [...tabs.children].forEach((x, j) => x.setAttribute("aria-pressed", j === k)); draw(); };
+  tabs.appendChild(b);
+});
+const svg = document.getElementById("chart"), tip = document.getElementById("tip");
+function nice(v) { const p = Math.pow(10, Math.floor(Math.log10(v))); const f = v / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * p; }
+function fmt(v, m) { return (m.pesos ? "$" : "") + (v >= 1000 ? nf.format(Math.round(v/1000)) + " mil" : nf.format(v)); }
+function draw() {
+  const m = METRICAS[sel];
+  const rows = M.filter(r => !m.desde || r[0] >= m.desde);
+  const W = Math.max(640, rows.length * 34 + 70), H = 280, L = 64, R = 10, T = 14, B = 34;
+  const max = nice(Math.max(...rows.map(r => r[m.i] || 0)) * 1.02);
+  const y = v => T + (H - T - B) * (1 - v / max);
+  const bw = (W - L - R) / rows.length;
+  let s = "";
+  for (let t = 0; t <= 4; t++) {
+    const v = max / 4 * t, yy = y(v);
+    s += `<line x1="${L}" x2="${W-R}" y1="${yy}" y2="${yy}" stroke="var(--line)" stroke-width="1"/><text x="${L-8}" y="${yy+4}" text-anchor="end">${fmt(v, m)}</text>`;
+  }
+  rows.forEach((r, k) => {
+    const x = L + k * bw + 2, w = Math.max(4, bw - 4), v = r[m.i] || 0, yy = y(v);
+    const h = Math.max(0, H - B - yy), paid = r[5] > 0, rr = Math.min(4, w / 2, h);
+    const d = h > 0 ? `M${x},${H-B} V${yy+rr} Q${x},${yy} ${x+rr},${yy} H${x+w-rr} Q${x+w},${yy} ${x+w},${yy+rr} V${H-B} Z` : "";
+    s += `<path d="${d}" fill="${paid ? "var(--bar-paid)" : "var(--bar)"}" ${r[0]==="2026-09" ? 'stroke="var(--ink)" stroke-width="1.5"' : ""}/>`;
+    if (rows.length < 16 || k % 2 === rows.length % 2) s += `<text x="${x + w/2}" y="${H-B+16}" text-anchor="middle">${lab(r[0])}</text>`;
+    s += `<rect x="${L + k*bw}" y="${T}" width="${bw}" height="${H-T-B}" fill="transparent" data-k="${k}" class="hit"/>`;
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
+  svg.innerHTML = s;
+  svg.querySelectorAll(".hit").forEach(h => {
+    h.addEventListener("pointerenter", () => {
+      const r = rows[+h.dataset.k];
+      tip.innerHTML = `<b>${lab(r[0])}</b><br>${(m.pesos?"$":"") + nf.format(r[m.i] || 0)} ${m.corto}` + (r[5] > 0 && !m.pesos ? `<br>Pauta: $${nf.format(r[5])}` : "");
+      tip.hidden = false;
+    });
+    h.addEventListener("pointermove", e => {
+      const box = svg.parentElement.parentElement.getBoundingClientRect();
+      let left = e.clientX - box.left + 12; if (left > box.width - 200) left -= 220;
+      tip.style.left = left + "px"; tip.style.top = (e.clientY - box.top - 10) + "px";
+    });
+    h.addEventListener("pointerleave", () => tip.hidden = true);
+  });
+  document.getElementById("nota-chart").textContent = m.desde
+    ? "El alcance de la página existe desde mayo 2025. Septiembre 2026 aparece con borde."
+    : "Septiembre 2026 aparece con borde. Pasá el cursor sobre cada barra para ver el detalle.";
+}
+draw();
+
+const SEG = [["2025-10",23,8,9974],["2025-11",18,3,9989],["2025-12",11,5,9995],["2026-01",24,7,10012],["2026-02",13,2,10023],["2026-03",9,4,10028],["2026-04",9,2,10035],["2026-05",15,5,10045],["2026-06",2,1,10046],["2026-07",4,5,10045],["2026-08",10,2,10053],["2026-09",0,3,10050]];
+const sg = n => (n > 0 ? "+" : n < 0 ? "−" : "") + nf.format(Math.abs(n));
+document.getElementById("seg").innerHTML = SEG.slice().reverse().map(r => { const n = r[1] - r[2];
+  return `<tr><td>${lab(r[0])}</td><td class="r">${r[1]}</td><td class="r">${r[2]}</td><td class="r"><span class="${n>0?"up":n<0?"down":""}">${sg(n)}</span></td><td class="r">${nf.format(r[3])}</td></tr>`; }).join("");
+
+const POSTS = [
+  ["30/9","Reel","Paraste a cargar: promos de Shell en la estación","https://www.facebook.com/reel/38502924402688174/",223,2,1],
+  ["30/9","Reel","Invitación a la Expo Rural de Santa Rosa (2 al 4/10)","https://www.facebook.com/reel/1095512503445501/",180,4,0],
+  ["8/9","Foto","Día del agricultor","https://www.facebook.com/1982363909710948/posts/1950306099583396",120,0,0],
+  ["3/9","Foto","Café y beneficios en Axion","https://www.facebook.com/1982363909710948/posts/1945213263426013",99,0,0],
+  ["30/9","Reel","Promo Shell: viajá a ver a Ferrari en Las Vegas","https://www.facebook.com/reel/1381384507496779/",49,0,0]
+];
+document.getElementById("posts").innerHTML = POSTS.map((p, k) =>
+  `<tr class="${k===0?"top":""}"><td class="num">${p[0]}</td><td class="cap"><a href="${p[3]}" target="_blank" rel="noopener">${p[2]}</a><br><span class="fmt">${p[1]}</span></td>
+   <td class="r"><span class="barcell">${nf.format(p[4])}<span class="minibar" style="width:${Math.max(2,Math.round(p[4]/223*60))}px"></span></span></td><td class="r">${p[5]}</td><td class="r">${p[6]}</td></tr>`).join("");
+
+const PAUTA = [
+  ["mar 26","Interacción agro","Mensajes",63805,"12.613","12 conversaciones","$5.317 por conversación"],
+  ["feb 26","Sorteo · mensajes","Mensajes",24734,"11.738","9 conversaciones","$2.748 por conversación"],
+  ["ene 26","Sorteo · mensajes","Mensajes",25266,"10.841","9 conversaciones","$2.807 por conversación"],
+  ["oct 25","Neumáticos (Dynamis)","Reconocimiento",29997,"49.541","49.541 personas","$606 cada 1.000"],
+  ["oct 25","TP y ZN 2000","Reconocimiento",15000,"36.721","36.721 personas","$408 cada 1.000"],
+  ["sep 25","3 campañas de reconocimiento","Reconocimiento",22983,"59.984","59.984 personas","$383 cada 1.000"],
+  ["ago 25","Sorteos Axion, Puma y Shell Catriló + 1","Reconocimiento",29279,"72.403","72.403 personas","$404 cada 1.000"]
+];
+document.getElementById("pauta").innerHTML = PAUTA.map(p =>
+  `<tr><td class="num">${p[0]}</td><td>${p[1]}</td><td class="muted">${p[2]}</td><td class="r">$${nf.format(p[3])}</td><td class="r">${p[4]}</td><td class="r">${p[5]}</td><td class="r">${p[6]}</td></tr>`).join("");
+</script>

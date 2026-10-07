@@ -18,6 +18,15 @@ Destinataria: Dana, responsable de marketing. Español rioplatense (voseo), dire
 - Pauta: reportar costo por resultado según objetivo (mensajes: costo por conversación iniciada, `onsite_conversion.messaging_conversation_started_7d`; reconocimiento: costo cada 1.000 personas; tráfico: costo por clic al enlace). Referencia: mensajes 11/9/2026 = $2.110 por conversación; interacción julio 2026 = $8.375.
 - Marcas que vende: Dunlop (estrella, vía Grupo Corven), Corven y Continental. No mencionar la gomería.
 
+## Marca: Grupo Agroenergía
+- Datos: `data/agroenergia/AAAA-MM.json`. Solo Facebook (página 360487924048263); Instagram todavía no está conectado.
+- La página se lee con un token de página de Dana (no vence, pero Meta exige reconfirmar el acceso a datos cada 90 días). Si la extracción da error de permisos o de token, avisar a Dana que hay que renovarlo desde el Explorador de la API Graph (app Informes mensuales, Generate Access Token, ampliar, me/accounts) y actualizar el secret META_TOKEN_AGROENERGIA.
+- La pauta sale de la cuenta publicitaria del portfolio Agroenergia (token de Havanna); usar solo anuncios con `es_de_la_marca: true`. Esa cuenta mezcla marcas.
+- Métricas de página: `page_total_media_view_unique` (alcance, desde mayo 2025), `page_media_view` (visualizaciones), `page_post_engagements`, `page_follows` (total), `page_daily_follows_unique` / `page_daily_unfollows_unique` (altas y bajas).
+- Plantilla: `plantillas/informe-agroenergia-2026-09.html` (verde agro + tierra, tipografías Archivo y Public Sans). Título `Grupo Agroenergía · <Mes AAAA>`, icono `chart`.
+- Índice: artifact https://claude.ai/artifact/Cv8zFVEKmPrTmbk6bmg5L9 (plantilla `plantillas/indice-agroenergia.html`).
+- Contexto: la cuenta reúne Shell, Axion, Puma, estaciones bandera blanca, lo institucional y los repartos al agro.
+
 ## Contenido del informe
 1. Lectura del mes: 3-4 conclusiones concretas basadas en los datos (qué pasó, por qué, qué publicaciones lo explican).
 2. Números: mes vs mes anterior y vs mismo mes del año anterior, incluido el total de seguidores de Instagram (`perfil.followers_count`).
