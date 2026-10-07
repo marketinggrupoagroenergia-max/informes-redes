@@ -1,18 +1,18 @@
 {
- "marca": "havanna",
+ "marca": "dynamis",
  "mes": "2026-06",
- "extraido": "2026-10-07T16:07:20+00:00",
+ "extraido": "2026-10-07T16:16:42+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
-   "id": "104477896081970",
-   "nombre": "Havanna La Pampa",
+   "id": "1149874128203287",
+   "nombre": "Dynamisneumaticos",
    "perfil": {
-    "name": "Havanna La Pampa",
-    "fan_count": 501,
-    "followers_count": 501,
-    "link": "https://www.facebook.com/104477896081970",
-    "id": "104477896081970"
+    "name": "Dynamisneumaticos",
+    "fan_count": 7,
+    "followers_count": 7,
+    "link": "https://www.facebook.com/1149874128203287",
+    "id": "1149874128203287"
    },
    "estadisticas": {
     "page_follows": [
@@ -21,129 +21,129 @@
       "period": "day",
       "values": [
        {
-        "value": 368,
+        "value": 0,
         "end_time": "2026-06-02T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 0,
         "end_time": "2026-06-03T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 0,
         "end_time": "2026-06-04T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 0,
         "end_time": "2026-06-05T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-06T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-07T07:00:00+0000"
        },
        {
-        "value": 369,
+        "value": 2,
         "end_time": "2026-06-08T07:00:00+0000"
        },
        {
-        "value": 369,
+        "value": 2,
         "end_time": "2026-06-09T07:00:00+0000"
        },
        {
-        "value": 369,
+        "value": 2,
         "end_time": "2026-06-10T07:00:00+0000"
        },
        {
-        "value": 369,
+        "value": 2,
         "end_time": "2026-06-11T07:00:00+0000"
        },
        {
-        "value": 369,
+        "value": 2,
         "end_time": "2026-06-12T07:00:00+0000"
        },
        {
-        "value": 369,
+        "value": 2,
         "end_time": "2026-06-13T07:00:00+0000"
        },
        {
-        "value": 369,
+        "value": 2,
         "end_time": "2026-06-14T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-15T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-16T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-17T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-18T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-19T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-20T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-21T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-22T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-23T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-24T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-25T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-26T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-27T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-28T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-29T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-06-30T07:00:00+0000"
        },
        {
-        "value": 368,
+        "value": 2,
         "end_time": "2026-07-01T07:00:00+0000"
        }
       ],
       "title": "Lifetime Total Follows",
       "description": "Lifetime: The number of followers of your Facebook Page or profile. This is calculated as the number of follows minus the number of unfollows over the lifetime of your Facebook Page or profile. ",
-      "id": "104477896081970/insights/page_follows/day"
+      "id": "1149874128203287/insights/page_follows/day"
      }
     ],
     "page_daily_follows_unique": [
@@ -168,7 +168,7 @@
         "end_time": "2026-06-05T07:00:00+0000"
        },
        {
-        "value": 0,
+        "value": 2,
         "end_time": "2026-06-06T07:00:00+0000"
        },
        {
@@ -176,7 +176,7 @@
         "end_time": "2026-06-07T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-08T07:00:00+0000"
        },
        {
@@ -274,7 +274,7 @@
       ],
       "title": "Daily New Follows",
       "description": "Daily: The number of Meta Accounts that followed your Page in the selected time period. This metric is estimated (Unique Users)",
-      "id": "104477896081970/insights/page_daily_follows_unique/day"
+      "id": "1149874128203287/insights/page_daily_follows_unique/day"
      }
     ],
     "page_daily_unfollows_unique": [
@@ -335,7 +335,7 @@
         "end_time": "2026-06-14T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-15T07:00:00+0000"
        },
        {
@@ -405,7 +405,7 @@
       ],
       "title": "Daily New Unfollows",
       "description": "Daily: The number of Meta Accounts that unfollowed your Page in the selected time period. This metric is estimated. (Unique Users)",
-      "id": "104477896081970/insights/page_daily_unfollows_unique/day"
+      "id": "1149874128203287/insights/page_daily_unfollows_unique/day"
      }
     ],
     "page_media_view": [
@@ -418,31 +418,31 @@
         "end_time": "2026-06-02T07:00:00+0000"
        },
        {
-        "value": 12,
+        "value": 0,
         "end_time": "2026-06-03T07:00:00+0000"
        },
        {
-        "value": 14,
+        "value": 0,
         "end_time": "2026-06-04T07:00:00+0000"
        },
        {
-        "value": 321,
+        "value": 11,
         "end_time": "2026-06-05T07:00:00+0000"
        },
        {
-        "value": 6,
+        "value": 34,
         "end_time": "2026-06-06T07:00:00+0000"
        },
        {
-        "value": 2,
+        "value": 4,
         "end_time": "2026-06-07T07:00:00+0000"
        },
        {
-        "value": 5,
+        "value": 2,
         "end_time": "2026-06-08T07:00:00+0000"
        },
        {
-        "value": 12,
+        "value": 8,
         "end_time": "2026-06-09T07:00:00+0000"
        },
        {
@@ -450,19 +450,19 @@
         "end_time": "2026-06-10T07:00:00+0000"
        },
        {
-        "value": 17,
+        "value": 0,
         "end_time": "2026-06-11T07:00:00+0000"
        },
        {
-        "value": 18,
+        "value": 0,
         "end_time": "2026-06-12T07:00:00+0000"
        },
        {
-        "value": 257,
+        "value": 0,
         "end_time": "2026-06-13T07:00:00+0000"
        },
        {
-        "value": 10,
+        "value": 0,
         "end_time": "2026-06-14T07:00:00+0000"
        },
        {
@@ -470,73 +470,73 @@
         "end_time": "2026-06-15T07:00:00+0000"
        },
        {
-        "value": 2,
+        "value": 0,
         "end_time": "2026-06-16T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 3,
         "end_time": "2026-06-17T07:00:00+0000"
        },
        {
-        "value": 41,
+        "value": 0,
         "end_time": "2026-06-18T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-19T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-20T07:00:00+0000"
        },
        {
-        "value": 9,
+        "value": 0,
         "end_time": "2026-06-21T07:00:00+0000"
        },
        {
-        "value": 25,
+        "value": 0,
         "end_time": "2026-06-22T07:00:00+0000"
        },
        {
-        "value": 50,
+        "value": 0,
         "end_time": "2026-06-23T07:00:00+0000"
        },
        {
-        "value": 28,
+        "value": 0,
         "end_time": "2026-06-24T07:00:00+0000"
        },
        {
-        "value": 8,
+        "value": 0,
         "end_time": "2026-06-25T07:00:00+0000"
        },
        {
-        "value": 18,
+        "value": 0,
         "end_time": "2026-06-26T07:00:00+0000"
        },
        {
-        "value": 429,
+        "value": 2,
         "end_time": "2026-06-27T07:00:00+0000"
        },
        {
-        "value": 57,
+        "value": 0,
         "end_time": "2026-06-28T07:00:00+0000"
        },
        {
-        "value": 11,
+        "value": 0,
         "end_time": "2026-06-29T07:00:00+0000"
        },
        {
-        "value": 2,
+        "value": 0,
         "end_time": "2026-06-30T07:00:00+0000"
        },
        {
-        "value": 233,
+        "value": 6,
         "end_time": "2026-07-01T07:00:00+0000"
        }
       ],
       "title": "Visualizaciones de Facebook",
       "description": "Número de veces que se mostró en la pantalla de una persona contenido de tu página, incluidas publicaciones, historias, anuncios y otros contenidos.",
-      "id": "104477896081970/insights/page_media_view/day"
+      "id": "1149874128203287/insights/page_media_view/day"
      }
     ],
     "page_total_media_view_unique": [
@@ -545,55 +545,55 @@
       "period": "day",
       "values": [
        {
-        "value": 3,
+        "value": 1,
         "end_time": "2026-06-02T07:00:00+0000"
        },
        {
-        "value": 10,
+        "value": 0,
         "end_time": "2026-06-03T07:00:00+0000"
        },
        {
-        "value": 14,
+        "value": 0,
         "end_time": "2026-06-04T07:00:00+0000"
        },
        {
-        "value": 260,
+        "value": 4,
         "end_time": "2026-06-05T07:00:00+0000"
        },
        {
-        "value": 5,
+        "value": 6,
         "end_time": "2026-06-06T07:00:00+0000"
        },
        {
-        "value": 2,
+        "value": 1,
         "end_time": "2026-06-07T07:00:00+0000"
        },
        {
-        "value": 4,
+        "value": 1,
         "end_time": "2026-06-08T07:00:00+0000"
        },
        {
-        "value": 9,
+        "value": 2,
         "end_time": "2026-06-09T07:00:00+0000"
        },
        {
-        "value": 3,
+        "value": 1,
         "end_time": "2026-06-10T07:00:00+0000"
        },
        {
-        "value": 11,
+        "value": 0,
         "end_time": "2026-06-11T07:00:00+0000"
        },
        {
-        "value": 15,
+        "value": 0,
         "end_time": "2026-06-12T07:00:00+0000"
        },
        {
-        "value": 224,
+        "value": 0,
         "end_time": "2026-06-13T07:00:00+0000"
        },
        {
-        "value": 10,
+        "value": 0,
         "end_time": "2026-06-14T07:00:00+0000"
        },
        {
@@ -601,7 +601,7 @@
         "end_time": "2026-06-15T07:00:00+0000"
        },
        {
-        "value": 2,
+        "value": 0,
         "end_time": "2026-06-16T07:00:00+0000"
        },
        {
@@ -609,65 +609,65 @@
         "end_time": "2026-06-17T07:00:00+0000"
        },
        {
-        "value": 13,
+        "value": 0,
         "end_time": "2026-06-18T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-19T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-20T07:00:00+0000"
        },
        {
-        "value": 6,
+        "value": 0,
         "end_time": "2026-06-21T07:00:00+0000"
        },
        {
-        "value": 12,
+        "value": 0,
         "end_time": "2026-06-22T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-23T07:00:00+0000"
        },
        {
-        "value": 20,
+        "value": 0,
         "end_time": "2026-06-24T07:00:00+0000"
        },
        {
-        "value": 8,
+        "value": 0,
         "end_time": "2026-06-25T07:00:00+0000"
        },
        {
-        "value": 3,
+        "value": 0,
         "end_time": "2026-06-26T07:00:00+0000"
        },
        {
-        "value": 390,
+        "value": 1,
         "end_time": "2026-06-27T07:00:00+0000"
        },
        {
-        "value": 31,
+        "value": 0,
         "end_time": "2026-06-28T07:00:00+0000"
        },
        {
-        "value": 8,
+        "value": 0,
         "end_time": "2026-06-29T07:00:00+0000"
        },
        {
-        "value": 2,
+        "value": 0,
         "end_time": "2026-06-30T07:00:00+0000"
        },
        {
-        "value": 190,
+        "value": 1,
         "end_time": "2026-07-01T07:00:00+0000"
        }
       ],
       "title": null,
       "description": "Número total de espectadores únicos de contenido multimedia de una página de Facebook",
-      "id": "104477896081970/insights/page_total_media_view_unique/day"
+      "id": "1149874128203287/insights/page_total_media_view_unique/day"
      }
     ],
     "page_post_engagements": [
@@ -688,15 +688,15 @@
         "end_time": "2026-06-04T07:00:00+0000"
        },
        {
-        "value": 3,
+        "value": 1,
         "end_time": "2026-06-05T07:00:00+0000"
        },
        {
-        "value": 0,
+        "value": 1,
         "end_time": "2026-06-06T07:00:00+0000"
        },
        {
-        "value": 0,
+        "value": 1,
         "end_time": "2026-06-07T07:00:00+0000"
        },
        {
@@ -720,7 +720,7 @@
         "end_time": "2026-06-12T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-13T07:00:00+0000"
        },
        {
@@ -740,7 +740,7 @@
         "end_time": "2026-06-17T07:00:00+0000"
        },
        {
-        "value": 5,
+        "value": 0,
         "end_time": "2026-06-18T07:00:00+0000"
        },
        {
@@ -752,7 +752,7 @@
         "end_time": "2026-06-20T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-21T07:00:00+0000"
        },
        {
@@ -764,7 +764,7 @@
         "end_time": "2026-06-23T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-24T07:00:00+0000"
        },
        {
@@ -776,7 +776,7 @@
         "end_time": "2026-06-26T07:00:00+0000"
        },
        {
-        "value": 2,
+        "value": 0,
         "end_time": "2026-06-27T07:00:00+0000"
        },
        {
@@ -792,13 +792,13 @@
         "end_time": "2026-06-30T07:00:00+0000"
        },
        {
-        "value": 0,
+        "value": 1,
         "end_time": "2026-07-01T07:00:00+0000"
        }
       ],
       "title": "Daily Post Engagements",
       "description": "Daily: The number of times people have engaged with your posts through like, comments and shares and more.",
-      "id": "104477896081970/insights/page_post_engagements/day"
+      "id": "1149874128203287/insights/page_post_engagements/day"
      }
     ],
     "page_views_total": [
@@ -807,23 +807,23 @@
       "period": "day",
       "values": [
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-02T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-03T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 3,
         "end_time": "2026-06-04T07:00:00+0000"
        },
        {
-        "value": 0,
+        "value": 8,
         "end_time": "2026-06-05T07:00:00+0000"
        },
        {
-        "value": 0,
+        "value": 18,
         "end_time": "2026-06-06T07:00:00+0000"
        },
        {
@@ -835,15 +835,15 @@
         "end_time": "2026-06-08T07:00:00+0000"
        },
        {
-        "value": 0,
+        "value": 6,
         "end_time": "2026-06-09T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 6,
         "end_time": "2026-06-10T07:00:00+0000"
        },
        {
-        "value": 4,
+        "value": 0,
         "end_time": "2026-06-11T07:00:00+0000"
        },
        {
@@ -855,11 +855,11 @@
         "end_time": "2026-06-13T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-14T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-15T07:00:00+0000"
        },
        {
@@ -867,7 +867,7 @@
         "end_time": "2026-06-16T07:00:00+0000"
        },
        {
-        "value": 11,
+        "value": 3,
         "end_time": "2026-06-17T07:00:00+0000"
        },
        {
@@ -875,7 +875,7 @@
         "end_time": "2026-06-18T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-19T07:00:00+0000"
        },
        {
@@ -883,15 +883,15 @@
         "end_time": "2026-06-20T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-21T07:00:00+0000"
        },
        {
-        "value": 1,
+        "value": 0,
         "end_time": "2026-06-22T07:00:00+0000"
        },
        {
-        "value": 6,
+        "value": 0,
         "end_time": "2026-06-23T07:00:00+0000"
        },
        {
@@ -899,15 +899,15 @@
         "end_time": "2026-06-24T07:00:00+0000"
        },
        {
-        "value": 3,
+        "value": 0,
         "end_time": "2026-06-25T07:00:00+0000"
        },
        {
-        "value": 4,
+        "value": 0,
         "end_time": "2026-06-26T07:00:00+0000"
        },
        {
-        "value": 6,
+        "value": 0,
         "end_time": "2026-06-27T07:00:00+0000"
        },
        {
@@ -915,7 +915,7 @@
         "end_time": "2026-06-28T07:00:00+0000"
        },
        {
-        "value": 2,
+        "value": 0,
         "end_time": "2026-06-29T07:00:00+0000"
        },
        {
@@ -923,159 +923,22 @@
         "end_time": "2026-06-30T07:00:00+0000"
        },
        {
-        "value": 5,
+        "value": 0,
         "end_time": "2026-07-01T07:00:00+0000"
        }
       ],
       "title": "Daily Total views count per Page",
       "description": "Daily: Total views count per Page",
-      "id": "104477896081970/insights/page_views_total/day"
+      "id": "1149874128203287/insights/page_views_total/day"
      }
     ]
    },
    "publicaciones": [
     {
-     "id": "104477896081970_1157939094073706",
-     "created_time": "2026-06-30T21:43:06+0000",
-     "message": "🐐🍫 Llegó Messi a Havanna.\n\nSí, leíste bien. Ya tenemos la nueva edición especial inspirada en el capitán campeón del mundo. \n\nUna propuesta que une dos íconos argentinos y que viene con mini alfajores de chocolate y dulce de leche en un packaging coleccionable.\n\nAlgunas duplas simplemente están hechas para ganar. 🇦🇷✨",
-     "permalink_url": "https://www.facebook.com/reel/873659772007248/",
-     "status_type": "added_video",
-     "comments": {
-      "data": [],
-      "summary": {
-       "order": "chronological",
-       "total_count": 0,
-       "can_comment": false
-      }
-     },
-     "reactions": {
-      "data": [],
-      "summary": {
-       "total_count": 1,
-       "viewer_reaction": "NONE"
-      }
-     },
-     "estadisticas": {
-      "post_media_view": [
-       {
-        "name": "post_media_view",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 325
-         }
-        ],
-        "title": null,
-        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1157939094073706/insights/post_media_view/lifetime"
-       }
-      ],
-      "post_clicks": [
-       {
-        "name": "post_clicks",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 0
-         }
-        ],
-        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
-        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1157939094073706/insights/post_clicks/lifetime"
-       }
-      ],
-      "post_reactions_by_type_total": [
-       {
-        "name": "post_reactions_by_type_total",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": {
-           "like": 1
-          }
-         }
-        ],
-        "title": "Lifetime Total post Reactions by Type.",
-        "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1157939094073706/insights/post_reactions_by_type_total/lifetime"
-       }
-      ]
-     }
-    },
-    {
-     "id": "104477896081970_1151214601412822",
-     "created_time": "2026-06-26T18:57:17+0000",
-     "message": "⚽ Una pelota rueda.\n\nPasa por potreros, estadios y recuerdos.\n\nRecorre el camino de millones de chicos que alguna vez soñaron con llegar lejos.\n\nTambién el de un nene rosarino que conquistó el mundo sin perder sus raíces.\n\nHoy, esa misma pelota nos trae una historia que combina dos clásicos argentinos.\n\n🏆 Lionel Messi x Havanna.\n\nLos nuevos alfajores inspirados en el campeón ya están acá.",
-     "permalink_url": "https://www.facebook.com/reel/2623775701413484/",
-     "status_type": "added_video",
-     "comments": {
-      "data": [],
-      "summary": {
-       "order": "chronological",
-       "total_count": 0,
-       "can_comment": false
-      }
-     },
-     "reactions": {
-      "data": [],
-      "summary": {
-       "total_count": 2,
-       "viewer_reaction": "NONE"
-      }
-     },
-     "estadisticas": {
-      "post_media_view": [
-       {
-        "name": "post_media_view",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 488
-         }
-        ],
-        "title": null,
-        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1151214601412822/insights/post_media_view/lifetime"
-       }
-      ],
-      "post_clicks": [
-       {
-        "name": "post_clicks",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 1
-         }
-        ],
-        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
-        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1151214601412822/insights/post_clicks/lifetime"
-       }
-      ],
-      "post_reactions_by_type_total": [
-       {
-        "name": "post_reactions_by_type_total",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": {
-           "like": 1,
-           "love": 1
-          }
-         }
-        ],
-        "title": "Lifetime Total post Reactions by Type.",
-        "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1151214601412822/insights/post_reactions_by_type_total/lifetime"
-       }
-      ]
-     }
-    },
-    {
-     "id": "104477896081970_1146212045246411",
-     "created_time": "2026-06-23T18:26:03+0000",
-     "message": "Estado antes del café: 😠\nEstado después del café: 😌☕\n\nNo hay más pasos.\n\n📍 Te esperamos en Havanna",
-     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1146212045246411",
+     "id": "1149874128203287_122105975217316092",
+     "created_time": "2026-06-07T17:05:02+0000",
+     "message": "🚗✨ Tu auto merece neumáticos que acompañen cada viaje con seguridad y confianza.\n\nCon Corven Neumáticos obtenés el equilibrio perfecto entre rendimiento, durabilidad y confort para moverte tranquilo todos los días.\n\n✅ Excelente adherencia en ciudad y ruta\n✅ Mayor vida útil y desgaste uniforme\n✅ Conducción más confortable y segura\n✅ Cuotas y financiación disponibles\n\nNo esperes a que el desgaste se note. Renová tus neumáticos y manejá con la tranquilidad de saber que cada kilómetro cuenta.\n\n📲 Consultanos por la medida de tu vehículo.\n💳 Financiación disponible y asesoramiento personalizado.\n\nCorven Neumáticos. Más seguridad, más rendimiento, más kilómetros para disfrutar. 🛞🔥",
+     "permalink_url": "https://www.facebook.com/122120983425316092/posts/122105975217316092",
      "status_type": "added_photos",
      "comments": {
       "data": [],
@@ -1099,12 +962,12 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 47
+          "value": 40
          }
         ],
         "title": null,
         "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1146212045246411/insights/post_media_view/lifetime"
+        "id": "1149874128203287_122105975217316092/insights/post_media_view/lifetime"
        }
       ],
       "post_clicks": [
@@ -1113,12 +976,12 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 1
+          "value": 0
          }
         ],
         "title": "Lifetime Matched Audience Targeting Consumptions on Post",
         "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1146212045246411/insights/post_clicks/lifetime"
+        "id": "1149874128203287_122105975217316092/insights/post_clicks/lifetime"
        }
       ],
       "post_reactions_by_type_total": [
@@ -1132,16 +995,148 @@
         ],
         "title": "Lifetime Total post Reactions by Type.",
         "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1146212045246411/insights/post_reactions_by_type_total/lifetime"
+        "id": "1149874128203287_122105975217316092/insights/post_reactions_by_type_total/lifetime"
        }
       ]
      }
     },
     {
-     "id": "104477896081970_1136730359527913",
-     "created_time": "2026-06-17T18:26:43+0000",
-     "message": "Hay papás fan de lo dulce.\nPapás fan de lo salado.\n\nY también están esos papás que disfrutan de los pequeños rituales: una charla, una merienda, un café compartido.\n\nEste Día del Padre celebralos con sus favoritos de Havanna. ☕🍫",
-     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1136730359527913",
+     "id": "1149874128203287_122105824425316092",
+     "created_time": "2026-06-06T20:03:03+0000",
+     "message": "🛻🌎 No importa si el camino es asfalto, ripio o tierra: necesitás neumáticos que estén a la altura.\n\nLos Dunlop para camionetas fueron diseñados para brindar el máximo rendimiento en cualquier terreno, combinando resistencia, adherencia y confort.\n\n✅ Máxima durabilidad para el trabajo y la aventura\n✅ Excelente agarre para mayor seguridad y control\n✅ Manejo más suave, estable y silencioso\n✅ Financiación y cuotas disponibles\n\nPorque una camioneta no está hecha para quedarse quieta. Equipala con neumáticos preparados para acompañarte en cada desafío.\n\n📲 Consultanos por tu medida y encontrá la mejor opción para tu camioneta.\n💳 Preguntá por nuestras promociones y planes de financiación.\n\nDunlop. La fuerza que necesitás para llegar a donde otros no llegan. 🔥🛞💪",
+     "permalink_url": "https://www.facebook.com/122120983425316092/posts/122105824425316092",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 33
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "1149874128203287_122105824425316092/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "1149874128203287_122105824425316092/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "1149874128203287_122105824425316092/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "1149874128203287_122105805399316092",
+     "created_time": "2026-06-06T17:02:02+0000",
+     "message": "🚗🔥 Cada viaje empieza donde termina tu confianza en el camino.\n\nEquipá tu auto con neumáticos Dunlop y disfrutá de una conducción más segura, estable y eficiente, tanto en ciudad como en ruta.\n\n✅ Excelente agarre y respuesta en curvas\n✅ Mayor confort de marcha\n✅ Desgaste uniforme para más kilómetros de rendimiento\n✅ Financiación en cuotas\n\nNo esperes a notar el desgaste. Elegí neumáticos que respondan cuando más los necesitás.\n\n📲 Consultanos por tu medida y encontrá la mejor opción para tu vehículo.\n💳 Financiación disponible y atención personalizada.\n\nDunlop. Tecnología, seguridad y rendimiento para llegar más lejos. 🛞✨",
+     "permalink_url": "https://www.facebook.com/122120983425316092/posts/122105805399316092",
+     "status_type": "added_photos",
+     "comments": {
+      "data": [],
+      "summary": {
+       "order": "chronological",
+       "total_count": 0,
+       "can_comment": false
+      }
+     },
+     "reactions": {
+      "data": [],
+      "summary": {
+       "total_count": 0,
+       "viewer_reaction": "NONE"
+      }
+     },
+     "estadisticas": {
+      "post_media_view": [
+       {
+        "name": "post_media_view",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 28
+         }
+        ],
+        "title": null,
+        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
+        "id": "1149874128203287_122105805399316092/insights/post_media_view/lifetime"
+       }
+      ],
+      "post_clicks": [
+       {
+        "name": "post_clicks",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
+        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
+        "id": "1149874128203287_122105805399316092/insights/post_clicks/lifetime"
+       }
+      ],
+      "post_reactions_by_type_total": [
+       {
+        "name": "post_reactions_by_type_total",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": {}
+         }
+        ],
+        "title": "Lifetime Total post Reactions by Type.",
+        "description": "Lifetime: Total post reactions by type.",
+        "id": "1149874128203287_122105805399316092/insights/post_reactions_by_type_total/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "1149874128203287_122105676795316092",
+     "created_time": "2026-06-05T17:00:57+0000",
+     "message": "🛻💨 Para los que trabajan, viajan y exigen más de su camioneta.\n\nLos neumáticos Dunlop están diseñados para acompañarte en cada desafío, brindando el equilibrio perfecto entre resistencia, seguridad y rendimiento.\n\n✅ Excelente tracción en distintos terrenos\n✅ Mayor durabilidad y rendimiento kilométrico\n✅ Confort y estabilidad en ruta\n✅ Opciones de financiación y cuotas\n\nNo dejes que el desgaste limite tu camino. Equipá tu camioneta con neumáticos preparados para ir más lejos.\n\n📲 Consultanos por tu medida y recibí asesoramiento personalizado.\n💳 Financiación disponible.\n\nDunlop. Rendimiento que se siente en cada kilómetro. 🛞🔥",
+     "permalink_url": "https://www.facebook.com/122120983425316092/posts/122105676795316092",
      "status_type": "added_photos",
      "comments": {
       "data": [],
@@ -1170,273 +1165,7 @@
         ],
         "title": null,
         "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1136730359527913/insights/post_media_view/lifetime"
-       }
-      ],
-      "post_clicks": [
-       {
-        "name": "post_clicks",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 2
-         }
-        ],
-        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
-        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1136730359527913/insights/post_clicks/lifetime"
-       }
-      ],
-      "post_reactions_by_type_total": [
-       {
-        "name": "post_reactions_by_type_total",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": {}
-         }
-        ],
-        "title": "Lifetime Total post Reactions by Type.",
-        "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1136730359527913/insights/post_reactions_by_type_total/lifetime"
-       }
-      ]
-     }
-    },
-    {
-     "id": "104477896081970_1136534779547471",
-     "created_time": "2026-06-17T15:58:59+0000",
-     "message": "Hay papás fan de lo dulce.\n\nPapás fan de lo salado.\n\nPapás fan de Messi.\n\nY también están esos papás que disfrutan de los pequeños rituales: una charla, una merienda, un café compartido.\n\nEste Día del Padre celebralos con sus favoritos de Havanna. ☕🍫",
-     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1136534779547471",
-     "status_type": "added_photos",
-     "comments": {
-      "data": [],
-      "summary": {
-       "order": "chronological",
-       "total_count": 0,
-       "can_comment": false
-      }
-     },
-     "reactions": {
-      "data": [],
-      "summary": {
-       "total_count": 0,
-       "viewer_reaction": "NONE"
-      }
-     },
-     "estadisticas": {
-      "post_media_view": [
-       {
-        "name": "post_media_view",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 41
-         }
-        ],
-        "title": null,
-        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1136534779547471/insights/post_media_view/lifetime"
-       }
-      ],
-      "post_clicks": [
-       {
-        "name": "post_clicks",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 4
-         }
-        ],
-        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
-        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1136534779547471/insights/post_clicks/lifetime"
-       }
-      ],
-      "post_reactions_by_type_total": [
-       {
-        "name": "post_reactions_by_type_total",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": {}
-         }
-        ],
-        "title": "Lifetime Total post Reactions by Type.",
-        "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1136534779547471/insights/post_reactions_by_type_total/lifetime"
-       }
-      ]
-     }
-    },
-    {
-     "id": "104477896081970_1129256853608597",
-     "created_time": "2026-06-12T21:42:39+0000",
-     "message": "☀️ Hay mañanas que empiezan mejor.\n\nEl aroma del café recién hecho, algo rico para acompañar y ese momento de pausa que te prepara para todo lo que viene. ☕🥐✨\n\nEn Havanna te esperamos con opciones dulces y saladas, cafetería de especialidad y el ambiente ideal para arrancar el día de la mejor manera.\n\nPorque las mejores mañanas tienen sabor a café, encuentros y pequeños momentos para disfrutar. 🤎\n\n📍 Te esperamos en Havanna. \n\n¿Ya elegiste tu desayuno favorito? 👇☕🥐",
-     "permalink_url": "https://www.facebook.com/reel/1487640243050929/",
-     "status_type": "added_video",
-     "comments": {
-      "data": [],
-      "summary": {
-       "order": "chronological",
-       "total_count": 0,
-       "can_comment": false
-      }
-     },
-     "reactions": {
-      "data": [],
-      "summary": {
-       "total_count": 1,
-       "viewer_reaction": "NONE"
-      }
-     },
-     "estadisticas": {
-      "post_media_view": [
-       {
-        "name": "post_media_view",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 290
-         }
-        ],
-        "title": null,
-        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1129256853608597/insights/post_media_view/lifetime"
-       }
-      ],
-      "post_clicks": [
-       {
-        "name": "post_clicks",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 0
-         }
-        ],
-        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
-        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1129256853608597/insights/post_clicks/lifetime"
-       }
-      ],
-      "post_reactions_by_type_total": [
-       {
-        "name": "post_reactions_by_type_total",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": {
-           "like": 1
-          }
-         }
-        ],
-        "title": "Lifetime Total post Reactions by Type.",
-        "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1129256853608597/insights/post_reactions_by_type_total/lifetime"
-       }
-      ]
-     }
-    },
-    {
-     "id": "104477896081970_1122762100924739",
-     "created_time": "2026-06-08T18:20:36+0000",
-     "message": "Dos íconos argentinos se unen para hacer historia.\nJunto a @leomessi  sellamos una alianza global para desarrollar productos que combinen lo mejor de los dos: calidad, tradición y pasión por hacer cosas únicas. \nCon emoción y mucho orgullo, celebramos este camino que recién empieza. \nPresentamos nuestra edición especial de alfajores de chocolate que celebra el amor de Leo por su país. 🇦🇷\n\nMuy pronto, en todos los Havanna de Argentina.",
-     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1122762100924739",
-     "status_type": "added_photos",
-     "comments": {
-      "data": [],
-      "summary": {
-       "order": "chronological",
-       "total_count": 0,
-       "can_comment": false
-      }
-     },
-     "reactions": {
-      "data": [],
-      "summary": {
-       "total_count": 0,
-       "viewer_reaction": "NONE"
-      }
-     },
-     "estadisticas": {
-      "post_media_view": [
-       {
-        "name": "post_media_view",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 30
-         }
-        ],
-        "title": null,
-        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1122762100924739/insights/post_media_view/lifetime"
-       }
-      ],
-      "post_clicks": [
-       {
-        "name": "post_clicks",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 0
-         }
-        ],
-        "title": "Lifetime Matched Audience Targeting Consumptions on Post",
-        "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1122762100924739/insights/post_clicks/lifetime"
-       }
-      ],
-      "post_reactions_by_type_total": [
-       {
-        "name": "post_reactions_by_type_total",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": {}
-         }
-        ],
-        "title": "Lifetime Total post Reactions by Type.",
-        "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1122762100924739/insights/post_reactions_by_type_total/lifetime"
-       }
-      ]
-     }
-    },
-    {
-     "id": "104477896081970_1116941334840149",
-     "created_time": "2026-06-04T20:21:08+0000",
-     "message": "Le dijeron a Santi: “¿Me podés terminar el café?”\n\nY sí… lo terminó.\n\nEl único detalle es que no terminó de prepararlo. Se lo tomó. 😅\n\nPero con nuestros lattes tan irresistibles, tampoco podemos juzgarlo. 🤎\n\nLe ponemos un poco de humor a este día gris y seguimos sirviendo café del bueno. 🌧️☕",
-     "permalink_url": "https://www.facebook.com/reel/3461656750677186/",
-     "status_type": "added_video",
-     "comments": {
-      "data": [],
-      "summary": {
-       "order": "chronological",
-       "total_count": 0,
-       "can_comment": false
-      }
-     },
-     "reactions": {
-      "data": [],
-      "summary": {
-       "total_count": 2,
-       "viewer_reaction": "NONE"
-      }
-     },
-     "estadisticas": {
-      "post_media_view": [
-       {
-        "name": "post_media_view",
-        "period": "lifetime",
-        "values": [
-         {
-          "value": 359
-         }
-        ],
-        "title": null,
-        "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1116941334840149/insights/post_media_view/lifetime"
+        "id": "1149874128203287_122105676795316092/insights/post_media_view/lifetime"
        }
       ],
       "post_clicks": [
@@ -1450,7 +1179,7 @@
         ],
         "title": "Lifetime Matched Audience Targeting Consumptions on Post",
         "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1116941334840149/insights/post_clicks/lifetime"
+        "id": "1149874128203287_122105676795316092/insights/post_clicks/lifetime"
        }
       ],
       "post_reactions_by_type_total": [
@@ -1459,23 +1188,21 @@
         "period": "lifetime",
         "values": [
          {
-          "value": {
-           "like": 2
-          }
+          "value": {}
          }
         ],
         "title": "Lifetime Total post Reactions by Type.",
         "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1116941334840149/insights/post_reactions_by_type_total/lifetime"
+        "id": "1149874128203287_122105676795316092/insights/post_reactions_by_type_total/lifetime"
        }
       ]
      }
     },
     {
-     "id": "104477896081970_1113322198535396",
-     "created_time": "2026-06-02T14:05:11+0000",
-     "message": "Cada día tiene su sabor… ¿ya elegiste el tuyo?\n\nDe lunes a domingo, un Latte distinto te espera en Havanna con precio especial. 🤎\n\n🌼 Lunes: Vainilla\n🥄 Martes: Dulce de leche\n💚 Miércoles: Pistacho\n🍯 Jueves: Caramelo\n🍌 Viernes: Banoffee\n🍫 Sábado: Chocolate y avellanas\n🤍 Domingo: Chocolate blanco\n\nAntes $7200 | Ahora $5200 🙌\n\nPasá por tu favorito o descubrí uno nuevo cada día. ¿Con cuál arrancás? 👇☕",
-     "permalink_url": "https://www.facebook.com/1329778983556382/posts/1113322198535396",
+     "id": "1149874128203287_122105666007316092",
+     "created_time": "2026-06-05T14:59:27+0000",
+     "message": "🚗💨 ¿Tus neumáticos ya piden cambio?\n\nCon los neumáticos Corven, ganás seguridad, rendimiento y confort en cada kilómetro.\n\n✅ Excelente agarre en ruta y ciudad\n✅ Mayor durabilidad\n✅ Conducción más segura para vos y tu familia\n✅ Financiación en cuotas\n\nNo esperes a que el desgaste te juegue una mala pasada. Equipá tu vehículo con la calidad que necesitás al mejor precio.\n\n📲 Consultanos por WhatsApp y te asesoramos según tu modelo de auto.\n💳 Preguntá por nuestras cuotas y promociones vigentes.\n\nCorven Neumáticos. La confianza que te acompaña en cada viaje. 🛞✨",
+     "permalink_url": "https://www.facebook.com/122120983425316092/posts/122105666007316092",
      "status_type": "added_photos",
      "comments": {
       "data": [],
@@ -1499,12 +1226,12 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 28
+          "value": 32
          }
         ],
         "title": null,
         "description": "Número de veces que se mostró en la pantalla de una persona la publicación de tu página. Las publicaciones incluyen estados, fotos, enlaces, videos y más.",
-        "id": "104477896081970_1113322198535396/insights/post_media_view/lifetime"
+        "id": "1149874128203287_122105666007316092/insights/post_media_view/lifetime"
        }
       ],
       "post_clicks": [
@@ -1518,7 +1245,7 @@
         ],
         "title": "Lifetime Matched Audience Targeting Consumptions on Post",
         "description": "Lifetime: The number of clicks anywhere in your post on News Feed from the user that matched the audience targeting on it. (Total Count)",
-        "id": "104477896081970_1113322198535396/insights/post_clicks/lifetime"
+        "id": "1149874128203287_122105666007316092/insights/post_clicks/lifetime"
        }
       ],
       "post_reactions_by_type_total": [
@@ -1532,7 +1259,7 @@
         ],
         "title": "Lifetime Total post Reactions by Type.",
         "description": "Lifetime: Total post reactions by type.",
-        "id": "104477896081970_1113322198535396/insights/post_reactions_by_type_total/lifetime"
+        "id": "1149874128203287_122105666007316092/insights/post_reactions_by_type_total/lifetime"
        }
       ]
      }
@@ -1542,135 +1269,135 @@
  ],
  "instagram": [
   {
-   "id": "17841461293753493",
+   "id": "17841411155656506",
    "perfil": {
-    "id": "17841461293753493",
-    "followers_count": 10616,
-    "follows_count": 75,
-    "media_count": 304,
-    "username": "havanna_lapampa"
+    "id": "17841411155656506",
+    "followers_count": 114,
+    "follows_count": 61,
+    "media_count": 27,
+    "username": "dynamisneumaticos"
    },
    "estadisticas": {
     "reach": [
      {
-      "id": "17841461293753493/insights/reach/day",
+      "id": "17841411155656506/insights/reach/day",
       "name": "reach",
       "period": "day",
       "title": "Cuentas alcanzadas",
       "description": "Número de cuentas únicas que vieron tu contenido al menos una vez, incluido el de los anuncios. El contenido incluye publicaciones, historias, reels, videos y videos en vivo. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones del contenido por parte de las mismas cuentas. Esta métrica es una estimación y está en desarrollo.",
       "total_value": {
-       "value": 6140
+       "value": 12
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "views": [
      {
-      "id": "17841461293753493/insights/views/day",
+      "id": "17841411155656506/insights/views/day",
       "name": "views",
       "period": "day",
       "title": "Visualizaciones",
       "description": "Número de veces que se vio o se mostró tu contenido, incluidos reels, publicaciones e historias.",
       "total_value": {
-       "value": 36001
+       "value": 133
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "total_interactions": [
      {
-      "id": "17841461293753493/insights/total_interactions/day",
+      "id": "17841411155656506/insights/total_interactions/day",
       "name": "total_interactions",
       "period": "day",
       "title": "Interacciones con el contenido",
       "description": "Número total de interacciones con tus publicaciones, historias, reels, videos y videos en vivo, incluidas las interacciones con contenido promocionado.",
       "total_value": {
-       "value": 583
+       "value": 11
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "accounts_engaged": [
      {
-      "id": "17841461293753493/insights/accounts_engaged/day",
+      "id": "17841411155656506/insights/accounts_engaged/day",
       "name": "accounts_engaged",
       "period": "day",
       "title": "Cuentas que interactuaron",
       "description": "Número de cuentas que interactuaron con tu contenido, incluido el de los anuncios. El contenido incluye publicaciones, historias, reels, videos y videos en vivo. Las interacciones pueden incluir acciones como Me gusta, comentarios, respuestas o veces que se guardó o compartió el contenido. Estas métricas son una estimación y están en desarrollo.",
       "total_value": {
-       "value": 299
+       "value": 4
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "likes": [
      {
-      "id": "17841461293753493/insights/likes/day",
+      "id": "17841411155656506/insights/likes/day",
       "name": "likes",
       "period": "day",
       "title": "Me gusta",
       "description": "Número de Me gusta en tus publicaciones, reels y videos.",
       "total_value": {
-       "value": 350
+       "value": 11
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "comments": [
      {
-      "id": "17841461293753493/insights/comments/day",
+      "id": "17841411155656506/insights/comments/day",
       "name": "comments",
       "period": "day",
       "title": "Comentarios",
       "description": "Número de comentarios en tus publicaciones, reels, videos y videos en vivo.",
       "total_value": {
-       "value": 16
+       "value": 0
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "shares": [
      {
-      "id": "17841461293753493/insights/shares/day",
+      "id": "17841411155656506/insights/shares/day",
       "name": "shares",
       "period": "day",
       "title": "Veces que se compartió",
       "description": "Número de veces que se compartieron tus publicaciones, historias, reels, videos y videos en vivo.",
       "total_value": {
-       "value": 100
+       "value": 0
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "saves": [
      {
-      "id": "17841461293753493/insights/saves/day",
+      "id": "17841411155656506/insights/saves/day",
       "name": "saves",
       "period": "day",
       "title": "Veces que se guardó",
       "description": "Número de veces que se guardaron tus publicaciones, reels y videos.",
       "total_value": {
-       "value": 8
+       "value": 0
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "profile_links_taps": [
      {
-      "id": "17841461293753493/insights/profile_links_taps/day",
+      "id": "17841411155656506/insights/profile_links_taps/day",
       "name": "profile_links_taps",
       "period": "day",
       "title": "Toques en los enlaces del perfil",
       "description": "Número de toques en la dirección del negocio y el botón de llamada a la acción, de correo electrónico y de texto.",
       "total_value": {
-       "value": 14
+       "value": 0
       },
       "tramo": "2026-06-01 a 2026-06-30"
      }
     ],
     "follows_and_unfollows": [
      {
-      "id": "17841461293753493/insights/follows_and_unfollows/day",
+      "id": "17841411155656506/insights/follows_and_unfollows/day",
       "name": "follows_and_unfollows",
       "period": "day",
       "title": "Seguidores y personas que dejaron de seguirte",
@@ -1686,13 +1413,13 @@
            "dimension_values": [
             "FOLLOWER"
            ],
-           "value": 61
+           "value": 8
           },
           {
            "dimension_values": [
             "NON_FOLLOWER"
            ],
-           "value": 54
+           "value": 0
           }
          ]
         }
@@ -1704,292 +1431,46 @@
    },
    "publicaciones": [
     {
-     "id": "18414983761198824",
-     "caption": "🐐🍫 Llegó Messi a Havanna.\n\nSí, leíste bien. Ya tenemos la nueva edición especial inspirada en el capitán campeón del mundo. \n\nUna propuesta que une dos íconos argentinos y que viene con mini alfajores de chocolate y dulce de leche en un packaging coleccionable.\n\nAlgunas duplas simplemente están hechas para ganar. 🇦🇷✨",
-     "media_type": "VIDEO",
-     "media_product_type": "REELS",
-     "timestamp": "2026-06-30T21:42:53+0000",
-     "permalink": "https://www.instagram.com/reel/DaObsa2PYxt/",
-     "like_count": 70,
-     "comments_count": 3,
-     "estadisticas": {
-      "reach": [
-       {
-        "id": "18414983761198824/insights/reach/lifetime",
-        "name": "reach",
-        "period": "lifetime",
-        "title": "Cuentas alcanzadas",
-        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
-        "values": [
-         {
-          "value": 2904
-         }
-        ]
-       }
-      ],
-      "views": [
-       {
-        "id": "18414983761198824/insights/views/lifetime",
-        "name": "views",
-        "period": "lifetime",
-        "title": "Reproducciones",
-        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
-        "values": [
-         {
-          "value": 5531
-         }
-        ]
-       }
-      ],
-      "saved": [
-       {
-        "id": "18414983761198824/insights/saved/lifetime",
-        "name": "saved",
-        "period": "lifetime",
-        "title": "Veces que se guardó",
-        "description": "Número de veces que se guardó tu reel.",
-        "values": [
-         {
-          "value": 0
-         }
-        ]
-       }
-      ],
-      "shares": [
-       {
-        "id": "18414983761198824/insights/shares/lifetime",
-        "name": "shares",
-        "period": "lifetime",
-        "title": "Veces compartido",
-        "description": "Número de veces que se compartió tu reel.",
-        "values": [
-         {
-          "value": 13
-         }
-        ]
-       }
-      ],
-      "total_interactions": [
-       {
-        "id": "18414983761198824/insights/total_interactions/lifetime",
-        "name": "total_interactions",
-        "period": "lifetime",
-        "title": "Interacciones con reels",
-        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
-        "values": [
-         {
-          "value": 87
-         }
-        ]
-       }
-      ]
-     }
-    },
-    {
-     "id": "18101510962885923",
-     "caption": "⚽ Una pelota rueda.\n\nPasa por potreros, estadios y recuerdos.\n\nRecorre el camino de millones de chicos que alguna vez soñaron con llegar lejos.\n\nTambién el de un nene rosarino que conquistó el mundo sin perder sus raíces.\n\nHoy, esa misma pelota nos trae una historia que combina dos clásicos argentinos.\n\n🏆 Lionel Messi x Havanna.\n\nLos nuevos alfajores inspirados en el campeón ya están acá.",
-     "media_type": "VIDEO",
-     "media_product_type": "REELS",
-     "timestamp": "2026-06-26T18:57:08+0000",
-     "permalink": "https://www.instagram.com/reel/DaD0l4YM-SU/",
-     "like_count": 59,
-     "comments_count": 5,
-     "estadisticas": {
-      "reach": [
-       {
-        "id": "18101510962885923/insights/reach/lifetime",
-        "name": "reach",
-        "period": "lifetime",
-        "title": "Cuentas alcanzadas",
-        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
-        "values": [
-         {
-          "value": 2942
-         }
-        ]
-       }
-      ],
-      "views": [
-       {
-        "id": "18101510962885923/insights/views/lifetime",
-        "name": "views",
-        "period": "lifetime",
-        "title": "Reproducciones",
-        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
-        "values": [
-         {
-          "value": 4755
-         }
-        ]
-       }
-      ],
-      "saved": [
-       {
-        "id": "18101510962885923/insights/saved/lifetime",
-        "name": "saved",
-        "period": "lifetime",
-        "title": "Veces que se guardó",
-        "description": "Número de veces que se guardó tu reel.",
-        "values": [
-         {
-          "value": 0
-         }
-        ]
-       }
-      ],
-      "shares": [
-       {
-        "id": "18101510962885923/insights/shares/lifetime",
-        "name": "shares",
-        "period": "lifetime",
-        "title": "Veces compartido",
-        "description": "Número de veces que se compartió tu reel.",
-        "values": [
-         {
-          "value": 8
-         }
-        ]
-       }
-      ],
-      "total_interactions": [
-       {
-        "id": "18101510962885923/insights/total_interactions/lifetime",
-        "name": "total_interactions",
-        "period": "lifetime",
-        "title": "Interacciones con reels",
-        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
-        "values": [
-         {
-          "value": 76
-         }
-        ]
-       }
-      ]
-     }
-    },
-    {
-     "id": "18110909653925441",
-     "caption": "Estado antes del café: 😠\nEstado después del café: 😌☕\n\nNo hay más pasos.\n\n📍 Te esperamos en Havanna",
-     "media_type": "CAROUSEL_ALBUM",
+     "id": "18051001325780338",
+     "caption": "🚗✨ Tu auto merece neumáticos que acompañen cada viaje con seguridad y confianza.\n\nCon Corven Neumáticos obtenés el equilibrio perfecto entre rendimiento, durabilidad y confort para moverte tranquilo todos los días.\n\n✅ Excelente adherencia en ciudad y ruta\n✅ Mayor vida útil y desgaste uniforme\n✅ Conducción más confortable y segura\n✅ Cuotas y financiación disponibles\n\nNo esperes a que el desgaste se note. Renová tus neumáticos y manejá con la tranquilidad de saber que cada kilómetro cuenta.\n\n📲 Consultanos por la medida de tu vehículo.\n💳 Financiación disponible y asesoramiento personalizado.\n\nCorven Neumáticos. Más seguridad, más rendimiento, más kilómetros para disfrutar. 🛞🔥",
+     "media_type": "IMAGE",
      "media_product_type": "FEED",
-     "timestamp": "2026-06-23T18:25:53+0000",
-     "permalink": "https://www.instagram.com/p/DZ8DpnwHGzn/",
-     "like_count": 45,
-     "comments_count": 2,
-     "estadisticas": {
-      "reach": [
-       {
-        "id": "18110909653925441/insights/reach/lifetime",
-        "name": "reach",
-        "period": "lifetime",
-        "title": "Cuentas alcanzadas",
-        "description": "Número de cuentas únicas que vieron este contenedor de secuencia al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu contenedor de secuencia por parte de las mismas cuentas. Esta métrica es una estimación.",
-        "values": [
-         {
-          "value": 1141
-         }
-        ]
-       }
-      ],
-      "views": [
-       {
-        "id": "18110909653925441/insights/views/lifetime",
-        "name": "views",
-        "period": "lifetime",
-        "title": "Visualizaciones",
-        "description": "Número de veces que se vio o se mostró tu publicación.",
-        "values": [
-         {
-          "value": 2744
-         }
-        ]
-       }
-      ],
-      "saved": [
-       {
-        "id": "18110909653925441/insights/saved/lifetime",
-        "name": "saved",
-        "period": "lifetime",
-        "title": "Veces que se guardó",
-        "description": "Número de veces que se guardó tu publicación.",
-        "values": [
-         {
-          "value": 2
-         }
-        ]
-       }
-      ],
-      "shares": [
-       {
-        "id": "18110909653925441/insights/shares/lifetime",
-        "name": "shares",
-        "period": "lifetime",
-        "title": "Veces compartido",
-        "description": "Número de veces que se compartió tu publicación.",
-        "values": [
-         {
-          "value": 4
-         }
-        ]
-       }
-      ],
-      "total_interactions": [
-       {
-        "id": "18110909653925441/insights/total_interactions/lifetime",
-        "name": "total_interactions",
-        "period": "lifetime",
-        "title": "Interacciones con la publicación",
-        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
-        "values": [
-         {
-          "value": 53
-         }
-        ]
-       }
-      ]
-     }
-    },
-    {
-     "id": "18057173216573393",
-     "caption": "Hay papás fan de lo dulce.\nPapás fan de lo salado.\n\nY también están esos papás que disfrutan de los pequeños rituales: una charla, una merienda, un café compartido.\n\nEste Día del Padre celebralos con sus favoritos de Havanna. ☕🍫",
-     "media_type": "CAROUSEL_ALBUM",
-     "media_product_type": "FEED",
-     "timestamp": "2026-06-17T18:26:30+0000",
-     "permalink": "https://www.instagram.com/p/DZsm887DwHI/",
-     "like_count": 10,
+     "timestamp": "2026-06-07T17:05:05+0000",
+     "permalink": "https://www.instagram.com/p/DZStrzyCVzV/",
+     "like_count": 1,
      "comments_count": 0,
      "estadisticas": {
       "reach": [
        {
-        "id": "18057173216573393/insights/reach/lifetime",
+        "id": "18051001325780338/insights/reach/lifetime",
         "name": "reach",
         "period": "lifetime",
         "title": "Cuentas alcanzadas",
-        "description": "Número de cuentas únicas que vieron este contenedor de secuencia al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu contenedor de secuencia por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 834
+          "value": 75
          }
         ]
        }
       ],
       "views": [
        {
-        "id": "18057173216573393/insights/views/lifetime",
+        "id": "18051001325780338/insights/views/lifetime",
         "name": "views",
         "period": "lifetime",
         "title": "Visualizaciones",
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 1988
+          "value": 155
          }
         ]
        }
       ],
       "saved": [
        {
-        "id": "18057173216573393/insights/saved/lifetime",
+        "id": "18051001325780338/insights/saved/lifetime",
         "name": "saved",
         "period": "lifetime",
         "title": "Veces que se guardó",
@@ -2003,175 +1484,215 @@
       ],
       "shares": [
        {
-        "id": "18057173216573393/insights/shares/lifetime",
+        "id": "18051001325780338/insights/shares/lifetime",
         "name": "shares",
         "period": "lifetime",
         "title": "Veces compartido",
         "description": "Número de veces que se compartió tu publicación.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "18051001325780338/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con la publicación",
+        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
         "values": [
          {
           "value": 1
          }
         ]
        }
-      ],
-      "total_interactions": [
-       {
-        "id": "18057173216573393/insights/total_interactions/lifetime",
-        "name": "total_interactions",
-        "period": "lifetime",
-        "title": "Interacciones con la publicación",
-        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
-        "values": [
-         {
-          "value": 11
-         }
-        ]
-       }
       ]
      }
     },
     {
-     "id": "17939374920056098",
-     "caption": "☀️ Hay mañanas que empiezan mejor.\n\nEl aroma del café recién hecho, algo rico para acompañar y ese momento de pausa que te prepara para todo lo que viene. ☕🥐✨\n\nEn Havanna te esperamos con opciones dulces y saladas, cafetería de especialidad y el ambiente ideal para arrancar el día de la mejor manera.\n\nPorque las mejores mañanas tienen sabor a café, encuentros y pequeños momentos para disfrutar. 🤎\n\n📍 Te esperamos en Havanna. \n\n¿Ya elegiste tu desayuno favorito? 👇☕🥐",
-     "media_type": "VIDEO",
-     "media_product_type": "REELS",
-     "timestamp": "2026-06-12T21:42:25+0000",
-     "permalink": "https://www.instagram.com/reel/DZgFBa_PI7y/",
-     "like_count": 10,
+     "id": "18093299066338167",
+     "caption": "🛻🌎 No importa si el camino es asfalto, ripio o tierra: necesitás neumáticos que estén a la altura.\n\nLos Dunlop para camionetas fueron diseñados para brindar el máximo rendimiento en cualquier terreno, combinando resistencia, adherencia y confort.\n\n✅ Máxima durabilidad para el trabajo y la aventura\n✅ Excelente agarre para mayor seguridad y control\n✅ Manejo más suave, estable y silencioso\n✅ Financiación y cuotas disponibles\n\nPorque una camioneta no está hecha para quedarse quieta. Equipala con neumáticos preparados para acompañarte en cada desafío.\n\n📲 Consultanos por tu medida y encontrá la mejor opción para tu camioneta.\n💳 Preguntá por nuestras promociones y planes de financiación.\n\nDunlop. La fuerza que necesitás para llegar a donde otros no llegan. 🔥🛞💪",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-06-06T20:03:06+0000",
+     "permalink": "https://www.instagram.com/p/DZQdQw2jpcS/",
+     "like_count": 2,
      "comments_count": 0,
      "estadisticas": {
       "reach": [
        {
-        "id": "17939374920056098/insights/reach/lifetime",
+        "id": "18093299066338167/insights/reach/lifetime",
         "name": "reach",
         "period": "lifetime",
         "title": "Cuentas alcanzadas",
-        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 717
+          "value": 66
          }
         ]
        }
       ],
       "views": [
        {
-        "id": "17939374920056098/insights/views/lifetime",
-        "name": "views",
-        "period": "lifetime",
-        "title": "Reproducciones",
-        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
-        "values": [
-         {
-          "value": 1071
-         }
-        ]
-       }
-      ],
-      "saved": [
-       {
-        "id": "17939374920056098/insights/saved/lifetime",
-        "name": "saved",
-        "period": "lifetime",
-        "title": "Veces que se guardó",
-        "description": "Número de veces que se guardó tu reel.",
-        "values": [
-         {
-          "value": 0
-         }
-        ]
-       }
-      ],
-      "shares": [
-       {
-        "id": "17939374920056098/insights/shares/lifetime",
-        "name": "shares",
-        "period": "lifetime",
-        "title": "Veces compartido",
-        "description": "Número de veces que se compartió tu reel.",
-        "values": [
-         {
-          "value": 0
-         }
-        ]
-       }
-      ],
-      "total_interactions": [
-       {
-        "id": "17939374920056098/insights/total_interactions/lifetime",
-        "name": "total_interactions",
-        "period": "lifetime",
-        "title": "Interacciones con reels",
-        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
-        "values": [
-         {
-          "value": 10
-         }
-        ]
-       }
-      ]
-     }
-    },
-    {
-     "id": "17946661296015065",
-     "caption": "Muy pronto en nuestra sucursal de Havanna 😉\n\nDos íconos argentinos se unen para hacer historia.\nJunto a @leomessi  sellamos una alianza global para desarrollar productos que combinen lo mejor de los dos: calidad, tradición y pasión por hacer cosas únicas. \nCon emoción y mucho orgullo, celebramos este camino que recién empieza. \nPresentamos nuestra edición especial de alfajores de chocolate que celebra el amor de Leo por su país. 🇦🇷",
-     "media_type": "CAROUSEL_ALBUM",
-     "media_product_type": "FEED",
-     "timestamp": "2026-06-08T18:20:25+0000",
-     "permalink": "https://www.instagram.com/p/DZVbGjWHEmC/",
-     "like_count": 83,
-     "comments_count": 2,
-     "estadisticas": {
-      "reach": [
-       {
-        "id": "17946661296015065/insights/reach/lifetime",
-        "name": "reach",
-        "period": "lifetime",
-        "title": "Cuentas alcanzadas",
-        "description": "Número de cuentas únicas que vieron este contenedor de secuencia al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu contenedor de secuencia por parte de las mismas cuentas. Esta métrica es una estimación.",
-        "values": [
-         {
-          "value": 1476
-         }
-        ]
-       }
-      ],
-      "views": [
-       {
-        "id": "17946661296015065/insights/views/lifetime",
+        "id": "18093299066338167/insights/views/lifetime",
         "name": "views",
         "period": "lifetime",
         "title": "Visualizaciones",
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 4131
+          "value": 119
          }
         ]
        }
       ],
       "saved": [
        {
-        "id": "17946661296015065/insights/saved/lifetime",
+        "id": "18093299066338167/insights/saved/lifetime",
         "name": "saved",
         "period": "lifetime",
         "title": "Veces que se guardó",
         "description": "Número de veces que se guardó tu publicación.",
         "values": [
          {
-          "value": 3
+          "value": 0
          }
         ]
        }
       ],
       "shares": [
        {
-        "id": "17946661296015065/insights/shares/lifetime",
+        "id": "18093299066338167/insights/shares/lifetime",
         "name": "shares",
         "period": "lifetime",
         "title": "Veces compartido",
         "description": "Número de veces que se compartió tu publicación.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "18093299066338167/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con la publicación",
+        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 2
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "18332906338264213",
+     "caption": "🚗🔥 Cada viaje empieza donde termina tu confianza en el camino.\n\nEquipá tu auto con neumáticos Dunlop y disfrutá de una conducción más segura, estable y eficiente, tanto en ciudad como en ruta.\n\n✅ Excelente agarre y respuesta en curvas\n✅ Mayor confort de marcha\n✅ Desgaste uniforme para más kilómetros de rendimiento\n✅ Financiación en cuotas\n\nNo esperes a notar el desgaste. Elegí neumáticos que respondan cuando más los necesitás.\n\n📲 Consultanos por tu medida y encontrá la mejor opción para tu vehículo.\n💳 Financiación disponible y atención personalizada.\n\nDunlop. Tecnología, seguridad y rendimiento para llegar más lejos. 🛞✨",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-06-06T17:02:05+0000",
+     "permalink": "https://www.instagram.com/p/DZQIi4tCTxw/",
+     "like_count": 4,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "18332906338264213/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 29
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "18332906338264213/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Visualizaciones",
+        "description": "Número de veces que se vio o se mostró tu publicación.",
+        "values": [
+         {
+          "value": 58
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "18332906338264213/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu publicación.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "18332906338264213/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu publicación.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "18332906338264213/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con la publicación",
+        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 4
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "17940666819231710",
+     "caption": "🛻💨 Para los que trabajan, viajan y exigen más de su camioneta.\n\nLos neumáticos Dunlop están diseñados para acompañarte en cada desafío, brindando el equilibrio perfecto entre resistencia, seguridad y rendimiento.\n\n✅ Excelente tracción en distintos terrenos\n✅ Mayor durabilidad y rendimiento kilométrico\n✅ Confort y estabilidad en ruta\n✅ Opciones de financiación y cuotas\n\nNo dejes que el desgaste limite tu camino. Equipá tu camioneta con neumáticos preparados para ir más lejos.\n\n📲 Consultanos por tu medida y recibí asesoramiento personalizado.\n💳 Financiación disponible.\n\nDunlop. Rendimiento que se siente en cada kilómetro. 🛞🔥",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-06-05T17:01:06+0000",
+     "permalink": "https://www.instagram.com/p/DZNjo5JFPV9/",
+     "like_count": 4,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "17940666819231710/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
           "value": 28
@@ -2179,145 +1700,23 @@
         ]
        }
       ],
-      "total_interactions": [
-       {
-        "id": "17946661296015065/insights/total_interactions/lifetime",
-        "name": "total_interactions",
-        "period": "lifetime",
-        "title": "Interacciones con la publicación",
-        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
-        "values": [
-         {
-          "value": 116
-         }
-        ]
-       }
-      ]
-     }
-    },
-    {
-     "id": "17950309113187717",
-     "caption": "Le dijeron a Santi: “¿Me podés terminar el café?”\n\nY sí… lo terminó.\n\nEl único detalle es que no terminó de prepararlo. Se lo tomó. 😅\n\nPero con nuestros lattes tan irresistibles, tampoco podemos juzgarlo. 🤎\n\nLe ponemos un poco de humor a este día gris y seguimos sirviendo café del bueno. 🌧️☕",
-     "media_type": "VIDEO",
-     "media_product_type": "REELS",
-     "timestamp": "2026-06-04T20:20:55+0000",
-     "permalink": "https://www.instagram.com/reel/DZLVq8kPxKO/",
-     "like_count": 28,
-     "comments_count": 2,
-     "estadisticas": {
-      "reach": [
-       {
-        "id": "17950309113187717/insights/reach/lifetime",
-        "name": "reach",
-        "period": "lifetime",
-        "title": "Cuentas alcanzadas",
-        "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
-        "values": [
-         {
-          "value": 1485
-         }
-        ]
-       }
-      ],
       "views": [
        {
-        "id": "17950309113187717/insights/views/lifetime",
-        "name": "views",
-        "period": "lifetime",
-        "title": "Reproducciones",
-        "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
-        "values": [
-         {
-          "value": 2511
-         }
-        ]
-       }
-      ],
-      "saved": [
-       {
-        "id": "17950309113187717/insights/saved/lifetime",
-        "name": "saved",
-        "period": "lifetime",
-        "title": "Veces que se guardó",
-        "description": "Número de veces que se guardó tu reel.",
-        "values": [
-         {
-          "value": 1
-         }
-        ]
-       }
-      ],
-      "shares": [
-       {
-        "id": "17950309113187717/insights/shares/lifetime",
-        "name": "shares",
-        "period": "lifetime",
-        "title": "Veces compartido",
-        "description": "Número de veces que se compartió tu reel.",
-        "values": [
-         {
-          "value": 1
-         }
-        ]
-       }
-      ],
-      "total_interactions": [
-       {
-        "id": "17950309113187717/insights/total_interactions/lifetime",
-        "name": "total_interactions",
-        "period": "lifetime",
-        "title": "Interacciones con reels",
-        "description": "Número de Me gusta y comentarios en tus reels, y las veces que se guardaron y compartieron, menos el número de veces que las personas indicaron que ya no les gustan, los eliminaron de los elementos guardados o borraron comentarios.",
-        "values": [
-         {
-          "value": 32
-         }
-        ]
-       }
-      ]
-     }
-    },
-    {
-     "id": "17949306240189597",
-     "caption": "Cada día tiene su sabor… ¿ya elegiste el tuyo?\n\nDe lunes a domingo, un Latte distinto te espera en Havanna con precio especial. 🤎\n\n🌼 Lunes: Vainilla\n🥄 Martes: Dulce de leche\n💚 Miércoles: Pistacho\n🍯 Jueves: Caramelo\n🍌 Viernes: Banoffee\n🍫 Sábado: Chocolate y avellanas\n🤍 Domingo: Chocolate blanco\n\nAntes $7200 | Ahora $5200 🙌\n\nPasá por tu favorito o descubrí uno nuevo cada día. ¿Con cuál arrancás? 👇☕",
-     "media_type": "CAROUSEL_ALBUM",
-     "media_product_type": "FEED",
-     "timestamp": "2026-06-02T14:05:00+0000",
-     "permalink": "https://www.instagram.com/p/DZFhGjhjo8L/",
-     "like_count": 20,
-     "comments_count": 0,
-     "estadisticas": {
-      "reach": [
-       {
-        "id": "17949306240189597/insights/reach/lifetime",
-        "name": "reach",
-        "period": "lifetime",
-        "title": "Cuentas alcanzadas",
-        "description": "Número de cuentas únicas que vieron este contenedor de secuencia al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu contenedor de secuencia por parte de las mismas cuentas. Esta métrica es una estimación.",
-        "values": [
-         {
-          "value": 838
-         }
-        ]
-       }
-      ],
-      "views": [
-       {
-        "id": "17949306240189597/insights/views/lifetime",
+        "id": "17940666819231710/insights/views/lifetime",
         "name": "views",
         "period": "lifetime",
         "title": "Visualizaciones",
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 2150
+          "value": 62
          }
         ]
        }
       ],
       "saved": [
        {
-        "id": "17949306240189597/insights/saved/lifetime",
+        "id": "17940666819231710/insights/saved/lifetime",
         "name": "saved",
         "period": "lifetime",
         "title": "Veces que se guardó",
@@ -2331,28 +1730,192 @@
       ],
       "shares": [
        {
-        "id": "17949306240189597/insights/shares/lifetime",
+        "id": "17940666819231710/insights/shares/lifetime",
         "name": "shares",
         "period": "lifetime",
         "title": "Veces compartido",
         "description": "Número de veces que se compartió tu publicación.",
         "values": [
          {
-          "value": 18
+          "value": 0
          }
         ]
        }
       ],
       "total_interactions": [
        {
-        "id": "17949306240189597/insights/total_interactions/lifetime",
+        "id": "17940666819231710/insights/total_interactions/lifetime",
         "name": "total_interactions",
         "period": "lifetime",
         "title": "Interacciones con la publicación",
         "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
         "values": [
          {
-          "value": 38
+          "value": 4
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "18111339856912089",
+     "caption": "🚗💨 ¿Tus neumáticos ya piden cambio?\n\nCon los neumáticos Corven, ganás seguridad, rendimiento y confort en cada kilómetro.\n\n✅ Excelente agarre en ruta y ciudad\n✅ Mayor durabilidad\n✅ Conducción más segura para vos y tu familia\n✅ Financiación en cuotas\n\nNo esperes a que el desgaste te juegue una mala pasada. Equipá tu vehículo con la calidad que necesitás al mejor precio.\n\n📲 Consultanos por WhatsApp y te asesoramos según tu modelo de auto.\n💳 Preguntá por nuestras cuotas y promociones vigentes.\n\nCorven Neumáticos. La confianza que te acompaña en cada viaje. 🛞✨",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-06-05T14:59:30+0000",
+     "permalink": "https://www.instagram.com/p/DZNVuLfCdMd/",
+     "like_count": 3,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "18111339856912089/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 39
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "18111339856912089/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Visualizaciones",
+        "description": "Número de veces que se vio o se mostró tu publicación.",
+        "values": [
+         {
+          "value": 76
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "18111339856912089/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu publicación.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "18111339856912089/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu publicación.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "18111339856912089/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con la publicación",
+        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 3
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "18208569286337749",
+     "caption": "No importa el camino. Importa con qué lo recorrés.\n\nLos neumáticos Dunlop Grandtrek AT5 están diseñados para quienes exigen rendimiento en cada terreno: tierra, ripio, barro o asfalto.\n\n✅ Máximo agarre y estabilidad\n✅ Mayor resistencia al desgaste\n✅ Excelente tracción en condiciones exigentes\n✅ Confort y seguridad para el uso diario\n\nSi tu camioneta trabaja tanto como vos, necesitás neumáticos que estén a la altura del desafío.\n\n📲 Consultá por precios, medidas disponibles y opciones de financiación.\n\nDunlop Grandtrek AT5: preparados para llegar más lejos, donde otros se detienen.",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-06-04T14:35:33+0000",
+     "permalink": "https://www.instagram.com/p/DZKuKyVuDHW/",
+     "like_count": 3,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "id": "18208569286337749/insights/reach/lifetime",
+        "name": "reach",
+        "period": "lifetime",
+        "title": "Cuentas alcanzadas",
+        "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
+        "values": [
+         {
+          "value": 40
+         }
+        ]
+       }
+      ],
+      "views": [
+       {
+        "id": "18208569286337749/insights/views/lifetime",
+        "name": "views",
+        "period": "lifetime",
+        "title": "Visualizaciones",
+        "description": "Número de veces que se vio o se mostró tu publicación.",
+        "values": [
+         {
+          "value": 86
+         }
+        ]
+       }
+      ],
+      "saved": [
+       {
+        "id": "18208569286337749/insights/saved/lifetime",
+        "name": "saved",
+        "period": "lifetime",
+        "title": "Veces que se guardó",
+        "description": "Número de veces que se guardó tu publicación.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "shares": [
+       {
+        "id": "18208569286337749/insights/shares/lifetime",
+        "name": "shares",
+        "period": "lifetime",
+        "title": "Veces compartido",
+        "description": "Número de veces que se compartió tu publicación.",
+        "values": [
+         {
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "total_interactions": [
+       {
+        "id": "18208569286337749/insights/total_interactions/lifetime",
+        "name": "total_interactions",
+        "period": "lifetime",
+        "title": "Interacciones con la publicación",
+        "description": "Número de Me gusta y comentarios en tu publicación, y las veces que se guardó o compartió, menos el número de veces que las personas indicaron que ya no les gusta, la eliminaron de los elementos guardados o borraron comentarios.",
+        "values": [
+         {
+          "value": 3
          }
         ]
        }
@@ -2364,15 +1927,8 @@
  ],
  "anuncios": [
   {
-   "id": "act_1669087713214682",
-   "name": "1669087713214682",
-   "currency": "ARS",
-   "account_status": 1,
-   "anuncios": []
-  },
-  {
-   "id": "act_521683199011492",
-   "name": "Grupo Agroenergia",
+   "id": "act_2408851726269066",
+   "name": "Dynamis ",
    "currency": "ARS",
    "account_status": 1,
    "anuncios": []

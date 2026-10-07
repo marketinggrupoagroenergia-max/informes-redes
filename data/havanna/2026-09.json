@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-09",
- "extraido": "2026-10-07T13:41:31+00:00",
+ "extraido": "2026-10-07T16:09:52+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1028,7 +1028,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 71
+          "value": 72
          }
         ],
         "title": null,
@@ -1654,7 +1654,7 @@
         "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 494
+          "value": 495
          }
         ]
        }
@@ -1668,7 +1668,7 @@
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 968
+          "value": 970
          }
         ]
        }
@@ -1736,7 +1736,7 @@
         "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 2096
+          "value": 2099
          }
         ]
        }
@@ -1750,7 +1750,7 @@
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 4452
+          "value": 4455
          }
         ]
        }
@@ -1818,7 +1818,7 @@
         "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 820
+          "value": 822
          }
         ]
        }
@@ -1832,7 +1832,7 @@
         "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
         "values": [
          {
-          "value": 1335
+          "value": 1337
          }
         ]
        }

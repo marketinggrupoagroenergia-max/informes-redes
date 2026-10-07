@@ -1,0 +1,1044 @@
+{
+ "marca": "dynamis",
+ "mes": "2025-02",
+ "extraido": "2026-10-07T16:11:58+00:00",
+ "version_api": "v23.0",
+ "facebook": [
+  {
+   "id": "1149874128203287",
+   "nombre": "Dynamisneumaticos",
+   "perfil": {
+    "name": "Dynamisneumaticos",
+    "fan_count": 7,
+    "followers_count": 7,
+    "link": "https://www.facebook.com/1149874128203287",
+    "id": "1149874128203287"
+   },
+   "estadisticas": {
+    "page_follows": [
+     {
+      "name": "page_follows",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-02-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-10T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-15T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-17T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-19T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-24T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-28T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-03-01T08:00:00+0000"
+       }
+      ],
+      "title": "Lifetime Total Follows",
+      "description": "Lifetime: The number of followers of your Facebook Page or profile. This is calculated as the number of follows minus the number of unfollows over the lifetime of your Facebook Page or profile. ",
+      "id": "1149874128203287/insights/page_follows/day"
+     }
+    ],
+    "page_daily_follows_unique": [
+     {
+      "name": "page_daily_follows_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-02-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-10T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-15T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-17T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-19T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-24T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-28T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-03-01T08:00:00+0000"
+       }
+      ],
+      "title": "Daily New Follows",
+      "description": "Daily: The number of Meta Accounts that followed your Page in the selected time period. This metric is estimated (Unique Users)",
+      "id": "1149874128203287/insights/page_daily_follows_unique/day"
+     }
+    ],
+    "page_daily_unfollows_unique": [
+     {
+      "name": "page_daily_unfollows_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-02-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-10T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-15T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-17T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-19T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-24T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-28T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-03-01T08:00:00+0000"
+       }
+      ],
+      "title": "Daily New Unfollows",
+      "description": "Daily: The number of Meta Accounts that unfollowed your Page in the selected time period. This metric is estimated. (Unique Users)",
+      "id": "1149874128203287/insights/page_daily_unfollows_unique/day"
+     }
+    ],
+    "page_media_view": [
+     {
+      "name": "page_media_view",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-02-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-10T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-15T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-17T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-19T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-24T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-28T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-03-01T08:00:00+0000"
+       }
+      ],
+      "title": "Visualizaciones de Facebook",
+      "description": "Número de veces que se mostró en la pantalla de una persona contenido de tu página, incluidas publicaciones, historias, anuncios y otros contenidos.",
+      "id": "1149874128203287/insights/page_media_view/day"
+     }
+    ],
+    "page_total_media_view_unique": [
+     {
+      "name": "page_total_media_view_unique",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-02-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-10T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-15T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-17T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-19T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-24T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-28T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-03-01T08:00:00+0000"
+       }
+      ],
+      "title": null,
+      "description": "Número total de espectadores únicos de contenido multimedia de una página de Facebook",
+      "id": "1149874128203287/insights/page_total_media_view_unique/day"
+     }
+    ],
+    "page_post_engagements": [
+     {
+      "name": "page_post_engagements",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-02-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-10T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-15T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-17T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-19T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-24T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-28T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-03-01T08:00:00+0000"
+       }
+      ],
+      "title": "Daily Post Engagements",
+      "description": "Daily: The number of times people have engaged with your posts through like, comments and shares and more.",
+      "id": "1149874128203287/insights/page_post_engagements/day"
+     }
+    ],
+    "page_views_total": [
+     {
+      "name": "page_views_total",
+      "period": "day",
+      "values": [
+       {
+        "value": 0,
+        "end_time": "2025-02-02T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-03T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-04T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-05T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-06T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-07T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-08T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-09T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-10T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-11T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-12T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-13T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-14T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-15T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-16T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-17T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-18T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-19T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-20T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-21T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-22T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-23T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-24T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-25T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-26T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-27T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-02-28T08:00:00+0000"
+       },
+       {
+        "value": 0,
+        "end_time": "2025-03-01T08:00:00+0000"
+       }
+      ],
+      "title": "Daily Total views count per Page",
+      "description": "Daily: Total views count per Page",
+      "id": "1149874128203287/insights/page_views_total/day"
+     }
+    ]
+   },
+   "publicaciones": []
+  }
+ ],
+ "instagram": [
+  {
+   "id": "17841411155656506",
+   "perfil": {
+    "id": "17841411155656506",
+    "followers_count": 114,
+    "follows_count": 61,
+    "media_count": 27,
+    "username": "dynamisneumaticos"
+   },
+   "estadisticas": {
+    "reach": [
+     {
+      "id": "17841411155656506/insights/reach/day",
+      "name": "reach",
+      "period": "day",
+      "title": "Cuentas alcanzadas",
+      "description": "Número de cuentas únicas que vieron tu contenido al menos una vez, incluido el de los anuncios. El contenido incluye publicaciones, historias, reels, videos y videos en vivo. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones del contenido por parte de las mismas cuentas. Esta métrica es una estimación y está en desarrollo.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "views": [
+     {
+      "id": "17841411155656506/insights/views/day",
+      "name": "views",
+      "period": "day",
+      "title": "Visualizaciones",
+      "description": "Número de veces que se vio o se mostró tu contenido, incluidos reels, publicaciones e historias.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "total_interactions": [
+     {
+      "id": "17841411155656506/insights/total_interactions/day",
+      "name": "total_interactions",
+      "period": "day",
+      "title": "Interacciones con el contenido",
+      "description": "Número total de interacciones con tus publicaciones, historias, reels, videos y videos en vivo, incluidas las interacciones con contenido promocionado.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "accounts_engaged": [
+     {
+      "id": "17841411155656506/insights/accounts_engaged/day",
+      "name": "accounts_engaged",
+      "period": "day",
+      "title": "Cuentas que interactuaron",
+      "description": "Número de cuentas que interactuaron con tu contenido, incluido el de los anuncios. El contenido incluye publicaciones, historias, reels, videos y videos en vivo. Las interacciones pueden incluir acciones como Me gusta, comentarios, respuestas o veces que se guardó o compartió el contenido. Estas métricas son una estimación y están en desarrollo.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "likes": [
+     {
+      "id": "17841411155656506/insights/likes/day",
+      "name": "likes",
+      "period": "day",
+      "title": "Me gusta",
+      "description": "Número de Me gusta en tus publicaciones, reels y videos.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "comments": [
+     {
+      "id": "17841411155656506/insights/comments/day",
+      "name": "comments",
+      "period": "day",
+      "title": "Comentarios",
+      "description": "Número de comentarios en tus publicaciones, reels, videos y videos en vivo.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "shares": [
+     {
+      "id": "17841411155656506/insights/shares/day",
+      "name": "shares",
+      "period": "day",
+      "title": "Veces que se compartió",
+      "description": "Número de veces que se compartieron tus publicaciones, historias, reels, videos y videos en vivo.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "saves": [
+     {
+      "id": "17841411155656506/insights/saves/day",
+      "name": "saves",
+      "period": "day",
+      "title": "Veces que se guardó",
+      "description": "Número de veces que se guardaron tus publicaciones, reels y videos.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "profile_links_taps": [
+     {
+      "id": "17841411155656506/insights/profile_links_taps/day",
+      "name": "profile_links_taps",
+      "period": "day",
+      "title": "Toques en los enlaces del perfil",
+      "description": "Número de toques en la dirección del negocio y el botón de llamada a la acción, de correo electrónico y de texto.",
+      "total_value": {
+       "value": 0
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ],
+    "follows_and_unfollows": [
+     {
+      "id": "17841411155656506/insights/follows_and_unfollows/day",
+      "name": "follows_and_unfollows",
+      "period": "day",
+      "title": "Seguidores y personas que dejaron de seguirte",
+      "description": "Número de cuentas que empezaron a seguirte y el número de cuentas que dejaron de seguirte o que abandonaron Instagram en el período que seleccionaste.",
+      "total_value": {
+       "breakdowns": [
+        {
+         "dimension_keys": [
+          "follow_type"
+         ]
+        }
+       ]
+      },
+      "tramo": "2025-02-01 a 2025-02-28"
+     }
+    ]
+   },
+   "publicaciones": []
+  }
+ ],
+ "anuncios": [
+  {
+   "id": "act_2408851726269066",
+   "name": "Dynamis ",
+   "currency": "ARS",
+   "account_status": 1,
+   "anuncios": []
+  }
+ ],
+ "errores": []
+}
