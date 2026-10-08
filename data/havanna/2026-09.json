@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-09",
- "extraido": "2026-10-08T13:37:40+00:00",
+ "extraido": "2026-10-08T13:53:34+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1654,7 +1654,7 @@
         "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 509
+          "value": 511
          }
         ]
        }
@@ -2242,7 +2242,7 @@
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 1861
+          "value": 1862
          }
         ]
        }
