@@ -167,7 +167,7 @@ tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
       <thead><tr><th>Mes</th><th>Campaña</th><th>Objetivo</th><th class="r">Inversión</th><th class="r">Alcance</th><th class="r">Resultado</th><th class="r">Costo por resultado</th></tr></thead>
       <tbody id="pauta"></tbody>
     </table></div>
-    <p class="small muted">Solo campañas que promocionaron publicaciones de la página de Grupo Agroenergía, sacadas de la cuenta publicitaria del portfolio Agroenergia. La campaña "Neumáticos" de octubre 2025 era de Dynamis pero se publicó desde esta página. Montos en pesos de cada momento.</p>
+    <p class="small muted">Solo campañas que promocionaron publicaciones de la página de Grupo Agroenergía, sacadas de la cuenta publicitaria del portfolio Agroenergia. La campaña "Neumáticos" de octubre 2025 era de Dynamis pero se publicó desde esta página. El sorteo de los 2 autos 0km (mayo 2025 a mayo 2026) suma al menos $89.274 en estas cuentas; la pauta del cierre del sorteo (abril 2026) y la de GNC de agosto 2026 no aparecen en las cuentas publicitarias que lee el sistema. Montos en pesos de cada momento.</p>
   </section>
 
   <section aria-labelledby="t-reco">
@@ -287,12 +287,14 @@ document.getElementById("posts").innerHTML = POSTS.map((p, k) =>
 
 const PAUTA = [
   ["mar 26","Interacción agro","Mensajes",63805,"12.613","12 conversaciones","$5.317 por conversación"],
-  ["feb 26","Sorteo · mensajes","Mensajes",24734,"11.738","9 conversaciones","$2.748 por conversación"],
-  ["ene 26","Sorteo · mensajes","Mensajes",25266,"10.841","9 conversaciones","$2.807 por conversación"],
+  ["feb 26","Sorteo 0km · mensajes","Mensajes",24734,"11.738","9 conversaciones","$2.748 por conversación"],
+  ["ene 26","Sorteo 0km · mensajes","Mensajes",25266,"10.841","9 conversaciones","$2.807 por conversación"],
   ["oct 25","Neumáticos (Dynamis)","Reconocimiento",29997,"49.541","49.541 personas","$606 cada 1.000"],
   ["oct 25","TP y ZN 2000","Reconocimiento",15000,"36.721","36.721 personas","$408 cada 1.000"],
   ["sep 25","3 campañas de reconocimiento","Reconocimiento",22983,"59.984","59.984 personas","$383 cada 1.000"],
-  ["ago 25","Sorteos Axion, Puma y Shell Catriló + 1","Reconocimiento",29279,"72.403","72.403 personas","$404 cada 1.000"]
+  ["ago 25","Sorteo 0km: Axion, Puma y Shell Catriló + 1","Reconocimiento",29279,"72.403","72.403 personas","$404 cada 1.000"],
+  ["jun 25","Sorteo 0km (lanzamiento)","Reconocimiento",3670,"—","—","—"],
+  ["may 25","Sorteo 0km (lanzamiento)","Reconocimiento",11325,"—","—","—"]
 ];
 document.getElementById("pauta").innerHTML = PAUTA.map(p =>
   `<tr><td class="num">${p[0]}</td><td>${p[1]}</td><td class="muted">${p[2]}</td><td class="r">$${nf.format(p[3])}</td><td class="r">${p[4]}</td><td class="r">${p[5]}</td><td class="r">${p[6]}</td></tr>`).join("");
