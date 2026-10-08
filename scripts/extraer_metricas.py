@@ -30,6 +30,8 @@ import urllib.request
 
 VERSION = os.environ.get("GRAPH_VERSION", "v23.0")
 BASE = f"https://graph.facebook.com/{VERSION}"
+# API de Instagram con inicio de sesión de Instagram (cuentas sin página de Facebook conectada)
+BASE_IG = f"https://graph.instagram.com/{VERSION}"
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 
 # Listas de métricas candidatas. Meta las cambia seguido: las que ya no
@@ -165,8 +167,12 @@ def extraer_facebook(pagina, desde, hasta, errores):
     return salida
 
 
-def extraer_instagram(ig_id, token, desde, hasta, errores):
-    salida = {"id": ig_id}
+def extraer_instagram(ig_id, token, desde, hasta, errores, base=None):
+    """base=None usa graph.facebook.com (Instagram conectado a una página);
+    base=BASE_IG usa graph.instagram.com (token de inicio de sesión de Instagram)."""
+    if base:
+        ig_id = f"{base}/{ig_id}"
+    salida = {"id": ig_id.rsplit("/", 1)[-1]}
     try:
         salida["perfil"] = llamar(ig_id, token, fields="username,followers_count,follows_count,media_count")
     except ErrorMeta as e:
@@ -213,7 +219,8 @@ def extraer_instagram(ig_id, token, desde, hasta, errores):
             if fecha > hasta:
                 continue
             medio["estadisticas"] = metrica_por_metrica(
-                f"{medio['id']}/insights", token, METRICAS_MEDIA_IG, [], "medio",
+                f"{base}/{medio['id']}/insights" if base else f"{medio['id']}/insights",
+                token, METRICAS_MEDIA_IG, [], "medio",
             )
             publicaciones.append(medio)
     except ErrorMeta as e:
@@ -294,7 +301,7 @@ def listar_paginas(token):
         return [pagina]
 
 
-def extraer_marca(marca, token, mes, token_anuncios=None):
+def extraer_marca(marca, token, mes, token_anuncios=None, token_ig=None):
     desde, hasta = rango_mes(mes)
     errores = []
     datos = {
@@ -320,6 +327,14 @@ def extraer_marca(marca, token, mes, token_anuncios=None):
             datos["instagram"].append(
                 extraer_instagram(ig, pagina.get("access_token") or token, desde, hasta, errores)
             )
+    if token_ig and not datos["instagram"]:
+        try:
+            yo = llamar(f"{BASE_IG}/me", token_ig, fields="user_id,username")
+            datos["instagram"].append(
+                extraer_instagram(yo["user_id"], token_ig, desde, hasta, errores, base=BASE_IG)
+            )
+        except ErrorMeta as e:
+            errores.append(f"Instagram (inicio de sesión de Instagram): {e}")
     datos["anuncios"] = extraer_anuncios(token_anuncios or token, desde, hasta, errores)
     marcar_anuncios_de_la_marca(datos, token_anuncios or token)
     for p in datos["facebook"]:
@@ -355,11 +370,12 @@ def main():
             conf = {"token": conf}
         token = os.environ.get(conf["token"])
         token_anuncios = os.environ.get(conf.get("anuncios", "")) if conf.get("anuncios") else None
+        token_ig = os.environ.get(conf["instagram"]) if conf.get("instagram") else None
         if not token:
             print(f"[{marca}] sin token ({conf['token']}); se omite.")
             continue
         for mes in meses_a_extraer(args):
-            datos = extraer_marca(marca, token, mes, token_anuncios)
+            datos = extraer_marca(marca, token, mes, token_anuncios, token_ig)
             destino = RAIZ / "data" / marca / f"{mes}.json"
             destino.parent.mkdir(parents=True, exist_ok=True)
             destino.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
