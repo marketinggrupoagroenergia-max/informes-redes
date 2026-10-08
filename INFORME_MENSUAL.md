@@ -19,7 +19,7 @@ Destinataria: Dana, responsable de marketing. Español rioplatense (voseo), dire
 - Marcas que vende: Dunlop (estrella, vía Grupo Corven), Corven y Continental. No mencionar la gomería.
 
 ## Marca: Grupo Agroenergía
-- Datos: `data/agroenergia/AAAA-MM.json`. Solo Facebook (página 360487924048263); Instagram todavía no está conectado.
+- Datos: `data/agroenergia/AAAA-MM.json`. Facebook (página 360487924048263) e Instagram @grupo.agroenergia (leído vía graph.instagram.com con el secret META_TOKEN_AGROENERGIA_IG, token de inicio de sesión de Instagram que vence cada 60 días). Si Instagram trae error de token vencido, avisar a Dana que lo regenere en la app Informes mensuales → Casos de uso → API de Instagram → Configuración de la API con inicio de sesión de Instagram → Generar token, y actualice el secret.
 - La página se lee con un token de página de Dana (no vence, pero Meta exige reconfirmar el acceso a datos cada 90 días). Si la extracción da error de permisos o de token, avisar a Dana que hay que renovarlo desde el Explorador de la API Graph (app Informes mensuales, Generate Access Token, ampliar, me/accounts) y actualizar el secret META_TOKEN_AGROENERGIA.
 - La pauta sale de la cuenta publicitaria del portfolio Agroenergia (token de Havanna); usar solo anuncios con `es_de_la_marca: true`. Esa cuenta mezcla marcas.
 - Métricas de página: `page_total_media_view_unique` (alcance, desde mayo 2025), `page_media_view` (visualizaciones), `page_post_engagements`, `page_follows` (total), `page_daily_follows_unique` / `page_daily_unfollows_unique` (altas y bajas).

@@ -98,7 +98,7 @@ tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
   <header>
     <span class="eyebrow">Informe mensual de redes · Grupo Agroenergía</span>
     <h1>Septiembre 2026</h1>
-    <div class="meta"><span>Facebook · 10.050 seguidores</span><span>Instagram: pendiente de conexión</span><span>Datos extraídos el 7 oct 2026</span></div>
+    <div class="meta"><span>Facebook · 10.050 seguidores</span><span>Instagram @grupo.agroenergia · 10.898 seguidores</span><span>Datos extraídos el 7 oct 2026</span></div>
   </header>
 
   <section class="lectura" aria-labelledby="t-lectura">
@@ -107,14 +107,30 @@ tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
       <li><strong>Septiembre volvió al nivel bajo de todo 2026.</strong> 3.988 personas alcanzadas en Facebook, 67% menos que agosto. Agosto fue la excepción por un solo reel; sin ese reel, desde abril la página se mueve entre 1.400 y 4.000 personas por mes.</li>
       <li><strong>La página depende de la pauta y hace seis meses que no se pauta.</strong> La última campaña fue en marzo. Entre agosto y octubre de 2025, con sorteos pautados, la página llegaba a entre 93.000 y 180.000 personas por mes, entre 20 y 45 veces más que ahora.</li>
       <li><strong>El humor funciona también acá.</strong> El reel del 20/8 ("hay preguntas que merecen una respuesta") sumó 5.123 visualizaciones, casi ocho veces lo que sumaron todos los posteos de septiembre juntos. Las promos de Axion y los posteos de fechas rondan entre 100 y 430.</li>
-      <li><strong>Los seguidores están quietos.</strong> Septiembre fue el primer mes en dos años sin ningún seguidor nuevo, y se fueron 3. En los últimos 12 meses la página sumó apenas 91 seguidores netos.</li>
+      <li><strong>Instagram también cayó, pero sigue creciendo en seguidores.</strong> 8.087 cuentas alcanzadas, 77% menos que agosto. El mejor contenido volvió a ser un reel de humor (9/9, 1.641 cuentas). Sumó 85 seguidores y se fueron 81: el saldo más bajo en un año.</li>
+      <li><strong>Los seguidores de Facebook están quietos.</strong> Septiembre fue el primer mes en dos años sin ningún seguidor nuevo, y se fueron 3. En los últimos 12 meses la página sumó apenas 91 seguidores netos.</li>
     </ol>
   </section>
 
   <section aria-labelledby="t-kpis">
-    <h2 id="t-kpis">Los números de Facebook</h2>
+    <h2 id="t-kpis">Facebook</h2>
     <div class="kpis" id="kpis"></div>
     <p class="small muted">Comparado con agosto y con septiembre 2025. En septiembre 2025 hubo pauta y en septiembre 2026 no, por eso la diferencia interanual es tan grande.</p>
+  </section>
+
+  <section aria-labelledby="t-ig">
+    <h2 id="t-ig">Instagram</h2>
+    <div class="kpis" id="kpis-ig"></div>
+    <p class="small muted">En agosto el aviso de búsqueda de chofer llegó a 24.154 cuentas por sí solo, por eso la caída contra agosto es tan marcada. Contra septiembre 2025 el alcance bajó 71% y las interacciones 63%.</p>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th class="r">Alcance</th><th class="r">Visualizaciones</th><th class="r">Interacciones</th><th class="r">Nuevos</th><th class="r">Se fueron</th><th class="r">Saldo</th></tr></thead>
+      <tbody id="ig-meses"></tbody>
+    </table></div>
+    <h3 style="margin-top:8px">Publicaciones de septiembre en Instagram</h3>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Fecha</th><th>Publicación</th><th class="r">Alcance</th><th class="r">Vistas</th><th class="r">Interacc.</th></tr></thead>
+      <tbody id="ig-posts"></tbody>
+    </table></div>
   </section>
 
   <section aria-labelledby="t-linea">
@@ -167,7 +183,7 @@ tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
   <section class="notas" aria-labelledby="t-notas">
     <h3 id="t-notas">Notas sobre los datos</h3>
     <ul>
-      <li>Instagram todavía no está incluido. La cuenta quedó atada al portfolio comercial bloqueado y no se puede conectar a la página; falta configurar el acceso directo con el usuario de Instagram.</li>
+      <li>Instagram se lee con el inicio de sesión de Instagram (sin pasar por la página ni el portfolio bloqueado). Visualizaciones e interacciones existen desde agosto 2025 y los seguidores ganados y perdidos desde octubre 2025.</li>
       <li>Los datos de Facebook se leen con el acceso de Dana a la página. Meta pide reconfirmar ese permiso cada 90 días; el próximo vence cerca del 5 de enero de 2027.</li>
       <li>El alcance de la página (personas únicas) está disponible desde mayo 2025; para los meses anteriores el gráfico usa visualizaciones.</li>
       <li>El alcance general incluye a quienes vieron los anuncios, por eso sube en los meses con pauta.</li>
@@ -280,4 +296,18 @@ const PAUTA = [
 ];
 document.getElementById("pauta").innerHTML = PAUTA.map(p =>
   `<tr><td class="num">${p[0]}</td><td>${p[1]}</td><td class="muted">${p[2]}</td><td class="r">$${nf.format(p[3])}</td><td class="r">${p[4]}</td><td class="r">${p[5]}</td><td class="r">${p[6]}</td></tr>`).join("");
+
+const IGM = [["2025-10",47513,225062,1302,233,50],["2025-11",10144,76507,919,149,40],["2025-12",11564,113540,751,111,63],["2026-01",22597,97607,1013,165,69],["2026-02",14440,77576,697,86,68],["2026-03",12622,71210,567,85,62],["2026-04",11630,92543,940,124,48],["2026-05",29059,125727,3363,298,95],["2026-06",18014,89128,1100,156,70],["2026-07",20891,79216,1324,233,62],["2026-08",35089,95479,1206,342,80],["2026-09",8087,37257,276,85,81]];
+const IGYOY = {alc:27951, vis:149865, int:753};
+(function(){
+  const c = IGM[IGM.length-1], p = IGM[IGM.length-2];
+  const K2 = [["Alcance",1,IGYOY.alc],["Visualizaciones",2,IGYOY.vis],["Interacciones",3,IGYOY.int]];
+  document.getElementById("kpis-ig").innerHTML = K2.map(([n,i,y]) =>
+    `<div class="kpi"><span class="lab">${n}</span><span class="val">${nf.format(c[i])}</span><span class="cmp"><span>vs agosto ${delta(c[i], p[i])}</span><span>vs sep 2025 ${delta(c[i], y)}</span></span></div>`).join("") +
+    `<div class="kpi"><span class="lab">Seguidores</span><span class="val">10.898</span><span class="cmp"><span>saldo sep <span class="up">+4</span></span><span>saldo ago <span class="up">+262</span></span></span></div>`;
+  document.getElementById("ig-meses").innerHTML = IGM.slice().reverse().map(r => { const n = r[4]-r[5];
+    return `<tr><td>${lab(r[0])}</td><td class="r">${nf.format(r[1])}</td><td class="r">${nf.format(r[2])}</td><td class="r">${nf.format(r[3])}</td><td class="r">${r[4]}</td><td class="r">${r[5]}</td><td class="r"><span class="${n>0?"up":n<0?"down":""}">${n>0?"+":""}${n}</span></td></tr>`; }).join("");
+  const IP = [["9/9","Reel","Humor de mitad de semana","https://www.instagram.com/reel/DdE2mguNBpt/",1641,3247,36],["16/9","Reel","Paraste a cargar: promos en la estación","https://www.instagram.com/reel/DdXBpIFNnAT/",889,1623,8],["28/9","Reel","Invitación a la Expo Rural (2 al 4/10)","https://www.instagram.com/reel/Dd2VDVtN3KA/",866,1496,23],["13/9","Reel","Nuevos combustibles en Puma","https://www.instagram.com/reel/DdO36bpNwho/",563,932,7],["4/9","Foto","Café y beneficios en Axion","https://www.instagram.com/p/Dc4EcnAFbeM/",489,1353,11],["24/9","Reel","Promo Shell: Ferrari en Las Vegas","https://www.instagram.com/reel/Ddq34JRttv3/",221,352,2]];
+  document.getElementById("ig-posts").innerHTML = IP.map((x,k) => `<tr class="${k===0?"top":""}"><td class="num">${x[0]}</td><td class="cap"><a href="${x[3]}" target="_blank" rel="noopener">${x[2]}</a><br><span class="fmt">${x[1]}</span></td><td class="r"><span class="barcell">${nf.format(x[4])}<span class="minibar" style="width:${Math.round(x[4]/1641*60)}px"></span></span></td><td class="r">${nf.format(x[5])}</td><td class="r">${x[6]}</td></tr>`).join("");
+})();
 </script>
