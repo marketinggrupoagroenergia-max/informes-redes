@@ -1,7 +1,7 @@
 {
  "marca": "agroenergia",
  "mes": "2026-09",
- "extraido": "2026-10-07T19:39:22+00:00",
+ "extraido": "2026-10-08T13:39:19+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -9,8 +9,8 @@
    "nombre": "Grupo Agroenergía",
    "perfil": {
     "name": "Grupo Agroenergía",
-    "fan_count": 10051,
-    "followers_count": 10051,
+    "fan_count": 10050,
+    "followers_count": 10050,
     "link": "https://www.facebook.com/360487924048263",
     "id": "360487924048263"
    },
@@ -962,7 +962,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 223
+          "value": 228
          }
         ],
         "title": null,
@@ -1030,7 +1030,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 49
+          "value": 50
          }
         ],
         "title": null,
@@ -1096,7 +1096,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 180
+          "value": 182
          }
         ],
         "title": null,
@@ -1162,7 +1162,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 120
+          "value": 126
          }
         ],
         "title": null,
@@ -1228,7 +1228,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 99
+          "value": 102
          }
         ],
         "title": null,
