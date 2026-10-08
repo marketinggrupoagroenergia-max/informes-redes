@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2024-10",
- "extraido": "2026-10-07T19:10:27+00:00",
+ "extraido": "2026-10-08T13:55:51+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -454,7 +454,7 @@
         "end_time": "2024-10-08T07:00:00+0000"
        },
        {
-        "value": 15,
+        "value": 0,
         "end_time": "2024-10-09T07:00:00+0000"
        },
        {
@@ -851,7 +851,7 @@
         "end_time": "2024-10-06T07:00:00+0000"
        },
        {
-        "value": 3,
+        "value": 0,
         "end_time": "2024-10-07T07:00:00+0000"
        },
        {
@@ -969,7 +969,7 @@
    "id": "17841461293753493",
    "perfil": {
     "id": "17841461293753493",
-    "followers_count": 10616,
+    "followers_count": 10618,
     "follows_count": 75,
     "media_count": 304,
     "username": "havanna_lapampa"

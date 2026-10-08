@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2025-09",
- "extraido": "2026-10-07T19:17:13+00:00",
+ "extraido": "2026-10-08T14:02:16+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1076,7 +1076,7 @@
    "id": "17841461293753493",
    "perfil": {
     "id": "17841461293753493",
-    "followers_count": 10616,
+    "followers_count": 10618,
     "follows_count": 75,
     "media_count": 304,
     "username": "havanna_lapampa"

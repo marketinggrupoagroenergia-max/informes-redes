@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-05",
- "extraido": "2026-10-07T19:22:32+00:00",
+ "extraido": "2026-10-08T14:08:29+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1370,7 +1370,7 @@
    "id": "17841461293753493",
    "perfil": {
     "id": "17841461293753493",
-    "followers_count": 10616,
+    "followers_count": 10618,
     "follows_count": 75,
     "media_count": 304,
     "username": "havanna_lapampa"
@@ -1691,7 +1691,7 @@
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 1911
+          "value": 1912
          }
         ]
        }
@@ -1759,7 +1759,7 @@
         "description": "Número de cuentas únicas que vieron este contenedor de secuencia al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu contenedor de secuencia por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 866
+          "value": 867
          }
         ]
        }
@@ -1773,7 +1773,7 @@
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 2158
+          "value": 2159
          }
         ]
        }
@@ -1841,7 +1841,7 @@
         "description": "Número de cuentas únicas que vieron este reel al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias reproducciones de los reels por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 1428
+          "value": 1430
          }
         ]
        }
@@ -1855,7 +1855,7 @@
         "description": "Número de veces que se reprodujeron o se mostraron tus reels.",
         "values": [
          {
-          "value": 2683
+          "value": 2684
          }
         ]
        }
@@ -1937,7 +1937,7 @@
         "description": "Número de veces que se vio o se mostró tu publicación.",
         "values": [
          {
-          "value": 2633
+          "value": 2634
          }
         ]
        }

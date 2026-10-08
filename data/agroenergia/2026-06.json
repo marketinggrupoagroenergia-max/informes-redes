@@ -1,7 +1,7 @@
 {
  "marca": "agroenergia",
  "mes": "2026-06",
- "extraido": "2026-10-07T19:38:34+00:00",
+ "extraido": "2026-10-08T14:34:52+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -9,8 +9,8 @@
    "nombre": "Grupo Agroenergía",
    "perfil": {
     "name": "Grupo Agroenergía",
-    "fan_count": 10051,
-    "followers_count": 10051,
+    "fan_count": 10050,
+    "followers_count": 10050,
     "link": "https://www.facebook.com/360487924048263",
     "id": "360487924048263"
    },
@@ -962,7 +962,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 809
+          "value": 810
          }
         ],
         "title": null,
@@ -1167,7 +1167,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 1899
+          "value": 1900
          }
         ],
         "title": null,
@@ -1346,7 +1346,828 @@
    ]
   }
  ],
- "instagram": [],
+ "instagram": [
+  {
+   "id": "17841402071197975",
+   "perfil": {
+    "username": "grupo.agroenergia",
+    "followers_count": 10898,
+    "follows_count": 4698,
+    "media_count": 1971,
+    "id": "28934785046187755"
+   },
+   "estadisticas": {
+    "reach": [
+     {
+      "name": "reach",
+      "period": "day",
+      "title": "Accounts reached",
+      "description": "The number of unique accounts that have seen your content, at least once, including in ads. Content includes posts, stories, reels, videos and live videos. Reach is different from impressions, which may include multiple views of your content by the same accounts. This metric is estimated and in development.",
+      "total_value": {
+       "value": 18014
+      },
+      "id": "17841402071197975/insights/reach/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "views": [
+     {
+      "name": "views",
+      "period": "day",
+      "title": "Views",
+      "description": "The number of times your content was played or displayed. Content includes reels, posts, stories.",
+      "total_value": {
+       "value": 89128
+      },
+      "id": "17841402071197975/insights/views/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "total_interactions": [
+     {
+      "name": "total_interactions",
+      "period": "day",
+      "title": "Content interactions",
+      "description": "The total number of post interactions, story interactions, reels interactions, video interactions and live video interactions, including any interactions on boosted content.",
+      "total_value": {
+       "value": 1100
+      },
+      "id": "17841402071197975/insights/total_interactions/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "accounts_engaged": [
+     {
+      "name": "accounts_engaged",
+      "period": "day",
+      "title": "Accounts engaged",
+      "description": "The number of accounts that have interacted with your content, including in ads. Content includes posts, stories, reels, videos and live videos. Interactions can include actions such as likes, saves, comments, shares or replies. These metrics are estimated and in development.",
+      "total_value": {
+       "value": 632
+      },
+      "id": "17841402071197975/insights/accounts_engaged/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "likes": [
+     {
+      "name": "likes",
+      "period": "day",
+      "title": "Likes",
+      "description": "The number of likes on your posts, reels and videos.",
+      "total_value": {
+       "value": 600
+      },
+      "id": "17841402071197975/insights/likes/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "comments": [
+     {
+      "name": "comments",
+      "period": "day",
+      "title": "Comments",
+      "description": "The number of comments on your posts, reels, videos, and live videos.",
+      "total_value": {
+       "value": 24
+      },
+      "id": "17841402071197975/insights/comments/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "shares": [
+     {
+      "name": "shares",
+      "period": "day",
+      "title": "Shares",
+      "description": "The number of shares of your posts, stories, reels, videos and live videos.",
+      "total_value": {
+       "value": 219
+      },
+      "id": "17841402071197975/insights/shares/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "saves": [
+     {
+      "name": "saves",
+      "period": "day",
+      "title": "Saves",
+      "description": "The number of saves of your posts, reels and videos.",
+      "total_value": {
+       "value": 23
+      },
+      "id": "17841402071197975/insights/saves/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "profile_links_taps": [
+     {
+      "name": "profile_links_taps",
+      "period": "day",
+      "title": "Profile links taps",
+      "description": "The number of taps on your business address, call button, email button and text button.",
+      "total_value": {
+       "value": 6
+      },
+      "id": "17841402071197975/insights/profile_links_taps/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ],
+    "follows_and_unfollows": [
+     {
+      "name": "follows_and_unfollows",
+      "period": "day",
+      "title": "Follows and unfollows",
+      "description": "The number of accounts that followed you and the number of accounts that unfollowed you or left Instagram in the selected time period.",
+      "total_value": {
+       "breakdowns": [
+        {
+         "dimension_keys": [
+          "follow_type"
+         ],
+         "results": [
+          {
+           "dimension_values": [
+            "FOLLOWER"
+           ],
+           "value": 156
+          },
+          {
+           "dimension_values": [
+            "NON_FOLLOWER"
+           ],
+           "value": 70
+          }
+         ]
+        }
+       ]
+      },
+      "id": "17841402071197975/insights/follows_and_unfollows/day",
+      "tramo": "2026-06-01 a 2026-06-30"
+     }
+    ]
+   },
+   "publicaciones": [
+    {
+     "id": "18140320741555061",
+     "caption": "15 años construyendo camino juntos.\nHoy celebramos los 15 años de Ricardo en Grupo Agroenergía.\n\nQuince años de compromiso, responsabilidad y trabajo diario, siendo parte fundamental de nuestro equipo y acompañando el crecimiento de la empresa con profesionalismo y dedicación.\n\nGracias, Ricardo, por estos años compartidos, por tu esfuerzo constante y por dejar tu huella en cada desafío.\n\n¡Felices 15 años en Grupo Agroenergía! 👏🎉",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-06-28T00:27:59+0000",
+     "permalink": "https://www.instagram.com/reel/DaHAM_NN_LR/",
+     "like_count": 49,
+     "comments_count": 10,
+     "estadisticas": {
+      "reach": [
+       {
+        "name": "reach",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2127
+         }
+        ],
+        "title": "Accounts reached",
+        "description": "The number of unique accounts that have seen this reel, at least once. Reach is different from impressions, which may include multiple views of your reel by the same accounts. This metric is estimated.",
+        "id": "18140320741555061/insights/reach/lifetime"
+       }
+      ],
+      "views": [
+       {
+        "name": "views",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 3922
+         }
+        ],
+        "title": "Views",
+        "description": "The number of times your reels was played or displayed.",
+        "id": "18140320741555061/insights/views/lifetime"
+       }
+      ],
+      "saved": [
+       {
+        "name": "saved",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Saved",
+        "description": "The number of saves of your reel.",
+        "id": "18140320741555061/insights/saved/lifetime"
+       }
+      ],
+      "shares": [
+       {
+        "name": "shares",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Shares",
+        "description": "The number of shares of your reel.",
+        "id": "18140320741555061/insights/shares/lifetime"
+       }
+      ],
+      "total_interactions": [
+       {
+        "name": "total_interactions",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 59
+         }
+        ],
+        "title": "Reels interactions",
+        "description": "The number of likes, saves, comments and shares on your reels minus the number of unlikes, unsaves and deleted comments.",
+        "id": "18140320741555061/insights/total_interactions/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "18083216255183884",
+     "caption": "⛽☕ En nuestra estación Axion Energy Av. Circunvalación y Schmidt, cargar energía tiene premio.\nCargando Quantium + $3.000, te llevás un café con dos medialunas para disfrutar en Spot.\n\nPasá, cargá combustible de máxima calidad y regalate una pausa que también suma energía.\n\n📍 Te esperamos en Axion Energy Av. Circunvalación y Schmidt",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-06-24T14:13:29+0000",
+     "permalink": "https://www.instagram.com/reel/DZ-LgOKN_Hc/",
+     "like_count": 52,
+     "comments_count": 3,
+     "estadisticas": {
+      "reach": [
+       {
+        "name": "reach",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 5460
+         }
+        ],
+        "title": "Accounts reached",
+        "description": "The number of unique accounts that have seen this reel, at least once. Reach is different from impressions, which may include multiple views of your reel by the same accounts. This metric is estimated.",
+        "id": "18083216255183884/insights/reach/lifetime"
+       }
+      ],
+      "views": [
+       {
+        "name": "views",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 8411
+         }
+        ],
+        "title": "Views",
+        "description": "The number of times your reels was played or displayed.",
+        "id": "18083216255183884/insights/views/lifetime"
+       }
+      ],
+      "saved": [
+       {
+        "name": "saved",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 6
+         }
+        ],
+        "title": "Saved",
+        "description": "The number of saves of your reel.",
+        "id": "18083216255183884/insights/saved/lifetime"
+       }
+      ],
+      "shares": [
+       {
+        "name": "shares",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 26
+         }
+        ],
+        "title": "Shares",
+        "description": "The number of shares of your reel.",
+        "id": "18083216255183884/insights/shares/lifetime"
+       }
+      ],
+      "total_interactions": [
+       {
+        "name": "total_interactions",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 92
+         }
+        ],
+        "title": "Reels interactions",
+        "description": "The number of likes, saves, comments and shares on your reels minus the number of unlikes, unsaves and deleted comments.",
+        "id": "18083216255183884/insights/total_interactions/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "18128786146529608",
+     "caption": "🤠🚀 ¡La magia de Toy Story llegó a Shell Catriló!\nA partir de 100 puntos Shell Box, ya podés canjear los exclusivos muñecos de Woody y Jessie. 🌵✨\n\nAdemás, jugando en la App Shell Box, participás por un Buzz Lightyear edición especial y accedés a más premios de la colección. 🚀⭐\n\n¿Querés completar la experiencia? También podés canjear una frazada o un buzo oficial de Toy Story. 🧥🛋️\n\n📍 Te esperamos en Ruta Nacional N.º 5, Km 526, Catriló, La Pampa.\n📲 Descargá la App Shell Box, sumá puntos y empezá a canjear.",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-06-19T01:01:28+0000",
+     "permalink": "https://www.instagram.com/reel/DZv44VvNjTA/",
+     "like_count": 45,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "name": "reach",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2971
+         }
+        ],
+        "title": "Accounts reached",
+        "description": "The number of unique accounts that have seen this reel, at least once. Reach is different from impressions, which may include multiple views of your reel by the same accounts. This metric is estimated.",
+        "id": "18128786146529608/insights/reach/lifetime"
+       }
+      ],
+      "views": [
+       {
+        "name": "views",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 4891
+         }
+        ],
+        "title": "Views",
+        "description": "The number of times your reels was played or displayed.",
+        "id": "18128786146529608/insights/views/lifetime"
+       }
+      ],
+      "saved": [
+       {
+        "name": "saved",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Saved",
+        "description": "The number of saves of your reel.",
+        "id": "18128786146529608/insights/saved/lifetime"
+       }
+      ],
+      "shares": [
+       {
+        "name": "shares",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 29
+         }
+        ],
+        "title": "Shares",
+        "description": "The number of shares of your reel.",
+        "id": "18128786146529608/insights/shares/lifetime"
+       }
+      ],
+      "total_interactions": [
+       {
+        "name": "total_interactions",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 77
+         }
+        ],
+        "title": "Reels interactions",
+        "description": "The number of likes, saves, comments and shares on your reels minus the number of unlikes, unsaves and deleted comments.",
+        "id": "18128786146529608/insights/total_interactions/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "18126048256635914",
+     "caption": "⚽ Hoy juega Argentina.\n\nY si hay partido de la Selección, hay punto de encuentro.\n\nTe esperamos en SPOT de Axion Energy para vivir cada jugada, cada emoción y cada gol junto a otros hinchas.\n\n🇦🇷 ¡Vamos Argentina!\n\n📍Av. Circunvalación y Schmidt - Santa Rosa, La Pampa.",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-06-16T15:25:10+0000",
+     "permalink": "https://www.instagram.com/reel/DZptXlcNYO7/",
+     "like_count": 32,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "name": "reach",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1823
+         }
+        ],
+        "title": "Accounts reached",
+        "description": "The number of unique accounts that have seen this reel, at least once. Reach is different from impressions, which may include multiple views of your reel by the same accounts. This metric is estimated.",
+        "id": "18126048256635914/insights/reach/lifetime"
+       }
+      ],
+      "views": [
+       {
+        "name": "views",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 3817
+         }
+        ],
+        "title": "Views",
+        "description": "The number of times your reels was played or displayed.",
+        "id": "18126048256635914/insights/views/lifetime"
+       }
+      ],
+      "saved": [
+       {
+        "name": "saved",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Saved",
+        "description": "The number of saves of your reel.",
+        "id": "18126048256635914/insights/saved/lifetime"
+       }
+      ],
+      "shares": [
+       {
+        "name": "shares",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 11
+         }
+        ],
+        "title": "Shares",
+        "description": "The number of shares of your reel.",
+        "id": "18126048256635914/insights/shares/lifetime"
+       }
+      ],
+      "total_interactions": [
+       {
+        "name": "total_interactions",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 46
+         }
+        ],
+        "title": "Reels interactions",
+        "description": "The number of likes, saves, comments and shares on your reels minus the number of unlikes, unsaves and deleted comments.",
+        "id": "18126048256635914/insights/total_interactions/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "18183547054391775",
+     "caption": "📍 Hay lugares a los que vamos por necesidad… y otros a los que volvemos porque tienen de todo.\n\n☕ Por sus cafecitos.\n🥯 Por sus delicias.\n⛽ Por sus combustibles.\n⚽ Y ahora también por las figuritas.\n\nSi todavía no la conocés, te esperamos en nuestra estación de servicio Axion Energy, en Av. Circunvalación y Schmidt Santa Rosa La Pampa.🚗💨\n\n¿Vos por qué motivo venís a Axion? 👇💗",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-06-12T21:37:29+0000",
+     "permalink": "https://www.instagram.com/p/DZgE1WelSbF/",
+     "like_count": 20,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "name": "reach",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 878
+         }
+        ],
+        "title": "Accounts reached",
+        "description": "The number of unique accounts that have seen this carousel container, at least once. Reach is different from impressions, which may include multiple views of your carousel container by the same accounts. This metric is estimated.",
+        "id": "18183547054391775/insights/reach/lifetime"
+       }
+      ],
+      "views": [
+       {
+        "name": "views",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2411
+         }
+        ],
+        "title": "Views",
+        "description": "The number of times your post was played or displayed.",
+        "id": "18183547054391775/insights/views/lifetime"
+       }
+      ],
+      "saved": [
+       {
+        "name": "saved",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Saved",
+        "description": "The number of saves of your post.",
+        "id": "18183547054391775/insights/saved/lifetime"
+       }
+      ],
+      "shares": [
+       {
+        "name": "shares",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 4
+         }
+        ],
+        "title": "Shares",
+        "description": "The number of shares of your post.",
+        "id": "18183547054391775/insights/shares/lifetime"
+       }
+      ],
+      "total_interactions": [
+       {
+        "name": "total_interactions",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 25
+         }
+        ],
+        "title": "Post interactions",
+        "description": "The number of likes, saves, comments and shares on your post minus the number of unlikes, unsaves and deleted comments.",
+        "id": "18183547054391775/insights/total_interactions/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17943559038226858",
+     "caption": "🚗⚡ Nuevos combustibles llegaron a nuestras estaciones de servicio puma energy \n\nPresentamos CLEANTEC®️, la nueva generación de combustibles de Puma Energy que ya está disponible para transformar cada viaje en una mejor experiencia de manejo 🔥\n\n⛽ Ahora podés cargar:\n\n✔️ Súper Cleantec\n✔️ Premium Cleantec Pro\n\nUna tecnología de avanzada diseñada para:\n\n✅ Limpiar el motor\n✅ Optimizar el rendimiento\n✅ Proteger contra la corrosión\n✅ Reducir emisiones\n\nMás eficiencia, más cuidado y más potencia en cada kilómetro 💪\n\n📍Encontralos en nuestras estaciones:\n▪️ Pico esquina 9 de Julio\n▪️ Av. Circunvalación esquina Alberdi",
+     "media_type": "VIDEO",
+     "media_product_type": "REELS",
+     "timestamp": "2026-06-10T17:24:09+0000",
+     "permalink": "https://www.instagram.com/reel/DZaeM6otfsc/",
+     "like_count": 15,
+     "comments_count": 0,
+     "estadisticas": {
+      "reach": [
+       {
+        "name": "reach",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 912
+         }
+        ],
+        "title": "Accounts reached",
+        "description": "The number of unique accounts that have seen this reel, at least once. Reach is different from impressions, which may include multiple views of your reel by the same accounts. This metric is estimated.",
+        "id": "17943559038226858/insights/reach/lifetime"
+       }
+      ],
+      "views": [
+       {
+        "name": "views",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1435
+         }
+        ],
+        "title": "Views",
+        "description": "The number of times your reels was played or displayed.",
+        "id": "17943559038226858/insights/views/lifetime"
+       }
+      ],
+      "saved": [
+       {
+        "name": "saved",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Saved",
+        "description": "The number of saves of your reel.",
+        "id": "17943559038226858/insights/saved/lifetime"
+       }
+      ],
+      "shares": [
+       {
+        "name": "shares",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Shares",
+        "description": "The number of shares of your reel.",
+        "id": "17943559038226858/insights/shares/lifetime"
+       }
+      ],
+      "total_interactions": [
+       {
+        "name": "total_interactions",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 16
+         }
+        ],
+        "title": "Reels interactions",
+        "description": "The number of likes, saves, comments and shares on your reels minus the number of unlikes, unsaves and deleted comments.",
+        "id": "17943559038226858/insights/total_interactions/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "17898575373456330",
+     "caption": "¡Mariana cumplió 15 años junto a nosotros! 🌟\n\nNos llena de alegría ver cómo se siguen sumando personas a este hito de los 15 años. Para nosotros es un orgullo enorme que nos sigan eligiendo para compartir el camino, porque entendemos que permanecer tanto tiempo en un lugar es el reflejo de la confianza, el respeto y las ganas de crecer juntos todos los días.\n\nGracias por este recorrido, por los desafíos superados y por el compañerismo de siempre.\n\n¡Felicidades por estos 15 años, Mariana! 💚",
+     "media_type": "CAROUSEL_ALBUM",
+     "media_product_type": "FEED",
+     "timestamp": "2026-06-04T20:17:20+0000",
+     "permalink": "https://www.instagram.com/p/DZLVTY7lSNQ/",
+     "like_count": 96,
+     "comments_count": 7,
+     "estadisticas": {
+      "reach": [
+       {
+        "name": "reach",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2963
+         }
+        ],
+        "title": "Accounts reached",
+        "description": "The number of unique accounts that have seen this carousel container, at least once. Reach is different from impressions, which may include multiple views of your carousel container by the same accounts. This metric is estimated.",
+        "id": "17898575373456330/insights/reach/lifetime"
+       }
+      ],
+      "views": [
+       {
+        "name": "views",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 7958
+         }
+        ],
+        "title": "Views",
+        "description": "The number of times your post was played or displayed.",
+        "id": "17898575373456330/insights/views/lifetime"
+       }
+      ],
+      "saved": [
+       {
+        "name": "saved",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 0
+         }
+        ],
+        "title": "Saved",
+        "description": "The number of saves of your post.",
+        "id": "17898575373456330/insights/saved/lifetime"
+       }
+      ],
+      "shares": [
+       {
+        "name": "shares",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 1
+         }
+        ],
+        "title": "Shares",
+        "description": "The number of shares of your post.",
+        "id": "17898575373456330/insights/shares/lifetime"
+       }
+      ],
+      "total_interactions": [
+       {
+        "name": "total_interactions",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 105
+         }
+        ],
+        "title": "Post interactions",
+        "description": "The number of likes, saves, comments and shares on your post minus the number of unlikes, unsaves and deleted comments.",
+        "id": "17898575373456330/insights/total_interactions/lifetime"
+       }
+      ]
+     }
+    },
+    {
+     "id": "18100251890144445",
+     "caption": "🚗✨ ¡Nos encanta recibir a quienes forman parte de esta gran comunidad!\n\nUno de los ganadores del sorteo de los dos 0 km pasó por nuestra estación Puma Energy para cargar combustible y seguir disfrutando de su premio. ⛽🚘\n\nGracias por elegirnos y por acompañarnos en cada acción que realizamos. 🙌💚\n\n¡Felicitaciones nuevamente y que disfrutes cada kilómetro recorrido! 🎉",
+     "media_type": "IMAGE",
+     "media_product_type": "FEED",
+     "timestamp": "2026-06-02T14:07:57+0000",
+     "permalink": "https://www.instagram.com/p/DZFhX0DNh7V/",
+     "like_count": 108,
+     "comments_count": 2,
+     "estadisticas": {
+      "reach": [
+       {
+        "name": "reach",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 5813
+         }
+        ],
+        "title": "Accounts reached",
+        "description": "The number of unique accounts that have seen this post, at least once. Reach is different from impressions, which may include multiple views of your post by the same accounts. This metric is estimated.",
+        "id": "18100251890144445/insights/reach/lifetime"
+       }
+      ],
+      "views": [
+       {
+        "name": "views",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 12227
+         }
+        ],
+        "title": "Views",
+        "description": "The number of times your post was played or displayed.",
+        "id": "18100251890144445/insights/views/lifetime"
+       }
+      ],
+      "saved": [
+       {
+        "name": "saved",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 2
+         }
+        ],
+        "title": "Saved",
+        "description": "The number of saves of your post.",
+        "id": "18100251890144445/insights/saved/lifetime"
+       }
+      ],
+      "shares": [
+       {
+        "name": "shares",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 3
+         }
+        ],
+        "title": "Shares",
+        "description": "The number of shares of your post.",
+        "id": "18100251890144445/insights/shares/lifetime"
+       }
+      ],
+      "total_interactions": [
+       {
+        "name": "total_interactions",
+        "period": "lifetime",
+        "values": [
+         {
+          "value": 115
+         }
+        ],
+        "title": "Post interactions",
+        "description": "The number of likes, saves, comments and shares on your post minus the number of unlikes, unsaves and deleted comments.",
+        "id": "18100251890144445/insights/total_interactions/lifetime"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
  "anuncios": [
   {
    "id": "act_1669087713214682",

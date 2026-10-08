@@ -1,7 +1,7 @@
 {
  "marca": "agroenergia",
  "mes": "2026-09",
- "extraido": "2026-10-08T13:54:54+00:00",
+ "extraido": "2026-10-08T14:36:47+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1448,7 +1448,7 @@
         "period": "lifetime",
         "values": [
          {
-          "value": 864
+          "value": 866
          }
         ],
         "title": "Accounts reached",

@@ -1,7 +1,7 @@
 {
  "marca": "havanna",
  "mes": "2026-09",
- "extraido": "2026-10-08T13:53:34+00:00",
+ "extraido": "2026-10-08T14:11:59+00:00",
  "version_api": "v23.0",
  "facebook": [
   {
@@ -1736,7 +1736,7 @@
         "description": "Número de cuentas únicas que vieron esta publicación al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu publicación por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 2107
+          "value": 2110
          }
         ]
        }
@@ -2228,7 +2228,7 @@
         "description": "Número de cuentas únicas que vieron este contenedor de secuencia al menos una vez. El alcance es diferente de las impresiones, que pueden incluir varias visualizaciones de tu contenedor de secuencia por parte de las mismas cuentas. Esta métrica es una estimación.",
         "values": [
          {
-          "value": 692
+          "value": 693
          }
         ]
        }
