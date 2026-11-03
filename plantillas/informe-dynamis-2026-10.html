@@ -1,0 +1,340 @@
+<title>Dynamis Neumáticos · Octubre 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: informe de una columna, lectura primero; datos de apoyo debajo. Asfalto + amarillo de señalización. */
+:root {
+  --bg: #f6f6f3;
+  --surface: #ffffff;
+  --ink: #16181b;
+  --ink-2: #545a61;
+  --ink-3: #8a9097;
+  --line: #e2e3e0;
+  --cocoa: #16181b;
+  --gold: #b88a00;
+  --gold-soft: #fbf1c7;
+  --bar: #6b737c;
+  --bar-paid: #e0a800;
+  --up: #2f7d4f;
+  --down: #b4442f;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121315; --surface: #1b1d20; --ink: #eef0f1; --ink-2: #b4bac0; --ink-3: #7f868d;
+    --line: #2d3034; --cocoa: #f2f3f4; --gold: #f2c200; --gold-soft: #3a3110;
+    --bar: #8e969e; --bar-paid: #f2c200; --up: #6cc08d; --down: #ec8a74; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121315; --surface: #1b1d20; --ink: #eef0f1; --ink-2: #b4bac0; --ink-3: #7f868d;
+  --line: #2d3034; --cocoa: #f2f3f4; --gold: #f2c200; --gold-soft: #3a3110;
+  --bar: #8e969e; --bar-paid: #f2c200; --up: #6cc08d; --down: #ec8a74; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); }
+.wrap { max-width: 880px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: grid; gap: 48px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; font-weight: 400; }
+h1 { font-family: var(--display); font-weight: 600; text-transform: uppercase; letter-spacing: 0.01em; font-size: clamp(2.2rem, 6vw, 3.2rem); line-height: 1; color: var(--cocoa); }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.75rem; line-height: 1.1; color: var(--cocoa); }
+h3 { font-size: 1rem; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font: 500 0.75rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.muted { color: var(--ink-2); }
+.small { font-size: 0.875rem; }
+.num { font-variant-numeric: tabular-nums; }
+.wrap > *, section > * { min-width: 0; }
+section { display: grid; gap: 18px; min-width: 0; }
+a { color: inherit; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+header { display: grid; gap: 14px; border-bottom: 4px solid var(--gold); padding-bottom: 28px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 0.8rem/1.4 var(--mono); color: var(--ink-3); }
+
+.lectura { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: grid; gap: 16px; }
+.lectura ol { margin: 0; padding-left: 1.2rem; display: grid; gap: 12px; }
+.lectura li { padding-left: 4px; }
+.lectura li::marker { font-family: var(--mono); color: var(--gold); }
+.lectura strong { color: var(--cocoa); }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.kpi { background: var(--surface); padding: 18px; display: grid; gap: 6px; align-content: start; }
+.kpi .lab { font-size: 0.8rem; color: var(--ink-2); }
+.kpi .val { font: 600 2.1rem/1 var(--display); color: var(--ink); font-variant-numeric: tabular-nums; }
+.kpi .cmp { display: grid; gap: 2px; font: 0.78rem/1.4 var(--mono); color: var(--ink-3); }
+.up { color: var(--up); } .down { color: var(--down); }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tabs button { font: 500 0.85rem var(--body); color: var(--ink-2); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--cocoa); color: var(--bg); border-color: var(--cocoa); }
+.chart-box { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 14px 10px; position: relative; }
+.chart-scroll { overflow-x: auto; }
+svg text { font-family: var(--mono); font-size: 11px; fill: var(--ink-3); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.8rem; color: var(--ink-2); padding: 4px 6px 8px; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font: 0.78rem/1.45 var(--body); padding: 8px 10px; border-radius: 8px; max-width: 220px; }
+.tip b { font-weight: 600; }
+
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.875rem; }
+th { text-align: left; font: 500 0.72rem/1.2 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-3); padding: 12px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cap { min-width: 220px; color: var(--ink-2); }
+.fmt { font: 0.72rem var(--mono); color: var(--ink-3); white-space: nowrap; }
+.barcell { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.minibar { height: 6px; border-radius: 3px; background: var(--bar); }
+tr.top td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
+
+.reco { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.reco div { border-top: 2px solid var(--gold); padding-top: 12px; display: grid; gap: 6px; }
+.notas { font-size: 0.85rem; color: var(--ink-2); display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 22px; }
+.notas ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Informe mensual de redes · Dynamis Neumáticos</span>
+    <h1>Octubre 2026</h1>
+    <div class="meta"><span>Facebook · 10 seguidores</span><span>Instagram @dynamisneumaticos · 119 seguidores</span><span>Cuenta activa desde mayo 2026</span><span>Datos extraídos el 2 nov 2026</span></div>
+  </header>
+
+  <section class="lectura" aria-labelledby="t-lectura">
+    <h2 id="t-lectura">Lectura del mes</h2>
+    <ol>
+      <li><strong>Mejor mes de Instagram sin pauta.</strong> 5.836 cuentas alcanzadas, casi cinco veces septiembre (+373%) y sin invertir un peso. Solo julio, con $119.441 de pauta, llegó más lejos. Lo explica sobre todo el reel del 30/10 sobre si las cubiertas nuevas van adelante o atrás: 1.887 cuentas en sus primeros tres días, el segundo reel con más alcance de la historia de la cuenta.</li>
+      <li><strong>Los consejos prácticos son lo que más rinde.</strong> Los dos reels de “cómo cambiar las cubiertas” (30/10 y 15/10) sumaron 2.611 cuentas alcanzadas y 67 interacciones. Los tres carruseles quedaron entre 27 y 31 cuentas cada uno y el de “mito o realidad” no tuvo ninguna interacción. En la historia de la cuenta, las 18 fotos y carruseles promedian 40 cuentas; los 14 reels, 716.</li>
+      <li><strong>Más gente vio, pero no interactuó más.</strong> Las interacciones de Instagram quedaron casi iguales (102, −4%) y los toques en el botón de contacto del perfil siguen en 0. Instagram sumó 13 seguidores y perdió 4 (saldo +9, llega a 119); Facebook pasó de 7 a 10 seguidores, dos de ellos el día del reel del 30/10.</li>
+      <li><strong>Sin pauta, Facebook volvió a su nivel de base.</strong> 1.313 personas alcanzadas (−70%) y 1.453 visualizaciones (−85%) frente a septiembre, que tuvo la campaña de mensajes. De las visualizaciones, 1.022 son del reel del 30/10; los carruseles tuvieron entre 5 y 13 cada uno.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="t-kpis">
+    <h2 id="t-kpis">Facebook</h2>
+    <div class="kpis" id="kpis"></div>
+    <p class="small muted">Comparado con septiembre, que tuvo $27.434 de pauta en la campaña de mensajes; octubre no tuvo. La página empezó en mayo 2026, así que no hay comparación con octubre 2025 hasta mayo 2027.</p>
+  </section>
+
+  <section aria-labelledby="t-ig">
+    <h2 id="t-ig">Instagram</h2>
+    <div class="kpis" id="kpis-ig"></div>
+    <p class="small muted">La suba contra septiembre es toda orgánica y la explican los dos reels de consejos. La cuenta de Instagram empezó en junio 2026: no hay comparación con octubre 2025 hasta junio 2027.</p>
+    <h3 style="margin-top:8px">Seguidores de Instagram · desde el inicio</h3>
+    <div class="chart-box">
+      <div class="legend"><span><span class="sw" style="background:var(--up)"></span>Nuevos</span><span><span class="sw" style="background:var(--down)"></span>Se fueron</span></div>
+      <div class="chart-scroll"><svg id="chart-ig" role="img" aria-label="Seguidores nuevos y perdidos por mes en Instagram"></svg></div>
+    </div>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th class="r">Alcance</th><th class="r">Visualizaciones</th><th class="r">Interacciones</th><th class="r">Nuevos</th><th class="r">Se fueron</th><th class="r">Saldo</th><th class="r">Total aprox.</th></tr></thead>
+      <tbody id="ig-meses"></tbody>
+    </table></div>
+    <p class="small muted">El total a fin de cada mes se reconstruye hacia atrás desde los 119 actuales, por eso es aproximado. Julio, el mes con más pauta, fue el de mayor crecimiento; octubre tuvo la mayor cantidad de bajas (4).</p>
+    <h3 style="margin-top:8px">Publicaciones de octubre en Instagram</h3>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Fecha</th><th>Publicación</th><th class="r">Alcance</th><th class="r">Vistas</th><th class="r">Interacc.</th></tr></thead>
+      <tbody id="ig-posts"></tbody>
+    </table></div>
+    <p class="small muted">Ordenadas por alcance, acumulado al 2 de noviembre: los posteos de fin de mes todavía pueden sumar.</p>
+  </section>
+
+  <section aria-labelledby="t-linea">
+    <h2 id="t-linea">Línea de tiempo · desde mayo 2026</h2>
+    <div class="tabs" role="group" aria-label="Métrica del gráfico" id="tabs"></div>
+    <div class="chart-box">
+      <div class="legend"><span><span class="sw" style="background:var(--bar)"></span>Mes sin pauta</span><span><span class="sw" style="background:var(--bar-paid)"></span>Mes con pauta de Dynamis</span></div>
+      <div class="chart-scroll"><svg id="chart" role="img" aria-label="Evolución mensual"></svg></div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <p class="small muted" id="nota-chart"></p>
+  </section>
+
+  <section aria-labelledby="t-seg">
+    <h2 id="t-seg">Seguidores de Facebook · desde el inicio</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th class="r">Nuevos</th><th class="r">Se fueron</th><th class="r">Saldo</th><th class="r">Total a fin de mes</th></tr></thead>
+      <tbody id="seg"></tbody>
+    </table></div>
+    <p class="small muted">Los tres seguidores nuevos de octubre llegaron sin pauta; dos de ellos el día del reel del 30/10.</p>
+  </section>
+
+  <section aria-labelledby="t-posts">
+    <h2 id="t-posts">Publicaciones de octubre en Facebook</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Fecha</th><th>Publicación</th><th class="r">Visualizaciones</th><th class="r">Clics</th><th class="r">Reacciones</th></tr></thead>
+      <tbody id="posts"></tbody>
+    </table></div>
+    <p class="small muted">Las seis publicaciones de Instagram se subieron también a Facebook. Los reels se llevan casi todo: los carruseles no pasaron de 13 visualizaciones.</p>
+  </section>
+
+  <section aria-labelledby="t-pauta">
+    <h2 id="t-pauta">Historial de pauta</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Mes</th><th>Campaña</th><th>Objetivo</th><th class="r">Inversión</th><th class="r">Alcance</th><th class="r">Resultado</th><th class="r">Costo por resultado</th></tr></thead>
+      <tbody id="pauta"></tbody>
+    </table></div>
+    <p class="small muted">Las campañas de interacción de julio agrupan 5 anuncios (Toyota, Autos y tres sin segmentar); su alcance suma los de cada anuncio y puede repetir personas. Montos en pesos de cada momento. En agosto y octubre no hubo pauta.</p>
+  </section>
+
+  <section aria-labelledby="t-reco">
+    <h2 id="t-reco">Para noviembre</h2>
+    <div class="reco">
+      <div><h3>Volver a la campaña de mensajes</h3><p class="muted small">Es la pauta más eficiente que tuvo la cuenta ($2.110 por conversación). Usar como pieza un reel de consejos como el del 30/10, que ya probó que engancha, y atarlo a una promo Dunlop para salir a la ruta en vacaciones o al Black Friday del 27/11.</p></div>
+      <div><h3>Seguir la serie de consejos</h3><p class="muted small">Un reel por semana con la misma lógica: rotación de cubiertas, alineación y balanceo, presión con el auto cargado para viajar. Sumar a Jere en al menos uno: sus reels están entre los mejores.</p></div>
+      <div><h3>Dejar los carruseles</h3><p class="muted small">Tres carruseles en octubre, 89 cuentas alcanzadas entre los tres en Instagram y entre 5 y 13 visualizaciones cada uno en Facebook. El mismo contenido grabado como reel corto puede llegar a diez veces más.</p></div>
+      <div><h3>Convertir alcance en consultas</h3><p class="muted small">Responder los 6 comentarios del reel del 30/10 e invitar a escribir por WhatsApp. Con 0 toques en el perfil, revisar que el botón de contacto esté activo y que la bio diga cómo pedir presupuesto.</p></div>
+    </div>
+  </section>
+
+  <section class="notas" aria-labelledby="t-notas">
+    <h3 id="t-notas">Notas sobre los datos</h3>
+    <ul>
+      <li>La página de Facebook empezó a publicar en mayo 2026 y la cuenta de Instagram en junio 2026; antes no hay datos.</li>
+      <li>En junio, las estadísticas generales de Instagram son muy bajas (12 cuentas alcanzadas) aunque las publicaciones sumaron más: Meta recién empezaba a medir la cuenta.</li>
+      <li>El alcance general de julio y septiembre incluye a quienes vieron los anuncios, por eso sube en los meses con pauta. El de octubre es todo orgánico.</li>
+      <li>En los meses de 31 días el alcance de Instagram suma dos tramos (en octubre: del 1 al 30 y el 31), así que puede estar levemente sobreestimado.</li>
+      <li>El perfil de Instagram pasó de 114 a 119 seguidores entre extracciones (+5), mientras que Meta informa 13 nuevos y 4 bajas (+9). La diferencia puede deberse a cuentas desactivadas o a cómo Meta cuenta los días; la tabla usa el total actual del perfil.</li>
+      <li>La cuenta publicitaria no registró anuncios en octubre. La extracción no informó errores.</li>
+      <li>Las métricas por publicación son acumuladas al 2 de noviembre: el reel del 30/10 todavía sigue sumando.</li>
+    </ul>
+  </section>
+</div>
+<script>
+const FB = [["2026-05", 16, 66, 1, 0, 0, 0, 0], ["2026-06", 19, 77, 4, 2, 0, 2, 0], ["2026-07", 33611, 45470, 327, 6, 119441, 5, 1], ["2026-08", 630, 702, 0, 7, 0, 1, 0], ["2026-09", 4327, 9401, 27, 7, 27434, 0, 0], ["2026-10", 1313, 1453, 13, 10, 0, 3, 0]];   // mes, alcance, visualizaciones, interacciones, seguidores, pauta, nuevos, bajas
+const IG = [["2026-05", null, null, null, 3, 0], ["2026-06", 12, 133, 11, 8, 0], ["2026-07", 15415, 29345, 283, 58, 2], ["2026-08", 2221, 4822, 126, 27, 1], ["2026-09", 1234, 2915, 106, 18, 1], ["2026-10", 5836, 8256, 102, 13, 4]];   // mes, alcance, visualizaciones, interacciones, nuevos, bajas
+const IG_TOTAL = 119, YOY = false, ULTIMA_PAUTA = "sep 2026";
+const IP = [["30/10", "Reel", "¿Las cubiertas nuevas van adelante o atrás?", "https://www.instagram.com/reel/DfIG0vbx1C_/", 1887, 2349, 40], ["15/10", "Reel", "¿Cambiás las cubiertas de a una? Ojo con eso", "https://www.instagram.com/reel/Deg6ZO5OIEc/", 724, 1011, 27], ["6/10", "Reel", "Gracias por acompañarnos en la Rural de Santa Rosa", "https://www.instagram.com/reel/DeKkCMlOWN7/", 168, 222, 12], ["18/10", "Carrusel", "No todas las cubiertas son iguales", "https://www.instagram.com/p/Depl9wpFQsj/", 31, 105, 1], ["9/10", "Carrusel", "Toyota, Jeep, BMW y Audi usan Dunlop", "https://www.instagram.com/p/DeRq67mlrcn/", 31, 94, 4], ["21/10", "Carrusel", "Mito o realidad: si no está lisa, ¿todavía sirve?", "https://www.instagram.com/p/DewpQqFFcj6/", 27, 97, 0]], FP = [["30/10", "Reel", "¿Las cubiertas nuevas van adelante o atrás?", "https://www.facebook.com/reel/1662450305432239/", 1022, 2, 3], ["6/10", "Reel", "Gracias por acompañarnos en la Rural de Santa Rosa", "https://www.facebook.com/reel/1441111164564860/", 211, 0, 0], ["15/10", "Reel", "¿Cambiás las cubiertas de a una? Ojo con eso", "https://www.facebook.com/reel/1099207419527413/", 162, 6, 0], ["21/10", "Carrusel", "Mito o realidad: si no está lisa, ¿todavía sirve?", "https://www.facebook.com/122120983425316092/posts/122122608387316092", 13, 0, 0], ["18/10", "Carrusel", "No todas las cubiertas son iguales", "https://www.facebook.com/122120983425316092/posts/122122323615316092", 5, 0, 0], ["9/10", "Carrusel", "Toyota, Jeep, BMW y Audi usan Dunlop", "https://www.facebook.com/122120983425316092/posts/122121233985316092", 5, 0, 0]], PAUTA = [["sep 26", "Mensajes 11/9", "Mensajes", 27434, "3.242", "13 conversaciones", "$2.110 por conversación"], ["jul 26", "Interacción (5 anuncios)", "Interacción", 108879, "14.512", "13 conversaciones", "$8.375 por conversación"], ["jul 26", "Reconocimiento reel", "Reconocimiento", 5886, "24.794", "24.794 personas", "$237 cada 1.000"], ["jul 26", "Nuevos seguidores", "Tráfico", 4676, "3.037", "67 clics al enlace", "$70 por clic"]];
+const MES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const nf = new Intl.NumberFormat("es-AR");
+const lab = k => { const [y,m] = k.split("-"); return MES[+m-1] + " " + y.slice(2); };
+const sg = n => (n > 0 ? "+" : n < 0 ? "−" : "") + nf.format(Math.abs(n));
+const cl = n => n > 0 ? "up" : n < 0 ? "down" : "";
+function delta(a, b) {
+  if (a == null || b == null || !b) return '<span>sin dato</span>';
+  const p = Math.round((a - b) / b * 100);
+  return `<span class="${cl(p)}">${p > 0 ? "+" : ""}${nf.format(p)}%</span>`;
+}
+const fi = k => FB.findIndex(r => r[0] === k), ii = k => IG.findIndex(r => r[0] === k);
+const fc = FB[fi("2026-10")], fp = FB[fi("2026-09")], fy = YOY ? FB[fi("2025-10")] : null;
+const ic = IG[ii("2026-10")], ip = IG[ii("2026-09")], iy = YOY ? IG[ii("2025-10")] : null;
+const cmp = (c, p, y) => `<span class="cmp"><span>vs septiembre ${delta(c, p)}</span><span>vs oct 2025 ${YOY ? delta(c, y) : "sin dato"}</span></span>`;
+
+// Facebook
+document.getElementById("kpis").innerHTML =
+  [["Alcance",1],["Visualizaciones",2],["Interacciones",3]].map(([n,i]) =>
+    `<div class="kpi"><span class="lab">${n}</span><span class="val">${nf.format(fc[i])}</span>${cmp(fc[i], fp[i], fy && fy[i])}</div>`).join("") +
+  `<div class="kpi"><span class="lab">Seguidores</span><span class="val">${nf.format(fc[4])}</span><span class="cmp"><span>saldo oct <span class="${cl(fc[6]-fc[7])}">${sg(fc[6]-fc[7])}</span></span><span>saldo sep <span class="${cl(fp[6]-fp[7])}">${sg(fp[6]-fp[7])}</span></span></span></div>` +
+  `<div class="kpi"><span class="lab">Pauta del mes</span><span class="val">$${nf.format(fc[5])}</span><span class="cmp"><span>última: ${ULTIMA_PAUTA}</span><span>oct 2025: ${YOY ? "$" + nf.format(fy[5]) : "sin dato"}</span></span></div>`;
+
+// Instagram
+document.getElementById("kpis-ig").innerHTML =
+  [["Alcance",1],["Visualizaciones",2],["Interacciones",3]].map(([n,i]) =>
+    `<div class="kpi"><span class="lab">${n}</span><span class="val">${nf.format(ic[i])}</span>${cmp(ic[i], ip[i], iy && iy[i])}</div>`).join("") +
+  `<div class="kpi"><span class="lab">Seguidores</span><span class="val">${nf.format(IG_TOTAL)}</span><span class="cmp"><span>saldo oct <span class="${cl(ic[4]-ic[5])}">${sg(ic[4]-ic[5])}</span></span><span>saldo sep <span class="${cl(ip[4]-ip[5])}">${sg(ip[4]-ip[5])}</span></span></span></div>`;
+
+const IG12 = IG.filter(r => r[0] >= "2025-11" && (r[4] || r[5] || r[1]));
+let tot = IG_TOTAL;
+document.getElementById("ig-meses").innerHTML = IG12.slice().reverse().map(r => { const n = r[4]-r[5], t = tot; tot -= n;
+  const f = v => v == null ? "—" : nf.format(v);
+  return `<tr><td>${lab(r[0])}</td><td class="r">${f(r[1])}</td><td class="r">${f(r[2])}</td><td class="r">${f(r[3])}</td><td class="r">${r[4]}</td><td class="r">${r[5]}</td><td class="r"><span class="${cl(n)}">${sg(n)}</span></td><td class="r">${nf.format(t)}</td></tr>`; }).join("");
+
+(function () {
+  const sv = document.getElementById("chart-ig");
+  const up = Math.max(...IG12.map(r => r[4])), dn = Math.max(...IG12.map(r => r[5]));
+  const step = up > 100 ? 100 : up > 40 ? 20 : 10;
+  const top = Math.ceil(up / step) * step, bot = Math.max(step, Math.ceil(dn / step) * step);
+  const W = Math.max(420, IG12.length * 50 + 54), H = 240, L = 44, R = 10, T = 14, B = 30;
+  const yv = v => T + (top - v) / (top + bot) * (H - T - B), mid = yv(0);
+  const bw = (W - L - R) / IG12.length;
+  let g = "";
+  for (let v = -bot; v <= top; v += step) g += `<line x1="${L}" x2="${W-R}" y1="${yv(v)}" y2="${yv(v)}" stroke="var(--line)"/><text x="${L-6}" y="${yv(v)+4}" text-anchor="end">${v}</text>`;
+  IG12.forEach((r, k) => {
+    const x = L + k * bw + 4, w = Math.max(4, bw - 8);
+    g += `<rect x="${x}" y="${yv(r[4])}" width="${w}" height="${mid - yv(r[4])}" rx="2" fill="var(--up)"><title>${lab(r[0])}: ${r[4]} nuevos</title></rect>`;
+    g += `<rect x="${x}" y="${mid}" width="${w}" height="${yv(-r[5]) - mid}" rx="2" fill="var(--down)"><title>${lab(r[0])}: ${r[5]} se fueron</title></rect>`;
+    g += `<text x="${x + w/2}" y="${H - 10}" text-anchor="middle">${lab(r[0])}</text>`;
+  });
+  sv.setAttribute("viewBox", `0 0 ${W} ${H}`); sv.setAttribute("width", W); sv.setAttribute("height", H);
+  sv.innerHTML = g;
+})();
+
+const maxIP = Math.max(...IP.map(x => x[4]));
+document.getElementById("ig-posts").innerHTML = IP.map((x,k) => `<tr class="${k===0?"top":""}"><td class="num">${x[0]}</td><td class="cap"><a href="${x[3]}" target="_blank" rel="noopener">${x[2]}</a><br><span class="fmt">${x[1]}</span></td><td class="r"><span class="barcell">${nf.format(x[4])}<span class="minibar" style="width:${Math.max(2,Math.round(x[4]/maxIP*60))}px"></span></span></td><td class="r">${nf.format(x[5])}</td><td class="r">${x[6]}</td></tr>`).join("");
+
+// Línea de tiempo: Instagram y Facebook en una sola tabla de meses
+const M = FB.map(r => { const g = IG[ii(r[0])] || []; return [r[0], g[1] ?? null, g[2] ?? null, g[3] ?? null, r[1], r[2], r[4], r[5]]; });
+const METRICAS = [
+  {i:1, n:"Alcance Instagram", corto:"cuentas alcanzadas"},
+  {i:2, n:"Vistas Instagram", corto:"visualizaciones"},
+  {i:3, n:"Interacciones Instagram", corto:"interacciones"},
+  {i:4, n:"Alcance Facebook", corto:"personas alcanzadas en Facebook"},
+  {i:5, n:"Vistas Facebook", corto:"visualizaciones en Facebook"},
+  {i:6, n:"Seguidores Facebook", corto:"seguidores de Facebook"},
+  {i:7, n:"Inversión en pauta", corto:"pesos invertidos", pesos:true}
+];
+const tabs = document.getElementById("tabs");
+let sel = 0;
+METRICAS.forEach((m, k) => {
+  const b = document.createElement("button");
+  b.textContent = m.n; b.setAttribute("aria-pressed", k === 0);
+  b.onclick = () => { sel = k; [...tabs.children].forEach((x, j) => x.setAttribute("aria-pressed", j === k)); draw(); };
+  tabs.appendChild(b);
+});
+const svg = document.getElementById("chart"), tip = document.getElementById("tip");
+function nice(v) { if (!v) return 1; const p = Math.pow(10, Math.floor(Math.log10(v))); const f = v / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * p; }
+function fmt(v, m) { return (m.pesos ? "$" : "") + (v >= 1000 ? nf.format(Math.round(v/1000)) + " mil" : nf.format(Math.round(v))); }
+function draw() {
+  const m = METRICAS[sel];
+  const first = M.findIndex(r => r[m.i] != null);
+  const rows = M.slice(first < 0 ? 0 : first);
+  const W = Math.max(420, rows.length * 34 + 70), H = 280, L = 64, R = 10, T = 14, B = 34;
+  const max = nice(Math.max(...rows.map(r => r[m.i] || 0)) * 1.02);
+  const y = v => T + (H - T - B) * (1 - v / max);
+  const bw = (W - L - R) / rows.length;
+  let s = "";
+  for (let t = 0; t <= 4; t++) { const v = max / 4 * t, yy = y(v);
+    s += `<line x1="${L}" x2="${W-R}" y1="${yy}" y2="${yy}" stroke="var(--line)" stroke-width="1"/><text x="${L-8}" y="${yy+4}" text-anchor="end">${fmt(v, m)}</text>`; }
+  rows.forEach((r, k) => {
+    const x = L + k * bw + 2, w = Math.max(4, bw - 4), v = r[m.i] || 0, yy = y(v);
+    const h = Math.max(0, H - B - yy), paid = r[7] > 0, rr = Math.min(4, w / 2, h);
+    const d = h > 0 ? `M${x},${H-B} V${yy+rr} Q${x},${yy} ${x+rr},${yy} H${x+w-rr} Q${x+w},${yy} ${x+w},${yy+rr} V${H-B} Z` : "";
+    s += `<path d="${d}" fill="${paid ? "var(--bar-paid)" : "var(--bar)"}" ${r[0]==="2026-10" ? 'stroke="var(--ink)" stroke-width="1.5"' : ""}/>`;
+    if (rows.length < 16 || k % 2 === rows.length % 2) s += `<text x="${x + w/2}" y="${H-B+16}" text-anchor="middle">${lab(r[0])}</text>`;
+    s += `<rect x="${L + k*bw}" y="${T}" width="${bw}" height="${H-T-B}" fill="transparent" data-k="${k}" class="hit"/>`;
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
+  svg.innerHTML = s;
+  svg.querySelectorAll(".hit").forEach(h => {
+    h.addEventListener("pointerenter", () => {
+      const r = rows[+h.dataset.k];
+      tip.innerHTML = `<b>${lab(r[0])}</b><br>${r[m.i] == null ? "sin dato" : (m.pesos?"$":"") + nf.format(r[m.i]) + " " + m.corto}` + (r[7] > 0 && !m.pesos ? `<br>Pauta: $${nf.format(r[7])}` : "");
+      tip.hidden = false;
+    });
+    h.addEventListener("pointermove", e => {
+      const box = svg.parentElement.parentElement.getBoundingClientRect();
+      let left = e.clientX - box.left + 12; if (left > box.width - 200) left -= 220;
+      tip.style.left = left + "px"; tip.style.top = (e.clientY - box.top - 10) + "px";
+    });
+    h.addEventListener("pointerleave", () => tip.hidden = true);
+  });
+  document.getElementById("nota-chart").textContent = `Desde ${lab(rows[0][0])}, primer mes con datos de esta métrica. Octubre 2026 aparece con borde; pasá el cursor sobre cada barra para ver el detalle.`;
+}
+draw();
+
+// Seguidores de Facebook
+const FB12 = FB.filter(r => r[0] >= "2025-11");
+document.getElementById("seg").innerHTML = FB12.slice().reverse().map(r => { const n = r[6] - r[7];
+  return `<tr><td>${lab(r[0])}</td><td class="r">${r[6]}</td><td class="r">${r[7]}</td><td class="r"><span class="${cl(n)}">${sg(n)}</span></td><td class="r">${nf.format(r[4])}</td></tr>`; }).join("");
+
+// Publicaciones de Facebook
+const maxFP = Math.max(...FP.map(p => p[4]));
+document.getElementById("posts").innerHTML = FP.map((p, k) =>
+  `<tr class="${k===0?"top":""}"><td class="num">${p[0]}</td><td class="cap"><a href="${p[3]}" target="_blank" rel="noopener">${p[2]}</a><br><span class="fmt">${p[1]}</span></td>
+   <td class="r"><span class="barcell">${nf.format(p[4])}<span class="minibar" style="width:${Math.max(2,Math.round(p[4]/maxFP*60))}px"></span></span></td><td class="r">${p[5]}</td><td class="r">${p[6]}</td></tr>`).join("");
+
+// Pauta
+document.getElementById("pauta").innerHTML = PAUTA.map(p =>
+  `<tr><td class="num">${p[0]}</td><td>${p[1]}</td><td class="muted">${p[2]}</td><td class="r">$${nf.format(p[3])}</td><td class="r">${p[4]}</td><td class="r">${p[5]}</td><td class="r">${p[6]}</td></tr>`).join("");
+</script>

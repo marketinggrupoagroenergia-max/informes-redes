@@ -5,13 +5,13 @@ Destinataria: Dana, responsable de marketing. Español rioplatense (voseo), dire
 ## Marca: Havanna La Pampa
 - Datos: `data/havanna/AAAA-MM.json` (los genera la extracción del día 2).
 - Resumen numérico: `python scripts/resumen.py havanna salida.json`.
-- Plantilla de diseño: `plantillas/informe-havanna-2026-09.html` (cacao + dulce de leche, tipografías Gloock y Figtree). De la plantilla se toma SOLO la identidad visual; las secciones siguen la "Estructura común" de abajo.
+- Plantilla de diseño: `plantillas/informe-havanna-2026-10.html` (cacao + dulce de leche, tipografías Gloock y Figtree). Ya sigue la "Estructura común" de abajo: mantener secciones, tablas y diseño; reemplazar datos y textos.
 - Informe publicado como artifact NUEVO con título `Havanna La Pampa · <Mes AAAA>` (ej. `Havanna La Pampa · Octubre 2026`), icono `chart`.
 - Índice: artifact https://claude.ai/artifact/8EnAV5FFPWpCdhV3nMqYmh (plantilla en `plantillas/indice-havanna.html`). Leerlo con Artifact `read`, agregar el mes nuevo ARRIBA de la lista con link, dato de alcance IG y una frase de resumen, y republicar con ese `url`.
 
 ## Marca: Dynamis Neumáticos
 - Datos: `data/dynamis/AAAA-MM.json`. Resumen: `python scripts/resumen.py dynamis salida.json`.
-- Plantilla de diseño: `plantillas/informe-dynamis-2026-09.html` (asfalto + amarillo, tipografía Barlow). De la plantilla se toma SOLO la identidad visual; las secciones siguen la "Estructura común" de abajo.
+- Plantilla de diseño: `plantillas/informe-dynamis-2026-10.html` (asfalto + amarillo, tipografía Barlow). Ya sigue la "Estructura común" de abajo: mantener secciones, tablas y diseño; reemplazar datos y textos.
 - Informe publicado como artifact NUEVO con título `Dynamis Neumáticos · <Mes AAAA>`, icono `chart`.
 - Índice: artifact https://claude.ai/artifact/LYHdSkrnR1f7bjdRCErTWi (plantilla `plantillas/indice-dynamis.html`).
 - Cuenta activa desde mayo 2026 (Facebook) y junio 2026 (Instagram): no hay comparación interanual hasta junio 2027.
