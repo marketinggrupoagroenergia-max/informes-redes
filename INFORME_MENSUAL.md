@@ -40,7 +40,11 @@ Destinataria: Dana, responsable de marketing. Español rioplatense (voseo), dire
 ## Reglas
 - Nunca inventar números: todo sale de los JSON.
 - Si Meta cambió o eliminó una métrica, usar la más cercana disponible y aclararlo en las notas.
-- Si falta el archivo del mes, no publicar: avisar a Dana qué falló.
+- Si falta el archivo del mes: revisar en GitHub Actions el workflow "Extraer métricas de Meta" (`extraer.yml`).
+  - Si hay una corrida en curso, esperar a que termine.
+  - Si no corrió todavía (GitHub suele demorar los horarios programados), dispararlo a mano con `actions_run_trigger` (método `run_workflow`, ref `main`, sin inputs) y esperar a que termine (tarda entre 2 y 40 minutos; consultar cada 3-5 minutos, hasta 60 minutos en total).
+  - Cuando termine bien, hacer `git pull` y seguir con el informe. Si otra tarea ya la disparó, no dispararla de nuevo: esperar esa corrida.
+  - Si falló o no terminó en 60 minutos, no publicar: avisar a Dana qué falló (con el motivo del log).
 
 ## Hitos conocidos (para explicar picos)
 - 9/7/2026: video mundialista en Facebook, viral (97.000 visualizaciones, +130 seguidores, sin pauta).

@@ -2,8 +2,11 @@ name: Extraer métricas de Meta
 
 on:
   schedule:
-    # Día 2 de cada mes, 9:05 hora Argentina (12:05 UTC)
-    - cron: "5 12 2 * *"
+    # Día 2 de cada mes, 00:17 hora Argentina (03:17 UTC). GitHub suele demorar
+    # los horarios programados varias horas; los informes salen ~9:50, así que
+    # se adelanta para dejar margen. Si igual no llegó, el informe dispara la
+    # extracción a mano (ver INFORME_MENSUAL.md).
+    - cron: "17 3 2 * *"
   workflow_dispatch:
     inputs:
       mes:
